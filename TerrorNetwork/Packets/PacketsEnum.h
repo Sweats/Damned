@@ -1,0 +1,27 @@
+#ifndef TERROR_NETWORK_PACKETS_ENUM_H
+#define TERROR_NETWORK_PACKETS_ENUM_H
+
+#include "Config.h"
+
+namespace terror_network { 
+	enum TerrorNetworkPackets {
+		GAME_CREATION_REQUEST = 400,
+		HOST_INFO,
+		GAME_SESSION_STAGE_NAME,
+
+		JOIN_GAME_REQUEST,
+		JOIN_ERROR_RESPONSE,
+		JOIN_INFO,		
+		JOIN_ACCEPTED,
+
+		LEAVE_GAME_REQUEST,
+		GAME_LIST_REQUEST,
+		GAME_LIST,
+		PLAYER_ID,
+
+		REMOVE_PLAYER,
+		GAME_ENDED,
+	};
+}
+
+#endif
