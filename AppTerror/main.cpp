@@ -299,7 +299,8 @@ void main() {
 		hearingSound->setRepeat(true);
 		SoundPtr notHearingSound = core->createSound("blind_music.ogg", "AmbientMusic");
 		notHearingSound->setRepeat(true);
-		SoundPtr fleeingSound = core->createSound("monster_closer.ogg");
+		////Tentative change, Original: monster_closer.ogg
+		SoundPtr fleeingSound = core->createSound("blind_hearing.ogg");
 		fleeingSound->setRepeat(true);
 
 		BlindMonsterHearingSystemPtr blindMonsterHearingSystem(

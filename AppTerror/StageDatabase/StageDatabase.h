@@ -61,6 +61,9 @@ namespace terror {
 					erase_last(stageName, ".stage");
 					replace_all(stageName, "_", " ");
 					this->stages[id] = stageName;
+					//Makes adding new maps easier when you know what ID a stage has
+					//TODO: Reprogramm into a direct method? Then i won't have to rearrange all ids in the .layout and the .xml file...
+					std::cout << "\nStage: " << stageName << "\nID: " << id;
 					++id;
 				}
 			}

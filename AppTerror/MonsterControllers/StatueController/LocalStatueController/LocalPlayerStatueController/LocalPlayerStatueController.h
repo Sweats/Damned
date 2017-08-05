@@ -76,7 +76,8 @@ namespace terror {
 
 			case SEEKER:
 				foreach (HumanPtr human, this->humans) {
-					human->hide();
+					//Tentative change, Survivors can hear her, this should allow for some strategic plays
+					human->show();
 				}
 				break;
 
@@ -113,6 +114,9 @@ namespace terror {
 						this->scareTrapSystem->reset(0.8f);
 					} else if (this->stageComponent->getStageName() == "Warehouse") {
 						this->scareTrapSystem->reset(0.45f);
+					} else if (this->stageComponent->getStageName() == "Pog_Champ_Hotel") {
+						//Tentative change
+						this->scareTrapSystem->reset(0.5f);
 					} else {
 						this->scareTrapSystem->reset(0.7f);
 					}
@@ -144,8 +148,8 @@ namespace terror {
 
 		virtual void initialize() {
 			this->stateComponent = this->getOwner()->getComponent<StatueStateComponent>();
-
-			EventDelayerPtr delayer(new EventDelayer(2.0f));
+			//Tentative change, Original: 2.0
+			EventDelayerPtr delayer(new EventDelayer(3.0f));
 			this->sequence->addEvent(delayer);
 
 			EventFunctionPtr function(new EventFunction(Bind(&StatueStateComponent::setState, this->stateComponent, DESTROYER)));
@@ -179,6 +183,10 @@ namespace terror {
 		virtual void reset() {
 			Core::getInstance()->cancelEvent(this->sequence);
 			this->active = false;
+		}
+
+		virtual EventSequencePtr getSequence(){
+			return sequence;
 		}
 
 		virtual ~SeekerLogicComponent() {}
@@ -260,6 +268,13 @@ namespace terror {
 			}
 		}
 
+		virtual float getMaxP3Time(){
+			return timeInDestroyerMode;
+		}
+		virtual float getCurrP3Time(){
+			return timeSinceTransformation;
+		}
+
 		virtual ~DestroyerLogicComponent() {}
 
 	private:
@@ -286,7 +301,8 @@ namespace terror {
 					break;
 				case DESTROYER:
 					{
-						string message = string("Kill humans or press ") + Core::getInstance()->getButtonTranslator()->translateButton(this->controls->transform) + string(" to reset to the trapper mode");
+						//Tentative change
+						string message = string("Kill humans! Press ") + Core::getInstance()->getButtonTranslator()->translateButton(this->controls->transform) + string(" to momentarily phase out of killing Mode!");
 						writeMessage(message);
 					}
 					break;
@@ -383,6 +399,9 @@ namespace terror {
 
 	class LocalPlayerStatueController : public LocalStatueController, public InputHandler, public EventHandler {
 	public:
+		//Expose Components to allow retrieval with getFunctions
+		DestroyerLogicComponentPtr p3Point;
+		SeekerLogicComponentPtr p2Point;
 		LocalPlayerStatueController(StatuePtr monster, StatueClonesSystemPtr statueClonesSystem, ScareTrapSystemPtr scareTrapSystem, DeathSystemPtr deathSystem, ManipulationSystemPtr manipulationSystem, SpectatorSystemPtr spectatorSystem, 
 			RenderCameraPtr camera, ControlsPtr controls)
 			: LocalStatueController(monster), EventHandler(60), statueClonesSystem(statueClonesSystem), scareTrapSystem(scareTrapSystem), deathSystem(deathSystem), manipulationSystem(manipulationSystem), 
@@ -396,14 +415,16 @@ namespace terror {
 
 			LocalStatueHumansViewComponentPtr humansViewComponent(new LocalStatueHumansViewComponent);
 			this->statue->getEntity()->addComponent(humansViewComponent);
-
-			float transformRange = 10.0f;
+			//Tentative change, Original: 10
+			float transformRange = 6.0f;
 			SeekerLogicComponentPtr seekerLogicComponent(new SeekerLogicComponent(monster, transformRange));
 			this->statue->getEntity()->addComponent(seekerLogicComponent);
 
-			float timeInDestroyerMode = 7.0f;
+			//Tentative change, Original: 7
+			float timeInDestroyerMode = 30.0f;
 			DestroyerLogicComponentPtr destroyerLogicComponent(new DestroyerLogicComponent(timeInDestroyerMode));
 			this->statue->getEntity()->addComponent(destroyerLogicComponent);
+			p3Point = destroyerLogicComponent;
 
 			LocalStatueMessagesComponentPtr localStatueMessagesComponent(new LocalStatueMessagesComponent(controls));
 			this->statue->getEntity()->addComponent(localStatueMessagesComponent);
@@ -436,6 +457,9 @@ namespace terror {
 				this->scareTrapSystem->reset(0.6f);
 			} else if (stageComponent->getStageName() == "Warehouse") {
 				this->scareTrapSystem->reset(0.25f);
+			} else if (stageComponent->getStageName() == "Pog_Champ_Hotel") {
+				//Tentative change
+				this->scareTrapSystem->reset(0.35f);
 			}else {
 				this->scareTrapSystem->reset(0.5f);
 			}
@@ -570,7 +594,25 @@ namespace terror {
 			}
 			if (button == this->controls->transform && this->statue->getState() == DESTROYER) {
 				this->statue->setState(TRAPPER);
+				/*
+				// Doesn't work
+				float tmpCurr = p3Point->getCurrP3Time();
+				float tmpMax = p3Point->getMaxP3Time();
+				if(tmpCurr+3.0f < tmpMax){
+					Core::getInstance()->runEvent(p2Point->getSequence());
+				}
+				*/
 			}
+			//FOR DEBUG PURPOSES
+			/*
+			if (button == this->controls->switchFlashlight){
+				if(this->statue->getState() == DESTROYER){
+					//this->statue->setState(TRAPPER);
+				} else if(this->statue->getState() == TRAPPER){
+					//this->statue->setState(DESTROYER);
+				}
+			}
+			*/
 		}
 
 		virtual void buttonReleased(const ButtonCode button, const InputDevice device) {

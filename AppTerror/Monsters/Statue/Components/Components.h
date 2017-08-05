@@ -36,7 +36,9 @@ namespace terror {
 
 	class StatueStateComponent : public entities::Component {
 	public:
-		StatueStateComponent(int trapsToBecomeSeeker) : trapsToBecomeSeeker(randomNumber(9, 12)), trapsArmed(0), state(TRAPPER) {}
+		//StatueStateComponent(int trapsToBecomeSeeker) : trapsToBecomeSeeker(randomNumber(9, 12)), trapsArmed(0), state(TRAPPER) {}
+		//Tentative change, Original: randomNumber(9, 12)
+		StatueStateComponent(int trapsToBecomeSeeker) : trapsToBecomeSeeker(10), trapsArmed(0), state(TRAPPER) {}
 
 		StatueState getState() {
 			return this->state;
@@ -46,7 +48,9 @@ namespace terror {
 			this->state = state;
 			if (this->state == TRAPPER) {
 				this->trapsArmed = 0;
-				this->trapsToBecomeSeeker = randomNumber(9, 12);
+				//this->trapsToBecomeSeeker = randomNumber(9, 12);
+				//Tentative change, Original: randomNumber(9, 12)
+				this->trapsToBecomeSeeker = 10;
 			}
 
 			StateChangedMessagePtr message(new StateChangedMessage(this->state));
