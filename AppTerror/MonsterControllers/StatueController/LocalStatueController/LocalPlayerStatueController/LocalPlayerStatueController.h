@@ -141,15 +141,15 @@ namespace terror {
 	public:
 		typedef PointerList<Human> HumanPtrList;
 
-		SeekerLogicComponent(StatuePtr statue, float range) : statue(statue), active(false), range(range), sequence(new EventSequence) 
+		SeekerLogicComponent(StatuePtr statue, float range) : statue(statue), active(false), range(range), triggerTransform(false), timeSinceTrigger(0.0f), sequence(new EventSequence)
 		{
 			this->addDependency<StatueStateComponent>();			
 		}
 
 		virtual void initialize() {
 			this->stateComponent = this->getOwner()->getComponent<StatueStateComponent>();
-			//Tentative change, Original: 2.0
-			EventDelayerPtr delayer(new EventDelayer(3.0f));
+
+			EventDelayerPtr delayer(new EventDelayer(2.0f));
 			this->sequence->addEvent(delayer);
 
 			EventFunctionPtr function(new EventFunction(Bind(&StatueStateComponent::setState, this->stateComponent, DESTROYER)));
@@ -178,6 +178,15 @@ namespace terror {
 				return;
 			}
 			this->runLogic();
+			//this instead of EventSequence to go from Seeker to Destroyer
+			if (this->triggerTransform == true){
+				this->timeSinceTrigger+= diffTime;
+				if (this->timeSinceTrigger >= 2.0f) {
+					this->stateComponent->setState(DESTROYER);
+					this->triggerTransform = false;
+					this->timeSinceTrigger = 0.0f;
+				}
+			}
 		}
 
 		virtual void reset() {
@@ -186,7 +195,7 @@ namespace terror {
 		}
 
 		virtual EventSequencePtr getSequence(){
-			return sequence;
+			return this->sequence;
 		}
 
 		virtual ~SeekerLogicComponent() {}
@@ -198,6 +207,8 @@ namespace terror {
 		EventSequencePtr sequence;
 		float range;
 		bool active;
+		bool triggerTransform;
+		float timeSinceTrigger;
 
 	private:
 		void runLogic() {
@@ -227,7 +238,8 @@ namespace terror {
 					this->active = false;
 					StartTransformMessagePtr message(new StartTransformMessage);
 					this->getOwner()->queueMessage(message);
-					Core::getInstance()->runEvent(this->sequence);
+					this->triggerTransform = true;
+					//Core::getInstance()->runEvent(this->sequence);
 					return;
 				}
 			}
@@ -238,7 +250,7 @@ namespace terror {
 	class DestroyerLogicComponent : public entities::Component {
 	public:
 		DestroyerLogicComponent(float timeInDestroyerMode) 
-			: active(false), timeInDestroyerMode(timeInDestroyerMode), timeSinceTransformation(0.0f) 
+			: active(false), timeInDestroyerMode(timeInDestroyerMode), timeSinceTransformation(0.0f), lastPhasing(0.0f), triggerPhasing(false)
 		{
 			this->addDependency<StatueStateComponent>();
 		}
@@ -248,11 +260,16 @@ namespace terror {
 		}
 
 		virtual void handleMessage(entities::MessagePtr message) {
+			if (hashByType(message) == hashByType<DestroyerEndedMessage>()) {
+				this->active = false;
+			}
 			if (hashByType(message) == hashByType<StateChangedMessage>()) {
 				StateChangedMessagePtr stateChangedMessage = static_ptr_cast<StateChangedMessage>(message);
-				if (stateChangedMessage->getCurrentState() == DESTROYER) {
+				if (stateChangedMessage->getCurrentState() == DESTROYER && this->active == false) {
+					//don't reset timer when coming out of phasing
 					this->active = true;
 					this->timeSinceTransformation = 0.0f;
+					this->lastPhasing = 0.0f;
 				}
 			}
 		}
@@ -262,17 +279,35 @@ namespace terror {
 				return;
 			}
 			this->timeSinceTransformation += diffTime;
+			if (this->triggerPhasing == true) {
+				if (this->timeSinceTransformation >= this->lastPhasing+3.0f){
+					this->stateComponent->setState(DESTROYER);
+					this->triggerPhasing = false;
+				}
+			}
 			if (this->timeSinceTransformation >= this->timeInDestroyerMode) {
-				this->stateComponent->setState(TRAPPER);
 				this->active = false;
+				DestroyerEndedMessagePtr message(new DestroyerEndedMessage);
+				this->getOwner()->queueMessage(message);
+				this->stateComponent->setState(TRAPPER);
+				this->lastPhasing = 0.0f;
 			}
 		}
 
 		virtual float getMaxP3Time(){
-			return timeInDestroyerMode;
+			return this->timeInDestroyerMode;
 		}
 		virtual float getCurrP3Time(){
-			return timeSinceTransformation;
+			return this->timeSinceTransformation;
+		}
+		virtual float getLastPhasing(){
+			return this->lastPhasing;
+		}
+		virtual void setLastPhasing(float setLastPhasing){
+			this->lastPhasing = setLastPhasing;
+		}
+		virtual void doTriggerPhasing(){
+			this->triggerPhasing = true;
 		}
 
 		virtual ~DestroyerLogicComponent() {}
@@ -280,30 +315,39 @@ namespace terror {
 	private:
 		StatueStateComponentPtr stateComponent;
 		bool active;
+		bool triggerPhasing;
 		float timeInDestroyerMode;
 		float timeSinceTransformation;
+		float lastPhasing;
 	};
 	typedef SharedPointer<DestroyerLogicComponent> DestroyerLogicComponentPtr;
 
 	class LocalStatueMessagesComponent : public entities::Component {
 	public:
-		LocalStatueMessagesComponent(ControlsPtr controls) : controls(controls) {}
+		LocalStatueMessagesComponent(ControlsPtr controls) : controls(controls), p3_active(false) {}
 
 		virtual void handleMessage(entities::MessagePtr message) {
+			if (hashByType(message) == hashByType<DestroyerEndedMessage>()) {
+				this->p3_active = false;
+			}
 			if (hashByType(message) == hashByType<StateChangedMessage>()) {
 				StateChangedMessagePtr stateChangedMessage = static_ptr_cast<StateChangedMessage>(message);
 				switch (stateChangedMessage->getCurrentState()) {
 				case TRAPPER:
-					writeMessage("Arm traps to collect energy to enter next mode and produce statue clones");
+					if (this->p3_active == false){
+						writeMessage("Arm traps to collect energy to enter next mode and produce statue clones");
+					}
 					break;
 				case SEEKER:
 					writeMessage("Find a prey to hunt");
 					break;
 				case DESTROYER:
-					{
-						//Tentative change
-						string message = string("Kill humans! Press ") + Core::getInstance()->getButtonTranslator()->translateButton(this->controls->transform) + string(" to momentarily phase out of killing Mode!");
+					//Tentative change
+					if (this->p3_active == false){
+						string button = Core::getInstance()->getButtonTranslator()->translateButton(this->controls->transform);
+						string message = string("Press ") + button + string(" to momentarily phase out of killing Mode!");
 						writeMessage(message);
+						this->p3_active = true;
 					}
 					break;
 				}
@@ -314,6 +358,7 @@ namespace terror {
 
 	private:
 		ControlsPtr controls;
+		bool p3_active;
 	};
 	typedef SharedPointer<LocalStatueMessagesComponent> LocalStatueMessagesComponentPtr;
 
@@ -395,13 +440,10 @@ namespace terror {
 			return statuePosition + getUnitary(positionOffset) - 0.1f*Vector3d::yUnit;
 		}
 	};
-	typedef SharedPointer<StatueCloneSpawner> StatueCloneSpawnerPtr;	
+	typedef SharedPointer<StatueCloneSpawner> StatueCloneSpawnerPtr;
 
 	class LocalPlayerStatueController : public LocalStatueController, public InputHandler, public EventHandler {
 	public:
-		//Expose Components to allow retrieval with getFunctions
-		DestroyerLogicComponentPtr p3Point;
-		SeekerLogicComponentPtr p2Point;
 		LocalPlayerStatueController(StatuePtr monster, StatueClonesSystemPtr statueClonesSystem, ScareTrapSystemPtr scareTrapSystem, DeathSystemPtr deathSystem, ManipulationSystemPtr manipulationSystem, SpectatorSystemPtr spectatorSystem, 
 			RenderCameraPtr camera, ControlsPtr controls)
 			: LocalStatueController(monster), EventHandler(60), statueClonesSystem(statueClonesSystem), scareTrapSystem(scareTrapSystem), deathSystem(deathSystem), manipulationSystem(manipulationSystem), 
@@ -417,21 +459,23 @@ namespace terror {
 			this->statue->getEntity()->addComponent(humansViewComponent);
 			//Tentative change, Original: 10
 			float transformRange = 6.0f;
-			SeekerLogicComponentPtr seekerLogicComponent(new SeekerLogicComponent(monster, transformRange));
-			this->statue->getEntity()->addComponent(seekerLogicComponent);
+			//SeekerLogicComponentPtr seekerLogicComponent(new SeekerLogicComponent(monster, transformRange));
+			//this->statue->getEntity()->addComponent(seekerLogicComponent);
+			this->p2Point = SeekerLogicComponentPtr(new SeekerLogicComponent(monster, transformRange));
+			this->statue->getEntity()->addComponent(this->p2Point);
 
 			//Tentative change, Original: 7
 			float timeInDestroyerMode = 30.0f;
-			DestroyerLogicComponentPtr destroyerLogicComponent(new DestroyerLogicComponent(timeInDestroyerMode));
-			this->statue->getEntity()->addComponent(destroyerLogicComponent);
-			p3Point = destroyerLogicComponent;
+			//DestroyerLogicComponentPtr destroyerLogicComponent(new DestroyerLogicComponent(timeInDestroyerMode));
+			//this->statue->getEntity()->addComponent(destroyerLogicComponent);
+			this->p3Point = DestroyerLogicComponentPtr (new DestroyerLogicComponent(timeInDestroyerMode));
+			this->statue->getEntity()->addComponent(this->p3Point);
 
 			LocalStatueMessagesComponentPtr localStatueMessagesComponent(new LocalStatueMessagesComponent(controls));
 			this->statue->getEntity()->addComponent(localStatueMessagesComponent);
 
 			StatueCloneSpawnerPtr cloneSpawner(new StatueCloneSpawner(statueClonesSystem));
 			this->statue->getEntity()->addComponent(cloneSpawner);
-
 			this->statue->setPovType(FIRST_PERSON);
 
 			this->armedTrapConnection = scareTrapSystem->connectScareTrapArmedEvent(Bind(&LocalPlayerStatueController::notifyTrapArmed, this, _1));
@@ -489,6 +533,9 @@ namespace terror {
 		ControlsPtr controls;
 
 	private:
+		//Expose Components to allow retrieval with getFunctions
+		DestroyerLogicComponentPtr p3Point;
+		SeekerLogicComponentPtr p2Point;
 		void notifyTrapArmed(ScareTrapPtr scareTrap) {
 			this->statue->incrementTrapsArmed();
 		}
@@ -593,24 +640,35 @@ namespace terror {
 				}
 			}
 			if (button == this->controls->transform && this->statue->getState() == DESTROYER) {
-				this->statue->setState(TRAPPER);
-				/*
-				// Doesn't work
 				float tmpCurr = p3Point->getCurrP3Time();
 				float tmpMax = p3Point->getMaxP3Time();
-				if(tmpCurr+3.0f < tmpMax){
-					Core::getInstance()->runEvent(p2Point->getSequence());
+				float lastPhasing = p3Point->getLastPhasing();
+
+				if (lastPhasing == 0.0f || tmpCurr >= lastPhasing+8.0f){
+					if(tmpCurr+3.0f < tmpMax){
+						p3Point->setLastPhasing(tmpCurr);
+						this->statue->setState(TRAPPER);
+						p3Point->doTriggerPhasing();
+						//Core::getInstance()->runEvent(p2Point->getPhaseSequence());
+						//this->statue->setState(DESTROYER);
+					}
 				}
-				*/
 			}
+
 			//FOR DEBUG PURPOSES
 			/*
 			if (button == this->controls->switchFlashlight){
 				if(this->statue->getState() == DESTROYER){
-					//this->statue->setState(TRAPPER);
+					this->statue->setState(TRAPPER);
 				} else if(this->statue->getState() == TRAPPER){
-					//this->statue->setState(DESTROYER);
+					this->statue->setState(DESTROYER);
 				}
+			}
+			if (button == this->controls->crouch){
+				float tmpCurr = p3Point->getCurrP3Time();
+				float lastPhasing = p3Point->getLastPhasing();
+				std::cout << "\nCurrent Form Time: " << tmpCurr;
+				std::cout << "\nLast Phasing: " << lastPhasing;
 			}
 			*/
 		}

@@ -77,7 +77,7 @@ namespace terror {
 
 	class StatueMusicsAndSoundsComponent : public entities::Component {
 	public:
-		StatueMusicsAndSoundsComponent(ActorPtr actor) : actor(actor) {
+		StatueMusicsAndSoundsComponent(ActorPtr actor) : actor(actor), p3_active(false) {
 			this->addDependency<PovComponent>();
 			this->addDependency<StatueStateComponent>();
 		}
@@ -110,6 +110,9 @@ namespace terror {
 
 		virtual void handleMessage(entities::MessagePtr message) {
 			std::type_index messageIndex = hashByType(message);
+			if (messageIndex == hashByType<DestroyerEndedMessage>()) {
+				this->p3_active = false;
+			}
 			if (messageIndex == hashByType<StartTransformMessage>()) {
 				this->snarlSound->play();
 			}
@@ -129,11 +132,12 @@ namespace terror {
 		SoundPtr survivorMusic;
 		SoundPtr snarlSound;
 		SoundPtr killSound;
+		bool p3_active;
 
 	private:
 		void handleSounds() {
 			StatueState state = this->stateComponent->getState();
-			if (state == TRAPPER) {				
+			if (state == TRAPPER && this->p3_active == false) {
 				if (this->povComponent->getPovType() == FIRST_PERSON) {
 					this->statueKillMusic->stop();
 					this->survivorMusic->stop();
@@ -150,7 +154,8 @@ namespace terror {
 					this->killSound->play();
 				}
 			}
-			if (state == DESTROYER) {
+			if (state == DESTROYER && this->p3_active == false) {
+				this->p3_active = true;
 				if (this->povComponent->getPovType() == FIRST_PERSON) {
 					this->statueMusic->stop();
 					this->survivorMusic->stop();

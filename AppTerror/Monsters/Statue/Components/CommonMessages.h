@@ -65,6 +65,14 @@ namespace terror {
 		StatueState currentState;
 	};
 	typedef SharedPointer<StateChangedMessage> StateChangedMessagePtr;
+
+	class DestroyerEndedMessage : public entities::Message {
+	public:
+		DestroyerEndedMessage() {}
+
+		virtual ~DestroyerEndedMessage() {}
+	};
+	typedef SharedPointer<DestroyerEndedMessage> DestroyerEndedMessagePtr;
 }
 
 #endif
