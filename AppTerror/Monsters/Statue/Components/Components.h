@@ -112,6 +112,7 @@ namespace terror {
 			std::type_index messageIndex = hashByType(message);
 			if (messageIndex == hashByType<DestroyerEndedMessage>()) {
 				this->p3_active = false;
+				this->handleSounds();
 			}
 			if (messageIndex == hashByType<StartTransformMessage>()) {
 				this->snarlSound->play();

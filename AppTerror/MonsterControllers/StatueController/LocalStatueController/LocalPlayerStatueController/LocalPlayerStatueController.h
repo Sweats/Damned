@@ -174,10 +174,6 @@ namespace terror {
 		}
 
 		virtual void update(float diffTime) {
-			if (!this->active) {
-				return;
-			}
-			this->runLogic();
 			//this instead of EventSequence to go from Seeker to Destroyer
 			if (this->triggerTransform == true){
 				this->timeSinceTrigger+= diffTime;
@@ -187,6 +183,10 @@ namespace terror {
 					this->timeSinceTrigger = 0.0f;
 				}
 			}
+			if (!this->active) {
+				return;
+			}
+			this->runLogic();
 		}
 
 		virtual void reset() {
