@@ -31,6 +31,8 @@ namespace terror {
 			if (name == "") {
 				return;
 			}
+			// PUBLIC TEST PATCH NAMETAG ADDED IN LOBBY HEADER
+			name = "#FF0000[PTP v001]#FFFFFF"+name;
 			string password = this->gamePasswordEditbox->getOnlyText();
 			GameCreationRequestPtr gameCreationRequest(new GameCreationRequest(name, password, 5, 5));
 			this->terrorClient->sendObject(gameCreationRequest);
