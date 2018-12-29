@@ -1,0 +1,640 @@
+scene Warehouse{
+	ambient_music ambianceForest.ogg
+	color ambient_light{
+		r 0.474509835
+		g 0.474509835
+		b 0.474509835
+	}
+	objects {
+		object forest_woodwall_03.23{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -67.700058
+				y 4.97000694
+				z 57.1700058
+			}
+			quaternion orientation{
+				w -0.707107067
+				x 4.5981789e-008
+				y 0.70710659
+				z -8.81286368e-008
+			}
+		}
+		object forest_woodwall_03.22{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -67.700058
+				y 2.83000565
+				z 57.1700058
+			}
+			quaternion orientation{
+				w -0.707107067
+				x 4.5981789e-008
+				y 0.70710659
+				z -8.81286368e-008
+			}
+		}
+		object forest_woodwall_03.17{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -56.5600128
+				y 4.97000694
+				z 59.3100243
+			}
+			quaternion orientation{
+				w -2.68220901e-007
+				x 9.48303978e-008
+				y 1
+				z -3.16101385e-008
+			}
+		}
+		object forest_woodwall_03.14{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -61.1400146
+				y 4.97000694
+				z 55.0099869
+			}
+			quaternion orientation{
+				w -2.68220901e-007
+				x 9.48303978e-008
+				y 1
+				z -3.16101385e-008
+			}
+		}
+		object forest_woodwall_03.13{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -65.7200165
+				y 4.97000694
+				z 55.0099869
+			}
+			quaternion orientation{
+				w -2.68220901e-007
+				x 9.48303978e-008
+				y 1
+				z -3.16101385e-008
+			}
+		}
+		object forest_woodwall_03.9{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -63.820015
+				y 1.63000607
+				z 57.149971
+			}
+			quaternion orientation{
+				w 0.49999994
+				x -0.50000006
+				y 0.500000119
+				z 0.50000006
+			}
+		}
+		object bridge_boat.0{
+			file bridge_boat.object
+			entry bridge_boat
+			vector position{
+				x -124.327286
+				y 0.768411994
+				z 102.96698
+			}
+			quaternion orientation{
+				w 0.0941084102
+				x 0
+				y -0.995561957
+				z 0
+			}
+		}
+		object forest_woodwall_03.11{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -68.100029
+				y 1.63000607
+				z 57.149971
+			}
+			quaternion orientation{
+				w 0.49999994
+				x -0.50000006
+				y 0.500000119
+				z 0.50000006
+			}
+		}
+		object forest_woodwall_03.7{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -61.1400146
+				y 2.83000565
+				z 55.0099869
+			}
+			quaternion orientation{
+				w -2.68220901e-007
+				x 9.48303978e-008
+				y 1
+				z -3.16101385e-008
+			}
+		}
+		object forest_woodwall_03.18{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -61.1400146
+				y 2.83000565
+				z 59.2900314
+			}
+			quaternion orientation{
+				w -2.68220901e-007
+				x 9.48303978e-008
+				y 1
+				z -3.16101385e-008
+			}
+		}
+		object forest_woodwall_03.3{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -55.2599983
+				y 1.63000607
+				z 57.149971
+			}
+			quaternion orientation{
+				w 0.49999994
+				x -0.50000006
+				y 0.500000119
+				z 0.50000006
+			}
+		}
+		object lake.4{
+			file lake.object
+			entry lake
+			vector position{
+				x 28.15975
+				y -28.0822277
+				z -13.7274303
+			}
+			quaternion orientation{
+				w -0.200947821
+				x 0.667096078
+				y -0.214836597
+				z -0.684432685
+			}
+		}
+		object forest_woodwall_03.1{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -53.1199913
+				y 1.63000607
+				z 52.6699677
+			}
+			quaternion orientation{
+				w 0.49999994
+				x -0.50000006
+				y 0.500000119
+				z 0.50000006
+			}
+		}
+		object forest_woodwall_03.10{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -65.960022
+				y 1.63000607
+				z 57.149971
+			}
+			quaternion orientation{
+				w 0.499999881
+				x -0.5
+				y 0.50000006
+				z 0.5
+			}
+		}
+		object forest_woodwall_03.2{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -53.1199913
+				y 1.63000607
+				z 57.149971
+			}
+			quaternion orientation{
+				w 0.499999881
+				x -0.5
+				y 0.50000006
+				z 0.5
+			}
+		}
+		object forest_woodwall_02.0{
+			file forest_woodwall_02.object
+			entry forest_woodwall_02
+			vector position{
+				x -64.460022
+				y 1.63998508
+				z 61.4400024
+			}
+			quaternion orientation{
+				w 0.49999994
+				x 0.500000119
+				y 0.50000006
+				z -0.5
+			}
+		}
+		object forest_woodwall_03.4{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -57.4000015
+				y 1.63000607
+				z 57.149971
+			}
+			quaternion orientation{
+				w 0.499999881
+				x -0.5
+				y 0.50000006
+				z 0.5
+			}
+		}
+		object forest_woodwall_03.15{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -56.5600128
+				y 4.97000694
+				z 55.0099869
+			}
+			quaternion orientation{
+				w -2.68220901e-007
+				x 9.48303978e-008
+				y 1
+				z -3.16101385e-008
+			}
+		}
+		object forest_woodwall_03.0{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -53.125267
+				y 0.710000336
+				z 48.3599701
+			}
+			quaternion orientation{
+				w 0.37888667
+				x -0.597030044
+				y 0.597030044
+				z 0.378886878
+			}
+		}
+		object forest_woodwall_03.16{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -56.5600128
+				y 2.83000565
+				z 59.3100243
+			}
+			quaternion orientation{
+				w -2.68220901e-007
+				x 9.48303978e-008
+				y 1
+				z -3.16101385e-008
+			}
+		}
+		object forest_woodwall_03.5{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -59.5400085
+				y 1.63000607
+				z 57.149971
+			}
+			quaternion orientation{
+				w 0.49999994
+				x -0.50000006
+				y 0.500000119
+				z 0.50000006
+			}
+		}
+		object forest_woodwall_03.20{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -67.700058
+				y 2.83000565
+				z 59.2900314
+			}
+			quaternion orientation{
+				w -2.68220901e-007
+				x 9.48303978e-008
+				y 1
+				z -3.16101385e-008
+			}
+		}
+		object lake.0{
+			file lake.object
+			entry lake
+			vector position{
+				x -162.414215
+				y 0.880000055
+				z -18
+			}
+			quaternion orientation{
+				w -0.707107008
+				x 0
+				y -0.70710659
+				z 0
+			}
+		}
+		object swamp_boat.0{
+			file swamp_boat.object
+			entry swamp_boat
+			vector position{
+				x -124.390358
+				y 0.800300002
+				z 102.964516
+			}
+			quaternion orientation{
+				w 0.0941085592
+				x -5.70813896e-010
+				y -0.995562017
+				z 7.3588885e-010
+			}
+		}
+		object forest_woodwall_03.21{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -67.700058
+				y 4.97000694
+				z 59.2900314
+			}
+			quaternion orientation{
+				w -2.68220901e-007
+				x 9.48303978e-008
+				y 1
+				z -3.16101385e-008
+			}
+		}
+		object lake.1{
+			file lake.object
+			entry lake
+			vector position{
+				x 72.591568
+				y 0.879999876
+				z 125.511047
+			}
+			quaternion orientation{
+				w 0.70710659
+				x 0
+				y -0.707107067
+				z 0
+			}
+		}
+		object forest_woodwall_03.12{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -65.7200165
+				y 2.83000565
+				z 55.0099869
+			}
+			quaternion orientation{
+				w -2.68220901e-007
+				x 9.48303978e-008
+				y 1
+				z -3.16101385e-008
+			}
+		}
+		object forest_woodwall_03.19{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -61.1400146
+				y 4.97000694
+				z 59.2900314
+			}
+			quaternion orientation{
+				w -2.68220901e-007
+				x 9.48303978e-008
+				y 1
+				z -3.16101385e-008
+			}
+		}
+		object forest_woodwall_03.8{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -61.6800117
+				y 1.63000607
+				z 57.149971
+			}
+			quaternion orientation{
+				w 0.499999881
+				x -0.5
+				y 0.50000006
+				z 0.5
+			}
+		}
+		object lake.3{
+			file lake.object
+			entry lake
+			vector position{
+				x 72.591568
+				y 0.879999876
+				z 33.6040649
+			}
+			quaternion orientation{
+				w 0.70710659
+				x 0
+				y -0.707107067
+				z 0
+			}
+		}
+		object forest_terrain03.0{
+			file forest_terrain03.object
+			entry forest_terrain03
+			vector position{
+				x 0
+				y 0
+				z 0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object lake.2{
+			file lake.object
+			entry lake
+			vector position{
+				x -162.414215
+				y 0.880000055
+				z -109.907005
+			}
+			quaternion orientation{
+				w -0.707107008
+				x 0
+				y -0.70710659
+				z 0
+			}
+		}
+		object forest_woodwall_03.6{
+			file forest_woodwall_03.object
+			entry forest_woodwall_03
+			vector position{
+				x -56.5600128
+				y 2.83000565
+				z 55.0099869
+			}
+			quaternion orientation{
+				w -2.68220901e-007
+				x 9.48303978e-008
+				y 1
+				z -3.16101385e-008
+			}
+		}
+	}
+	spawn_points {
+		spawn_point 3{
+			vector position{
+				x 41.9999886
+				y 2.10000086
+				z -43.7999992
+			}
+			quaternion orientation{
+				w 0.612906992
+				x 0
+				y -0.790155053
+				z 0
+			}
+		}
+		spawn_point 2{
+			vector position{
+				x 40.5999794
+				y 1.60000098
+				z -47.7999687
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		spawn_point 4{
+			vector position{
+				x -73.0999908
+				y 0.500000596
+				z 54.1999969
+			}
+			quaternion orientation{
+				w -0.382683724
+				x 1.4901155e-008
+				y 0.923879445
+				z 0
+			}
+		}
+		spawn_point 1{
+			vector position{
+				x 39.099987
+				y 2.10000134
+				z -55.0077362
+			}
+			quaternion orientation{
+				w -0.89524585
+				x 0
+				y 0.445572466
+				z 0
+			}
+		}
+		spawn_point 0{
+			vector position{
+				x 40.1340256
+				y 1.7000047
+				z -52.3936615
+			}
+			quaternion orientation{
+				w 0.7843436
+				x 0
+				y -0.620326757
+				z 0
+			}
+		}
+	}
+	lights {
+		light light.11{
+			type point
+			vector position{
+				x 7.29999924
+				y 4.06800604
+				z -12.6299782
+			}
+			vector direction{
+				x -0
+				y -1
+				z -0
+			}
+			quaternion orientation{
+				w -0.218143374
+				x 0
+				y 0.975916743
+				z 0
+			}
+			color diffuse_color{
+				r 1
+				g 0.737254918
+				b 0
+			}
+			color specular_color{
+				r 1
+				g 0.737254918
+				b 0
+			}
+			attenuation_range 6
+			attenuation_constant 10.3357725
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+		light light.0{
+			type directional
+			vector position{
+				x 0
+				y 0
+				z 0
+			}
+			vector direction{
+				x -0
+				y -1
+				z -0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+			color diffuse_color{
+				r 1
+				g 1
+				b 1
+			}
+			color specular_color{
+				r 1
+				g 1
+				b 1
+			}
+			attenuation_range 100000
+			attenuation_constant 4.60507035e-005
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+	}
+}

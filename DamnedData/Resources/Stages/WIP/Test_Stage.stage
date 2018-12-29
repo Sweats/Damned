@@ -1,0 +1,167 @@
+stage Warehouse{
+	scene Warehouse
+	groups {
+		group 0{
+			objects {
+				object {
+					type key02
+					mask 401
+				}
+				object {
+					type key02
+					mask 402
+				}
+				object {
+					type key02
+					mask 403
+				}
+			}
+		}
+		group 1{
+			objects {
+				object {
+					type key
+					mask 152
+				}
+			}
+		}
+		group 2{
+			objects {
+				object {
+					type cut_key
+					mask 153
+				}
+			}
+		}
+		group 3{
+			objects {
+				object {
+					type cut_key
+					mask 154
+				}
+			}
+		}
+		group 4{
+			objects {
+				object {
+					type bolt_cutter
+					mask 155
+				}
+			}
+		}
+		group 5{
+			objects {
+				object {
+					type key02
+					mask 156
+				}
+			}
+		}
+		group 6{
+			objects {
+				object {
+					type key_room
+					mask 157
+				}
+			}
+		}
+		group 7{
+			objects {
+				object {
+					type key_silver
+					mask 158
+				}
+			}
+		}
+	}
+	locked_objects {
+		locked_object {
+			object forest_door_barn_2.0
+			unlocker_mask 155
+		}
+		locked_object {
+			object forest_door_bighouse_2.0
+			unlocker_mask 153
+		}
+		locked_object {
+			object forest_door_barrack_1.0
+			unlocker_mask 152
+		}
+		locked_object {
+			object forest_door_barn_1.0
+			unlocker_mask 155
+		}
+		locked_object {
+			object forest_barn_door.0
+			unlocker_mask 156
+		}
+		locked_object {
+			object gate_wire_fence.0
+			unlocker_mask 158
+		}
+		locked_object {
+			object forest_door_camping_1.1
+			unlocker_mask 157
+		}
+		locked_object {
+			object forest_door_camping_1.2
+			unlocker_mask 157
+		}
+		locked_object {
+			object forest_door_camping_1.8
+			unlocker_mask 157
+		}
+		locked_object {
+			object forest_door_barrack_2.1
+			unlocker_mask 152
+		}
+		locked_object {
+			object forest_door_camping_1.3
+			unlocker_mask 157
+		}
+		locked_object {
+			object forest_door_camping_1.0
+			unlocker_mask 157
+		}
+		locked_object {
+			object forest_door_camping_1.9
+			unlocker_mask 157
+		}
+		locked_object {
+			object forest_door_bighouse_2.2
+			unlocker_mask 154
+		}
+		locked_object {
+			object forest_chain_barn.0
+			unlocker_mask 155
+		}
+		locked_object {
+			object forest_door_bighouse_2.1
+			unlocker_mask 153
+		}
+		locked_object {
+			object forest_door_bighouse_1.4
+			unlocker_mask 154
+		}
+	}
+	object_spawn_points {
+		object_spawn_point object_spawn_point.0{
+			groups {
+				group 0{
+					require_mask 0
+				}
+			}
+			vector position{
+				x -1.59999955
+				y -1.14999866
+				z -13.000001
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+	}
+}
