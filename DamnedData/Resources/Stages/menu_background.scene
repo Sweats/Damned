@@ -1,0 +1,493 @@
+scene menu_background{
+	ambient_music main_menu.ogg
+	color ambient_light{
+		r 0.0431372561
+		g 0.0431372561
+		b 0.0431372561
+	}
+	objects {
+		object teaCup.0{
+			file teaCup.object
+			entry teaCup
+			vector position{
+				x -0.649999976
+				y -1.00010061
+				z -8.80000305
+			}
+			quaternion orientation{
+				w 0.82001555
+				x 0.263585538
+				y 0.227212876
+				z -0.454391539
+			}
+		}
+		object sofa02.1{
+			file sofa02.object
+			entry sofa02
+			vector position{
+				x -0.399999976
+				y -0.609999895
+				z -3.07999992
+			}
+			quaternion orientation{
+				w -2.98023224e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object poolTable.0{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x 1.12048137
+				y 0
+				z -9.90242958
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object picture04.0{
+			file picture04.object
+			entry picture04
+			vector position{
+				x 4.77000189
+				y 1.13
+				z -9.6000042
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object boxes04.0{
+			file boxes04.object
+			entry boxes04
+			vector position{
+				x -4.81365681
+				y 0.199999988
+				z -8.5109663
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object pumpkins_damned03.0{
+			file pumpkins_damned03.object
+			entry pumpkins_damned03
+			vector position{
+				x 4.22999811
+				y -0.809999943
+				z -2.60000086
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y -0.382683456
+				z 0
+			}
+		}
+		object statue2.0{
+			file statue2.object
+			entry statue2
+			vector position{
+				x 1.73320949
+				y -0.160000086
+				z -7.68999577
+			}
+			quaternion orientation{
+				w -0.37104401
+				x -1.77021509e-008
+				y -0.928615272
+				z -8.8894808e-008
+			}
+		}
+		object knife_meat.0{
+			file knife_meat.object
+			entry knife_meat
+			vector position{
+				x 0.0242613852
+				y -0.264173806
+				z -6.09879446
+			}
+			quaternion orientation{
+				w 0.665712416
+				x 0.253552437
+				y 0.119005531
+				z -0.691647172
+			}
+		}
+		object sofa02.0{
+			file sofa02.object
+			entry sofa02
+			vector position{
+				x -2.68999958
+				y -0.599999845
+				z -6.61999846
+			}
+			quaternion orientation{
+				w 0.684547067
+				x 0
+				y 0.72896874
+				z 0
+			}
+		}
+		object picture02.0{
+			file picture02.object
+			entry picture02
+			vector position{
+				x 4.79000092
+				y 1.13999999
+				z -5.27999687
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object statue2.1{
+			file statue2.object
+			entry statue2
+			vector position{
+				x -7.16010618
+				y -0.27000007
+				z -6.19999504
+			}
+			quaternion orientation{
+				w 0.411750793
+				x -0.123047553
+				y -0.88572371
+				z -0.17554
+			}
+		}
+		object boxes04.1{
+			file boxes04.object
+			entry boxes04
+			vector position{
+				x -2.03221059
+				y 0.199999988
+				z -11.565341
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object cigar_box.0{
+			file cigar_box.object
+			entry cigar_box
+			vector position{
+				x -0.199999988
+				y -0.339999944
+				z -6.79999971
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y -0.382683456
+				z 0
+			}
+		}
+		object carpet.0{
+			file carpet.object
+			entry carpet
+			vector position{
+				x 0.0600000322
+				y -1.04620028
+				z -6.51000595
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object tableLow.0{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x 0.0300000012
+				y -0.74000001
+				z -6.52999973
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object littlebox02.0{
+			file littlebox02.object
+			entry littlebox02
+			vector position{
+				x -0.299999982
+				y -0.374999732
+				z -6.19999981
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object loby_base.0{
+			file loby_base.object
+			entry loby_base
+			vector position{
+				x -3.20000029
+				y 0.709999919
+				z -7.38357878
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object statue2.2{
+			file statue2.object
+			entry statue2
+			vector position{
+				x 4.24320793
+				y -0.160000086
+				z -0.433620006
+			}
+			quaternion orientation{
+				w 0.456787318
+				x -7.86719951e-008
+				y -0.889575958
+				z -4.5015188e-008
+			}
+		}
+		object poolCue.0{
+			file poolCue.object
+			entry poolCue
+			vector position{
+				x 0.399999976
+				y -0.339999974
+				z -8.95799732
+			}
+			quaternion orientation{
+				w 0.992114782
+				x -0.12533325
+				y 0
+				z 0
+			}
+		}
+	}
+	spawn_points {
+		spawn_point 0{
+			vector position{
+				x -3.7382431
+				y 0.579998612
+				z -6.36601353
+			}
+			quaternion orientation{
+				w 0.644673526
+				x -0.116433591
+				y 0.738559604
+				z 0.159276351
+			}
+		}
+	}
+	lights {
+		light light.3{
+			type spotlight
+			vector position{
+				x -2.71200132
+				y 6.96209908
+				z -4.62500334
+			}
+			vector direction{
+				x 0.866824031
+				y -0.165502131
+				z -0.470345855
+			}
+			quaternion orientation{
+				w 0.625372112
+				x 0.577973008
+				y -0.4377909
+				z 0.288437396
+			}
+			color diffuse_color{
+				r 0.054901965
+				g 0.054901965
+				b 0.054901965
+			}
+			color specular_color{
+				r 0.054901965
+				g 0.054901965
+				b 0.054901965
+			}
+			attenuation_range 11
+			attenuation_constant 10.1186304
+			attenuation_linear 0
+			attenuation_quadratic 0
+			inner_angle 38
+			outer_angle 106
+			falloff 1
+			casts_shadows 1
+		}
+		light light.2{
+			type spotlight
+			vector position{
+				x -5.71200132
+				y -3.03989983
+				z 6.37499571
+			}
+			vector direction{
+				x 0.83558023
+				y -0.165502191
+				z -0.52384609
+			}
+			quaternion orientation{
+				w 0.638814867
+				x 0.586747825
+				y -0.417931437
+				z 0.270140499
+			}
+			color diffuse_color{
+				r 0.474509835
+				g 0.149019614
+				b 0.24313727
+			}
+			color specular_color{
+				r 0.474509835
+				g 0.149019614
+				b 0.24313727
+			}
+			attenuation_range 11
+			attenuation_constant 10.1667223
+			attenuation_linear 0
+			attenuation_quadratic 0
+			inner_angle 37
+			outer_angle 59.0000038
+			falloff 1
+			casts_shadows 1
+		}
+		light light.6{
+			type point
+			vector position{
+				x -0.752000809
+				y 1.64510036
+				z -8.83500767
+			}
+			vector direction{
+				x -0.290997297
+				y -0.900723696
+				z 0.322517276
+			}
+			quaternion orientation{
+				w 0.802390099
+				x -0.220913887
+				y -0.553653419
+				z -0.0288998075
+			}
+			color diffuse_color{
+				r 0.588235319
+				g 0
+				b 0
+			}
+			color specular_color{
+				r 0.588235319
+				g 0
+				b 0
+			}
+			attenuation_range 5
+			attenuation_constant 10.3450117
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+		light light.0{
+			type spotlight
+			vector position{
+				x 1.38799846
+				y 4.58030033
+				z -11.3350039
+			}
+			vector direction{
+				x -0.495909333
+				y -0.505558252
+				z 0.70603472
+			}
+			quaternion orientation{
+				w 0.619654417
+				x -0.0905538201
+				y 0.607295394
+				z -0.488897622
+			}
+			color diffuse_color{
+				r 0.639215708
+				g 0.498039246
+				b 0.203921586
+			}
+			color specular_color{
+				r 0.639215708
+				g 0.498039246
+				b 0.203921586
+			}
+			attenuation_range 11
+			attenuation_constant 10.1772146
+			attenuation_linear 0
+			attenuation_quadratic 0
+			inner_angle 38
+			outer_angle 106
+			falloff 1
+			casts_shadows 1
+		}
+		light light.1{
+			type spotlight
+			vector position{
+				x -4.13099909
+				y -3.03989935
+				z 2.66499996
+			}
+			vector direction{
+				x 0.0847693682
+				y -0.150673866
+				z 0.984942377
+			}
+			quaternion orientation{
+				w -0.645817637
+				x 0.582107306
+				y -0.397814661
+				z 0.292940497
+			}
+			color diffuse_color{
+				r 0.392156899
+				g 0.368627459
+				b 0.227450997
+			}
+			color specular_color{
+				r 0.392156899
+				g 0.368627459
+				b 0.227450997
+			}
+			attenuation_range 16
+			attenuation_constant 10.1168365
+			attenuation_linear 0
+			attenuation_quadratic 0
+			inner_angle 97.0000153
+			outer_angle 135
+			falloff 1
+			casts_shadows 1
+		}
+	}
+}
