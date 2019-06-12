@@ -1,5 +1,5 @@
-stage Factory_WIP{
-	scene Factory_WIP
+stage factory_wip{
+	scene factory_wip
 	groups {
 		group 0{
 			objects {
@@ -68,11 +68,7 @@ stage Factory_WIP{
 	}
 	locked_objects {
 		locked_object {
-			object door_doubleDoor.1
-			unlocker_mask 200
-		}
-		locked_object {
-			object door_doubleDoor_r.1
+			object door_doubleDoor_r.0
 			unlocker_mask 200
 		}
 		locked_object {
@@ -80,7 +76,11 @@ stage Factory_WIP{
 			unlocker_mask 200
 		}
 		locked_object {
-			object door_doubleDoor_r.0
+			object door_doubleDoor_r.1
+			unlocker_mask 200
+		}
+		locked_object {
+			object door_doubleDoor.1
 			unlocker_mask 200
 		}
 	}
