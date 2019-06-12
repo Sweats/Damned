@@ -23,7 +23,7 @@
             <Widget type="TabItem" skin="" position="2 24 664 372">
                 <Property key="Caption" value="13-18"/>
 				<Widget type="Button" skin="hundhillscommunitycenter" position="20 20 300 100" name="Stage7Checkbox"/>
-				<Widget type="Button" skin="factorywip" position="20 20 300 100" name="Stage5Checkbox"/>
+				<Widget type="Button" skin="factorywip" position="340 20 300 100" name="Stage5Checkbox"/>
             </Widget>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="85 10 515 25" name="TitleTextbox">

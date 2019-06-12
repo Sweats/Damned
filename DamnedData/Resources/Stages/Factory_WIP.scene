@@ -1,4 +1,4 @@
-scene Factory{
+scene Factory_WIP{
 	ambient_music ambianceFact.ogg
 	color ambient_light{
 		r 1

@@ -1,5 +1,5 @@
-stage Factory{
-	scene Factory
+stage Factory_WIP{
+	scene Factory_WIP
 	groups {
 		group 0{
 			objects {
