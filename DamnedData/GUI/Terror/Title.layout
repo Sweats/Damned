@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Button" skin="ButtonImage" position="1130 285 86 35" align="Right Top" layer="Main" name="HostGameButton">
+        <Property key="Caption" value="Host Game"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="FontName" value="RomFatalBold"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonImage" position="1130 240 90 35" align="Right Top" layer="Main" name="JoinGameButton">
+        <Property key="Caption" value="Join Game"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="FontName" value="RomFatalBold"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonImage" position="1146 330 75 35" align="Right Top" layer="Main" name="OptionsButton">
+        <Property key="Caption" value="Options"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="FontName" value="RomFatalBold"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonImage" position="1165 475 60 35" align="Right Top" layer="Main" name="ExitButton">
+        <Property key="Caption" value="Quit"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="FontName" value="RomFatalBold"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonImage" position="1147 375 74 39" align="Right Top" layer="Main" name="CreditsButton">
+        <Property key="Caption" value="Credits"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="FontName" value="RomFatalBold"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonImage" position="1134 428 96 28" align="Right Top" layer="Main" name="LogoffButton">
+        <Property key="Caption" value="Log Off"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="FontName" value="RomFatalBold"/>
+    </Widget>
+    <Widget type="ImageBox" skin="ImageBox" position="502 24 410 170" align="HCenter Top" layer="Main">
+        <Property key="ImageTexture" value="title.png"/>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

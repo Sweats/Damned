@@ -1,0 +1,18 @@
+object pumpkin_damned02_display{
+	mesh pumpkin_damned02.mesh
+	
+ 	 shape cylinder
+	{
+		vector half_extents
+		{
+			x 0.14
+			y 0.14
+			z 0.13
+		}
+	}
+	
+	mass 0
+	mask 0
+	
+	animations 0
+}

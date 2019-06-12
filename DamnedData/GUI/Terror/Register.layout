@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="ImageBox" position="478 260 410 384" align="HCenter Top" layer="Main" name="Register">
+        <Property key="Caption" value="Register"/>
+        <Property key="Movable" value="true"/>
+        <Property key="TextColour" value="1 1 1"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="TextShadowColour" value="0 0 0"/>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 5 140 25">
+            <Property key="Caption" value="Username:"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 95 140 25">
+            <Property key="Caption" value="Password:"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="EditBox" skin="EditBox" position="155 5 250 25" name="UsernameEditbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="EditBox" skin="EditBox" position="155 35 250 25" name="EmailEditbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="130 180 150 35" name="RegisterButton">
+            <Property key="Caption" value="Register"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 35 140 25">
+            <Property key="Caption" value="Email:"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="EditBox" skin="EditBox" position="155 65 250 25" name="ConfirmEmailEditbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="25 155 365 25" name="ErrorMessageTextbox">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 0 0"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="130 335 150 25" name="CancelButton">
+            <Property key="Caption" value="Cancel"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 125 140 25">
+            <Property key="Caption" value="Confirm Password:"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="EditBox" skin="EditBox" position="155 95 250 25" name="PasswordEditbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="Password" value="true"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 65 140 25" name="ConfirmEmailTextbox">
+            <Property key="Caption" value="Confirm Email:"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="EditBox" skin="EditBox" position="155 125 250 25" name="ConfirmPasswordEditbox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="Password" value="true"/>
+        </Widget>
+    </Widget>
+    <Widget type="TextBox" skin="TextBox" position="228 95 910 160" align="HCenter Top" layer="Main">
+        <Property key="TextShadow" value="true"/>
+        <Property key="Caption" value="Please, insert a valid email that you actually use, we promise we won&apos;t send anything unless required. It&apos;s extremely important that\nyou put YOUR real email, because that will be your only way to recover your account if you ever forget your password. We won&apos;t send\nconfirmation emails or anything, so it&apos;s your responsibility to put your valid, real email in the field below, in order to be able to recover\nyour account if you forget your password. Seriously, we don&apos;t want people sending us emails complaining about their inability to recover\ntheir accounts because they put invalid emails here. Can we make things clearer than this?\n\nTL;DR:If you want to be able to recover your account (in case you forget your password), you need to put a real, valid email you own.\n\nBut please, don&apos;t be scared, you&apos;ll be able to change this email later. :)"/>
+        <Property key="FontName" value="RomFatalBold"/>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

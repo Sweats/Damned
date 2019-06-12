@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="ImageBox" position="404 161 611 554" align="Center" layer="Main">
+        <Property key="ReadOnly" value="true"/>
+        <Property key="Static" value="true"/>
+        <Property key="Caption" value="Graphics Options"/>
+        <Widget type="ComboBox" skin="_VitrumComboBox" position="175 15 430 25" name="ResolutionsCombobox">
+            <Property key="ModeDrop" value="true"/>
+            <Property key="ReadOnly" value="true"/>
+            <Property key="TextAlign" value="Right VCenter"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="EditBox" skin="_VitrumStaticText" position="5 15 160 25">
+            <Property key="Caption" value="Resolution"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="ReadOnly" value="true"/>
+            <Property key="Static" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="EditBox" skin="_VitrumStaticText" position="5 155 160 25">
+            <Property key="Caption" value="Fullscreen"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Static" value="true"/>
+            <Property key="ReadOnly" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="EditBox" skin="_VitrumStaticText" position="5 365 160 25">
+            <Property key="Caption" value="VSync"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="ReadOnly" value="true"/>
+            <Property key="Static" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="175 155 20 20" name="FullscreenCheckbox"/>
+        <Widget type="Button" skin="CheckBox" position="175 365 20 20" name="VSyncCheckbox"/>
+        <Widget type="EditBox" skin="TextBox" position="200 365 230 25">
+            <Property key="Caption" value="VSync changes require restart."/>
+            <Property key="TextColour" value="1 0 0"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="ReadOnly" value="true"/>
+            <Property key="Static" value="true"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="5 50 160 25">
+            <Property key="Caption" value="Anisotropic Filtering"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="ComboBox" skin="_VitrumComboBox" position="175 50 430 25" name="AnisotropicFilteringCombobox">
+            <Property key="TextAlign" value="Right VCenter"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="ReadOnly" value="true"/>
+            <Property key="ModeDrop" value="true"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="5 225 160 25">
+            <Property key="Caption" value="Depth Of Field"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="175 225 20 20" name="DepthOfFieldCheckbox"/>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="5 190 160 25">
+            <Property key="Caption" value="Ambient Occlusion"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="175 190 20 20" name="AmbientOcclusionCheckbox"/>
+        <Widget type="Button" skin="ButtonImage" position="230 510 160 30" name="BackButton">
+            <Property key="Caption" value="Back"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="205 450 205 30" name="GammaButton">
+            <Property key="Caption" value="Gamma Adjustment"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="5 85 160 25">
+            <Property key="TextShadow" value="true"/>
+            <Property key="Caption" value="Shadow Quality"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="ComboBox" skin="_VitrumComboBox" position="175 85 430 25" name="ShadowQualityCombobox">
+            <Property key="TextAlign" value="Right VCenter"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="ReadOnly" value="true"/>
+            <Property key="ModeDrop" value="true"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="5 260 160 25">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="Caption" value="Particle FX"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="175 260 20 20" name="ParticleFxCheckbox"/>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="5 120 160 25">
+            <Property key="Caption" value="FXAA"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="ComboBox" skin="_VitrumComboBox" position="175 120 430 25" name="FxaaCombobox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Right VCenter"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="ReadOnly" value="true"/>
+            <Property key="ModeDrop" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="5 295 160 25">
+            <Property key="Caption" value="Volumetric Fog"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="175 295 20 20" name="VolumetricFogCheckbox"/>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="5 330 160 25">
+            <Property key="Caption" value="Film Grain"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="175 330 20 20" name="FilmGrainCheckbox"/>
+    </Widget>
+</MyGUI>

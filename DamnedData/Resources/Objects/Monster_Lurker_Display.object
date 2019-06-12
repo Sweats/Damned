@@ -1,0 +1,8 @@
+object Monster_Lurker_Display{
+	mesh spectrum.mesh
+	shape none
+	mass 0
+	mask 0
+	
+	animations 0
+}

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="ImageBox" position="234 98 860 592" align="Center" layer="Main">
+        <Property key="ReadOnly" value="true"/>
+        <Property key="Static" value="true"/>
+        <Property key="Caption" value="Controls Options"/>
+        <Widget type="Button" skin="ButtonImage" position="350 534 160 40" name="BackButton">
+            <Property key="Caption" value="Back"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="ScrollBar" skin="ScrollBarH" position="140 440 580 20" name="MouseSensibilitySlider">
+            <Property key="MoveToClick" value="false"/>
+            <Property key="Page" value="1"/>
+            <Property key="Range" value="20"/>
+            <Property key="RangePosition" value="19"/>
+            <Property key="ViewPage" value="1"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="320 415 225 25">
+            <Property key="Caption" value="Mouse Sensitivity"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="198 466 160 25">
+            <Property key="Caption" value="Invert Mouse X"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="470 466 160 25">
+            <Property key="Caption" value="Invert Mouse Y"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="642 468 20 20" name="InvertMouseYCheckbox"/>
+        <Widget type="Button" skin="CheckBox" position="368 468 20 20" name="InvertMouseXCheckbox"/>
+        <Widget type="Button" skin="ButtonImage" position="180 10 245 25" name="MoveForwardButton">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 10 160 25" name="MoveForwardTextbox">
+            <Property key="Caption" value="Move Forward"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 50 160 25" name="MoveBackTextbox">
+            <Property key="Caption" value="Move Back"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="180 50 245 25" name="MoveBackButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 90 160 25" name="MoveLeftTextbox">
+            <Property key="Caption" value="Move Left"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 130 160 25" name="MoveRightTextbox">
+            <Property key="Caption" value="Move Right"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 170 160 25" name="RunTextbox">
+            <Property key="Caption" value="Sprint"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 210 160 25" name="SlowWalkTextbox">
+            <Property key="Caption" value="Walk"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 250 160 25" name="Crouch">
+            <Property key="Caption" value="Crouch "/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="435 250 160 25" name="PushToTalkTextbox">
+            <Property key="Caption" value="Voice Chat"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="180 90 245 25" name="MoveLeftButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="180 130 245 25" name="MoveRightButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="180 170 245 25" name="RunButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="180 210 245 25" name="SlowWalkButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="180 250 245 25" name="CrouchButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="605 250 245 25" name="PushToTalkButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="320 494 225 40" name="LoadDefaultControlPreferencesButton">
+            <Property key="Caption" value="Load Defaults"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="435 10 160 25">
+            <Property key="Caption" value="Transform"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="605 10 245 25" name="TransformButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="435 210 160 25" name="SpectateNextTextbox">
+            <Property key="Caption" value="Spectate Next"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="605 210 245 25" name="SpectateNextButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="434 50 160 25" name="GrabTextbox">
+            <Property key="Caption" value="Grab"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="605 50 245 25" name="GrabButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="435 90 160 25" name="SwitchFlashlightTextbox">
+            <Property key="Caption" value="Swtich Flashlight"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="605 90 245 25" name="SwitchFlashlightButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="435 130 160 25" name="AttackTextbox">
+            <Property key="Caption" value="Attack"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="605 130 245 25" name="AttackButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="435 170 160 25" name="Teleport">
+            <Property key="Caption" value="Teleport"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="605 170 245 25" name="TeleportButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 290 160 25" name="StartTextbox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="Caption" value="Start"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 330 160 25" name="PauseTextbox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="Caption" value="Pause"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="435 290 160 25" name="GuiAcceptTextbox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="Caption" value="GUI Accept"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="435 330 160 25" name="GuiReturnTextbox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="Caption" value="GUI Return"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="180 290 245 25" name="StartButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="180 330 245 25" name="PauseButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="605 290 245 25" name="GuiAcceptButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="605 330 245 25" name="GuiReturnButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="10 370 160 25" name="TabTextbox">
+            <Property key="Caption" value="Players Stats"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="180 370 245 25" name="TabButton">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

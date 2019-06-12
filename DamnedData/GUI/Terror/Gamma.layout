@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="ImageBox" position="368 45 630 115" align="HCenter Top" layer="Main">
+        <Property key="ReadOnly" value="true"/>
+        <Property key="Static" value="true"/>
+        <Property key="Caption" value="Gamma Adjustment"/>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="60 35 105 25">
+            <Property key="Caption" value="Gamma"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="ScrollBar" skin="ScrollBarH" position="210 35 400 25" name="GammaScrollbar">
+            <Property key="MoveToClick" value="false"/>
+            <Property key="Page" value="1"/>
+            <Property key="Range" value="11"/>
+            <Property key="ViewPage" value="1"/>
+            <Property key="RangePosition" value="6"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="145 5 350 25" align="HCenter Top">
+            <Property key="Caption" value="Adjust gamma until all bars are distinguishable"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="170 35 35 25" name="GammaTextbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+    </Widget>
+    <Widget type="Button" skin="ButtonImage" position="603 200 160 25" align="HCenter Top" layer="Main" name="BackButton">
+        <Property key="Caption" value="Back"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="FontName" value="RomFatalBold"/>
+    </Widget>
+</MyGUI>

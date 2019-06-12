@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="ImageBox" position="390 196 585 375" align="Center" layer="Main" name="Login">
+        <Property key="Caption" value="Login"/>
+        <Property key="Movable" value="true"/>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="192 15 200 25" align="HCenter Top">
+            <Property key="Caption" value="Username/email"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="217 85 150 25" align="HCenter Top">
+            <Property key="Caption" value="Password"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="EditBox" skin="EditBox" position="167 45 250 25" align="HCenter Top" name="UsernameOrEmailEditbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="EditBox" skin="EditBox" position="167 115 250 25" align="HCenter Top" name="PasswordEditbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="Password" value="true"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="217 206 150 35" align="HCenter Top" name="LoginButton">
+            <Property key="Caption" value="Login"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold.big"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="200 264 185 24" align="HCenter Top" name="RegisterButton">
+            <Property key="Caption" value="Register"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="0 145 587 25" align="HCenter Top" name="ErrorMessageTextbox">
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 0 0"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="217 350 150 25" align="HCenter Top" name="ExitButton">
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="Caption" value="Exit Game"/>
+            <Property key="FontName" value="RomFatalBold.big"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="200 240 185 24" align="HCenter Top" name="ForgotButton">
+            <Property key="Caption" value="Forgot your password?"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="252 172 120 30">
+            <Property key="Caption" value="Remember me"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="222 178 20 20" name="RememberMeCheckbox"/>
+        <Widget type="Button" skin="ButtonImage" position="200 290 185 24" align="HCenter Top" name="OptionsButton">
+            <Property key="Caption" value="Options"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

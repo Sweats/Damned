@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ImageBox" skin="ImageBox" position="0 0 1366 768" align="Stretch" layer="Back" name="CreditsImagebox">
+        <Property key="ImageTexture" value="damnedcredits.jpg"/>
+        <Widget type="Button" skin="ButtonImage" position="1200 690 140 60" align="Right Bottom" name="BackButton">
+            <Property key="Caption" value="Back"/>
+            <Property key="FontName" value="RomFatalBold.big"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

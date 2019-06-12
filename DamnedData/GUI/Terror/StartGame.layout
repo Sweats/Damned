@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="TextBox" skin="TextBox" position="300 160 766 34" align="HCenter Top" layer="Main" name="MessageTextbox">
+        <Property key="TextShadow" value="true"/>
+        <Property key="Caption" value="Wait for everybody to connect then press ENTER to start the game."/>
+        <Property key="FontName" value="RomFatalBold.big"/>
+        <Property key="TextAlign" value="Center"/>
+    </Widget>
+    <Widget type="ImageBox" skin="ButtonPlay_Dark" position="681 282 3 264" align="Center" layer="Main"/>
+    <Widget type="Widget" skin="PanelEmpty" position="300 290 766 290" align="Center" layer="Main">
+        <Widget type="TextBox" skin="TextBox" position="394 0 372 234">
+            <Property key="FontName" value="RomFatalBold.big"/>
+            <Property key="Caption" value="Monster\n\n- Use traps to hear the survivors\n- Find the Survivors\n- Kill all the Survivors"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="0 2 372 234">
+            <Property key="FontName" value="RomFatalBold.big"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="Caption" value="Survivors\n\n- Collect keys to open the doors\n- Hide from the Monster\n- Recharge your lantern with batteries\n- Destroy woods with hammer/crowbar\n- Find the exit room to escape"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

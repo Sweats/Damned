@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="MultiListBox" skin="MultiListBox" position="25 84 760 344" align="Default" layer="Main" name="GameSessionsMultiList">
+        <Widget type="MultiListItem" skin="" position="0 0 40 315">
+            <Property key="Caption" value="##"/>
+            <Property key="ItemResizingPolicy" value="Fixed"/>
+            <Property key="ItemWidth" value="40"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="MultiListItem" skin="" position="40 0 452 315">
+            <Property key="Caption" value="Lobby Name"/>
+            <Property key="ItemResizingPolicy" value="Fill"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="MultiListItem" skin="" position="492 0 70 315">
+            <Property key="Caption" value="Players"/>
+            <Property key="ItemResizingPolicy" value="Fixed"/>
+            <Property key="ItemWidth" value="70"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="MultiListItem" skin="" position="562 0 60 315">
+            <Property key="Caption" value="Public"/>
+            <Property key="ItemResizingPolicy" value="Fixed"/>
+            <Property key="ItemWidth" value="60"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="MultiListItem" skin="" position="622 0 70 315">
+            <Property key="ItemResizingPolicy" value="Fixed"/>
+            <Property key="ItemWidth" value="70"/>
+            <Property key="Caption" value="In Lobby"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="MultiListItem" skin="" position="692 0 60 315">
+            <Property key="Caption" value="Ping"/>
+            <Property key="ItemResizingPolicy" value="Fixed"/>
+            <Property key="ItemWidth" value="60"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+    </Widget>
+    <Widget type="Button" skin="ButtonImage" position="790 120 105 55" layer="Main" name="SelectHostButton">
+        <Property key="Caption" value="Connect"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="FontName" value="RomFatalBold"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonImage" position="790 65 115 55" layer="Main" name="RefreshHostsButton">
+        <Property key="Caption" value="Refresh all"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="FontName" value="RomFatalBold"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonImage" position="790 395 80 60" layer="Main" name="BackButton">
+        <Property key="Caption" value="Back"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="FontName" value="RomFatalBold"/>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

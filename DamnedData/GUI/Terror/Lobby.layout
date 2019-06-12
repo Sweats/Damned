@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position="10 0 1290 660" layer="Main">
+        <Widget type="Button" skin="ButtonImage" position="195 485 170 45" name="StartGameButton">
+            <Property key="Caption" value="Start Game"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontHeight" value="36"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="RomFatalBold.big"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position="30 55 64 64" name="Player0Imagebox">
+            <Property key="ImageTexture" value="no_char.png"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position="30 125 64 64" name="Player1Imagebox">
+            <Property key="ImageTexture" value="no_char.png"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position="30 195 64 64" name="Player2Imagebox">
+            <Property key="ImageTexture" value="no_char.png"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position="30 265 64 64" name="Player3Imagebox">
+            <Property key="ImageTexture" value="no_char.png"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position="30 335 64 64" name="Player4Imagebox">
+            <Property key="ImageTexture" value="no_char.png"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="105 60 430 25" name="Player0NameTextbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="105 130 430 25" name="Player1NameTextbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="105 200 430 25" name="Player2NameTextbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="105 270 430 25" name="Player3NameTextbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="105 340 430 25" name="Player4NameTextbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="400 410 140 45" name="ChooseCharacterButton">
+            <Property key="Caption" value="Choose Character"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="ImageResource" value="no_char.png"/>
+            <Property key="ModeImage" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="30 410 100 45" name="BackButton">
+            <Property key="Caption" value="Leave Lobby"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="105 85 70 25" name="Player0KickButton">
+            <Property key="Caption" value="Kick"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="105 155 70 25" name="Player1KickButton">
+            <Property key="Caption" value="Kick"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="105 225 70 25" name="Player2KickButton">
+            <Property key="Caption" value="Kick"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="105 295 70 25" name="Player3KickButton">
+            <Property key="Caption" value="Kick"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="105 365 70 25" name="Player4KickButton">
+            <Property key="Caption" value="Kick"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="580 132 90 35">
+            <Property key="Caption" value="Voice Chat:"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="ComboBox" skin="_VitrumComboBox" position="670 138 210 25" name="VoiceChatCombobox">
+            <Property key="InheritsAlpha" value="false"/>
+            <Property key="InheritsPick" value="false"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="ReadOnly" value="true"/>
+            <Property key="ModeDrop" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="670 132 185 35" name="VoiceChatTextbox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="580 172 125 35">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="Caption" value="Allow Spectator:"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="705 172 150 35" name="AllowSpectatorTextbox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="705 182 20 20" name="AllowSpectatorCheckbox"/>
+        <Widget type="TextBox" skin="TextBox" position="580 92 95 35">
+            <Property key="Caption" value="Game Mode:"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="675 92 100 35" name="GameModeTextbox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Right VCenter"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="ComboBox" skin="_VitrumComboBox" position="675 98 125 25" name="GameModeCombobox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="ModeDrop" value="true"/>
+            <Property key="ReadOnly" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="580 212 88 35">
+            <Property key="Caption" value="All Random:"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="668 212 65 35" name="RandomCharacterSelectionTextbox">
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="670 222 20 20" name="RandomCharacterSelectionCheckbox"/>
+        <Widget type="Button" skin="ButtonImage" position="818 310 40 35" name="AllowedMonstersButton">
+            <Property key="Caption" value="Edit"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="715 292 101 74" name="AllowedMonstersListTextbox">
+            <Property key="TextShadow" value="true"/>
+            <Property key="FontName" value="RomFatalBold.small"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="580 310 135 35" name="AllowedMonstersTextbox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="Caption" value="Allowed Monsters:"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="580 370 60 35">
+            <Property key="Caption" value="Stage:"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="ComboBox" skin="_VitrumComboBox" position="640 376 240 25" name="StageSelectionCombobox">
+            <Property key="InheritsAlpha" value="false"/>
+            <Property key="InheritsPick" value="false"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="ModeDrop" value="true"/>
+            <Property key="ReadOnly" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="640 370 215 35" name="StageSelectionTextbox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="620 406 260 239" name="AllowedStagesTextbox">
+            <Property key="FontName" value="RomFatalBold.small"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position="580 406 300 100" name="StageSelectedImagebox"/>
+        <Widget type="TextBox" skin="TextBox" position="805 92 40 35" name="NumberOfLivesTitleTextbox">
+            <Property key="Caption" value="Lifes:"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="ComboBox" skin="_VitrumComboBox" position="845 98 35 25" name="NumberOfLivesCombobox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="ReadOnly" value="true"/>
+            <Property key="ModeDrop" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="845 92 19 35" name="NumberOfLivesTextbox">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="ImageBox" skin="MenuBarSeparator" position="537 50 10 565"/>
+        <Widget type="TextBox" skin="TextBox" position="575 15 310 50">
+            <Property key="Caption" value="Game Settings"/>
+            <Property key="FontName" value="RomFatalBold.big"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="580 252 104 35">
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="Caption" value="Allow Insanity:"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="684 260 22 22" name="InsanityCheckbox"/>
+        <Widget type="TextBox" skin="TextBox" position="684 252 80 35" name="InsanityTextbox">
+            <Property key="NeedMouse" value="false"/>
+            <Property key="FontName" value="RomFatalBold"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="TextShadow" value="true"/>
+        </Widget>
+    </Widget>
+    <Widget type="TextBox" skin="EditBox" position="5 740 700 20" align="Left Bottom" layer="Main"/>
+    <CodeGeneratorSettings/>
+</MyGUI>

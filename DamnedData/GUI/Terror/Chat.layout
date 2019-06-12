@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="TextBox" skin="TextBox" position="5 580 700 160" align="Left Bottom" layer="Popup" name="ChatWindow">
+        <Property key="TextColour" value="1 1 1"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="TextShadowColour" value="0 0 0"/>
+        <Property key="FontName" value="RomFatalBold.small"/>
+    </Widget>
+    <Widget type="EditBox" skin="EditBoxEmpty" position="5 740 700 20" align="Left Bottom" layer="Popup" name="ChatEditbox">
+        <Property key="TextColour" value="1 1 1"/>
+        <Property key="TextShadow" value="true"/>
+        <Property key="TextShadowColour" value="0 0 0"/>
+        <Property key="FontName" value="RomFatalBold.small"/>
+    </Widget>
+</MyGUI>

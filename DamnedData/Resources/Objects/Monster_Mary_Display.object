@@ -1,0 +1,8 @@
+object Monster_Mary_Display{
+	mesh berserker.mesh
+	shape none
+	mass 0
+	mask 0
+	
+	animations 0
+}

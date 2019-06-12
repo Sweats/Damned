@@ -1,0 +1,13 @@
+object table_kitchen01_NoTrap{
+	mesh table_kitchen01.mesh
+	
+ 	shape triangle_mesh
+	{
+		mesh table_kitchen01Col.mesh
+	}
+	
+	mass 0
+	mask 0
+	
+	animations 0
+}

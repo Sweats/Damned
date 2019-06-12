@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Window" skin="ImageBox" position="483 200 462 395" align="Center" layer="Main" name="Login">
+        <Property key="Caption" value="Login"/>
+        <Property key="Movable" value="true"/>
+        <Widget type="TextBox" skin="_VitrumStaticText" position="170 210 125 25">
+            <Property key="Caption" value="Email"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="EditBox" skin="EditBox" position="100 240 250 25" name="EmailEditbox">
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="100 295 250 35" name="ResetPasswordButton">
+            <Property key="Caption" value="Reset my password"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="30 270 405 25" name="ErrorMessageTextbox">
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextColour" value="1 0 0"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position="100 350 250 35" name="BackButton">
+            <Property key="TextShadow" value="true"/>
+            <Property key="TextShadowColour" value="0 0 0"/>
+            <Property key="Caption" value="Back"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position="5 10 450 190">
+            <Property key="TextShadow" value="true"/>
+            <Property key="Caption" value="Forgot your password?\nSince we store only encrypted passwords, we have no means\nof retrieving your password. But we can generate a new\nrandom password and email it to you.\n\nWould you like to reset your password? If so, put your email\nin the field bellow and click &quot;Reset my password&quot;.\n\n*It must be the same email stored in your account.*"/>
+            <Property key="FontName" value="RomFatalBold"/>
+        </Widget>
+    </Widget>
+</MyGUI>
