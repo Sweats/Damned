@@ -7,22 +7,23 @@
                 <Widget type="Button" skin="lake" position="20 20 300 100" name="Stage0Checkbox"/>
                 <Widget type="Button" skin="bodom" position="20 135 300 100" name="Stage2Checkbox"/>
                 <Widget type="Button" skin="factory" position="20 250 300 100" name="Stage4Checkbox"/>
-                <Widget type="Button" skin="hills" position="340 250 300 100" name="Stage5Checkbox"/>
+                <Widget type="Button" skin="hills" position="340 250 300 100" name="Stage6Checkbox"/>
                 <Widget type="Button" skin="woods" position="340 20 300 100" name="Stage1Checkbox"/>
                 <Widget type="Button" skin="bright" position="340 135 300 100" name="Stage3Checkbox"/>
             </Widget>
             <Widget type="TabItem" skin="" position="2 24 664 372">
                 <Property key="Caption" value="7-12"/>
-				<Widget type="Button" skin="restaurant" position="20 20 300 100" name="Stage7Checkbox"/>
-				<Widget type="Button" skin="rose" position="20 135 300 100" name="Stage9Checkbox"/>
-				<Widget type="Button" skin="tygerberg" position="20 250 300 100" name="Stage11Checkbox"/>
-				<Widget type="Button" skin="pogchamp" position="340 20 300 100" name="Stage8Checkbox"/>
-				<Widget type="Button" skin="serenity" position="340 135 300 100" name="Stage10Checkbox"/>
-				<Widget type="Button" skin="warehouse" position="340 250 300 100" name="Stage12Checkbox"/>
+				<Widget type="Button" skin="restaurant" position="20 20 300 100" name="Stage8Checkbox"/>
+				<Widget type="Button" skin="rose" position="20 135 300 100" name="Stage10Checkbox"/>
+				<Widget type="Button" skin="tygerberg" position="20 250 300 100" name="Stage12Checkbox"/>
+				<Widget type="Button" skin="pogchamp" position="340 20 300 100" name="Stage9Checkbox"/>
+				<Widget type="Button" skin="serenity" position="340 135 300 100" name="Stage11Checkbox"/>
+				<Widget type="Button" skin="warehouse" position="340 250 300 100" name="Stage13Checkbox"/>
             </Widget>
             <Widget type="TabItem" skin="" position="2 24 664 372">
                 <Property key="Caption" value="13-18"/>
-				<Widget type="Button" skin="hundhillscommunitycenter" position="20 20 300 100" name="Stage6Checkbox"/>
+				<Widget type="Button" skin="hundhillscommunitycenter" position="20 20 300 100" name="Stage7Checkbox"/>
+				<Widget type="Button" skin="factorywip" position="20 20 300 100" name="Stage5Checkbox"/>
             </Widget>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="85 10 515 25" name="TitleTextbox">

@@ -1,0 +1,87 @@
+stage Factory{
+	scene Factory
+	groups {
+		group 0{
+			objects {
+				object {
+					type key
+					mask 401
+				}
+			}
+		}
+		group 1{
+			objects {
+				object {
+					type key02
+					mask 130
+				}
+			}
+		}
+		group 2{
+			objects {
+				object {
+					type cut_key
+					mask 131
+				}
+			}
+		}
+		group 3{
+			objects {
+				object {
+					type key02
+					mask 132
+				}
+			}
+		}
+		group 4{
+			objects {
+				object {
+					type cut_key
+					mask 133
+				}
+			}
+		}
+		group 5{
+			objects {
+				object {
+					type cut_key
+					mask 134
+				}
+			}
+		}
+		group 6{
+			objects {
+				object {
+					type key_silver
+					mask 135
+				}
+			}
+		}
+		group 7{
+			objects {
+				object {
+					type crowbar
+					mask 136
+				}
+			}
+		}
+	}
+	locked_objects {
+		locked_object {
+			object door_doubleDoor.1
+			unlocker_mask 200
+		}
+		locked_object {
+			object door_doubleDoor_r.1
+			unlocker_mask 200
+		}
+		locked_object {
+			object door_doubleDoor.0
+			unlocker_mask 200
+		}
+		locked_object {
+			object door_doubleDoor_r.0
+			unlocker_mask 200
+		}
+	}
+}
