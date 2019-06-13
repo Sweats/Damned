@@ -1,16 +1,23 @@
 # Damned
-A repository for updating an abandoned game that is on Steam.
+A repository for updating a game on Steam called Damned.
+
 
 # What is this repository?
 
-This repository is used to keep track of changes that the community has made to the game. Currently it is only possible to add in new maps into the game.
-Tools will be written to streamline the process of adding in new maps into the game. As of right now, it's a little tedious to add in a new map.
+
+
+This repository is used to keep track of changes that the community has made to the game.
+Tools will be written to streamline the process of adding in patches that contain new maps and balance changes into the game.
+
+
 
 For more information, see this post on the Steam community forums:
 
+
 https://steamcommunity.com/app/251170/discussions/0/1700542968204133958/
 
-Do not download the zip file because the latest changes will always be here. You can download the zip file from here.
+
+Do not download the zip file on the steam post because the latest changes will always be here. You can download the zip file from here.
 
 # Communication
 
