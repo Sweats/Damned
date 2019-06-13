@@ -23,6 +23,38 @@ Here is a list of things that we have in mind to create so far:
 	- Figure out how to import new objects into the game.
 	- Write a bot that can fetch public lobbies and post them into the Discord. This would be better than launching the game and seeing if there are any public lobbies.
 
+# V1.00 CHANGELOG:
+
+General
+
+- Added a new Community-made Map 'Pog Champ Hotel'
+
+- Added a new Community-made Map 'Hund Hills Community Center'
+
+- Debug Console now displays a list of Maps and their internal ID
+
+
+
+Fallen
+
+- Traps needed for Seeker Form (P2) = 10, instead of random between 9 and 12
+
+- Seeker (P2) starts transforming to Destroyer (P3) when a Survivor is within 6m line-of-sight, instead of previous 10m
+
+- Seeker Form (P2) can now see Humans
+
+- Destroyer Form (P3) now lasts for 30s, up from 7s
+
+- While in Destroyer Form, press E button to phase out of Destroyer into Trapper Form and revert back into Destroyer after 3s assuming your 30s Form Time didn't elapse yet.
+
+This ability has a cooldown of 5s (8s if you count the 3s of phasing time).
+
+
+
+Phantom
+
+- Changed background music when you are survivor and Phantom sees you from 'Run!' (monster_closer) to 'Kill!' (blind_hearing)
+
 
 
 
