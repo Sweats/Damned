@@ -6,288 +6,183 @@ scene menu_background{
 		b 0.0431372561
 	}
 	objects {
-		object teaCup.0{
-			file teaCup.object
-			entry teaCup
+		object mh_shelf01_1.1{
+			file mh_shelf01_1.object
+			entry mh_shelf01_1
 			vector position{
-				x -0.649999976
-				y -1.00010061
-				z -8.80000305
-			}
-			quaternion orientation{
-				w 0.82001555
-				x 0.263585538
-				y 0.227212876
-				z -0.454391539
-			}
-		}
-		object sofa02.1{
-			file sofa02.object
-			entry sofa02
-			vector position{
-				x -0.399999976
-				y -0.609999895
-				z -3.07999992
-			}
-			quaternion orientation{
-				w -2.98023224e-007
-				x 0
-				y -1
-				z 0
-			}
-		}
-		object poolTable.0{
-			file poolTable.object
-			entry poolTable
-			vector position{
-				x 1.12048137
-				y 0
-				z -9.90242958
-			}
-			quaternion orientation{
-				w -1.49011612e-007
-				x 0
-				y 1
-				z 0
-			}
-		}
-		object picture04.0{
-			file picture04.object
-			entry picture04
-			vector position{
-				x 4.77000189
-				y 1.13
-				z -9.6000042
-			}
-			quaternion orientation{
-				w 0.707106709
-				x 0
-				y -0.707106829
-				z 0
-			}
-		}
-		object boxes04.0{
-			file boxes04.object
-			entry boxes04
-			vector position{
-				x -4.81365681
-				y 0.199999988
-				z -8.5109663
-			}
-			quaternion orientation{
-				w 0.707106709
-				x 0
-				y -0.707106829
-				z 0
-			}
-		}
-		object pumpkins_damned03.0{
-			file pumpkins_damned03.object
-			entry pumpkins_damned03
-			vector position{
-				x 4.22999811
-				y -0.809999943
-				z -2.60000086
+				x 1.88400042
+				y 0.899891973
+				z -9.56999874
 			}
 			quaternion orientation{
 				w 0.923879504
 				x 0
-				y -0.382683456
+				y 0.382683456
 				z 0
 			}
 		}
-		object statue2.0{
-			file statue2.object
-			entry statue2
+		object boxes02.1{
+			file boxes02.object
+			entry boxes02
 			vector position{
-				x 1.73320949
-				y -0.160000086
-				z -7.68999577
+				x 7.17904377
+				y 0.889999986
+				z -12.0040569
 			}
 			quaternion orientation{
-				w -0.37104401
-				x -1.77021509e-008
-				y -0.928615272
-				z -8.8894808e-008
+				w -0.710431218
+				x 9.1985608e-010
+				y 0.703766644
+				z -1.4569089e-010
 			}
 		}
-		object knife_meat.0{
-			file knife_meat.object
-			entry knife_meat
+		object boxes02.0{
+			file boxes02.object
+			entry boxes02
 			vector position{
-				x 0.0242613852
-				y -0.264173806
-				z -6.09879446
+				x 6.57904387
+				y 0.889999986
+				z -8.56811523
 			}
 			quaternion orientation{
-				w 0.665712416
-				x 0.253552437
-				y 0.119005531
-				z -0.691647172
-			}
-		}
-		object sofa02.0{
-			file sofa02.object
-			entry sofa02
-			vector position{
-				x -2.68999958
-				y -0.599999845
-				z -6.61999846
-			}
-			quaternion orientation{
-				w 0.684547067
+				w -0.591591358
 				x 0
-				y 0.72896874
+				y 0.806238055
 				z 0
 			}
 		}
-		object picture02.0{
-			file picture02.object
-			entry picture02
+		object boxes02.2{
+			file boxes02.object
+			entry boxes02
 			vector position{
-				x 4.79000092
-				y 1.13999999
-				z -5.27999687
+				x 8.15160561
+				y 1.49000001
+				z -10.2040501
 			}
 			quaternion orientation{
-				w 0.707106709
-				x 0
-				y -0.707106829
-				z 0
+				w -0.710431218
+				x 9.1985608e-010
+				y 0.703766644
+				z -1.4569089e-010
 			}
 		}
-		object statue2.1{
-			file statue2.object
-			entry statue2
+		object Monster_Lurker_Display.0{
+			file Monster_Lurker_Display.object
+			entry Monster_Lurker_Display
 			vector position{
-				x -7.16010618
-				y -0.27000007
-				z -6.19999504
+				x 3.87964797
+				y 0.904999971
+				z -7.67614937
 			}
 			quaternion orientation{
-				w 0.411750793
-				x -0.123047553
-				y -0.88572371
-				z -0.17554
+				w 0.70710659
+				x -1.47821515e-008
+				y -0.707107008
+				z -2.09758455e-009
 			}
 		}
-		object boxes04.1{
-			file boxes04.object
-			entry boxes04
+		object mh_shelf01_1.0{
+			file mh_shelf01_1.object
+			entry mh_shelf01_1
 			vector position{
-				x -2.03221059
-				y 0.199999988
-				z -11.565341
-			}
-			quaternion orientation{
-				w -1.49011612e-007
-				x 0
-				y -1
-				z 0
-			}
-		}
-		object cigar_box.0{
-			file cigar_box.object
-			entry cigar_box
-			vector position{
-				x -0.199999988
-				y -0.339999944
-				z -6.79999971
+				x 1.10000002
+				y 0.899891973
+				z -8.78585339
 			}
 			quaternion orientation{
 				w 0.923879504
 				x 0
-				y -0.382683456
+				y 0.382683456
 				z 0
 			}
 		}
-		object carpet.0{
-			file carpet.object
-			entry carpet
+		object mh_kitchen.0{
+			file mh_kitchen.object
+			entry mh_kitchen
 			vector position{
-				x 0.0600000322
-				y -1.04620028
-				z -6.51000595
+				x 10.5675344
+				y 1.75899982
+				z 1.94999981
 			}
 			quaternion orientation{
-				w 0.707106709
-				x 0
-				y 0.707106829
-				z 0
+				w 0.950080991
+				x 1.47176973e-008
+				y -0.312003285
+				z 2.33105535e-009
 			}
 		}
-		object tableLow.0{
-			file tableLow.object
-			entry tableLow
+		object asy_lobby.0{
+			file asy_lobby.object
+			entry asy_lobby
 			vector position{
-				x 0.0300000012
-				y -0.74000001
-				z -6.52999973
+				x 5.8999958
+				y 2
+				z -8.3999958
 			}
 			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
+				w 0.950569987
+				x 4.17076862e-009
+				y -0.310510576
+				z -1.4426317e-008
 			}
 		}
-		object littlebox02.0{
-			file littlebox02.object
-			entry littlebox02
+		object Monster_Phantom_Display.0{
+			file Monster_Phantom_Display.object
+			entry Monster_Phantom_Display
 			vector position{
-				x -0.299999982
-				y -0.374999732
-				z -6.19999981
+				x -0.694605589
+				y 0.800000072
+				z -2.19066048
 			}
 			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
-			}
-		}
-		object loby_base.0{
-			file loby_base.object
-			entry loby_base
-			vector position{
-				x -3.20000029
-				y 0.709999919
-				z -7.38357878
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
+				w -0.0941083729
+				x -6.63851596e-009
+				y 0.995561957
+				z -3.38249206e-009
 			}
 		}
 		object statue2.2{
 			file statue2.object
 			entry statue2
 			vector position{
-				x 4.24320793
-				y -0.160000086
-				z -0.433620006
+				x -1.04320836
+				y 0.159999818
+				z -8.02438736
 			}
 			quaternion orientation{
-				w 0.456787318
-				x -7.86719951e-008
-				y -0.889575958
-				z -4.5015188e-008
+				w 0.427773774
+				x 0.0549283624
+				y -0.901702225
+				z 0.0304222219
 			}
 		}
-		object poolCue.0{
-			file poolCue.object
-			entry poolCue
+		object statue2.1{
+			file statue2.object
+			entry statue2
 			vector position{
-				x 0.399999976
-				y -0.339999974
-				z -8.95799732
+				x -8.16010666
+				y 0.7299999
+				z -6.19999504
 			}
 			quaternion orientation{
-				w 0.992114782
-				x -0.12533325
-				y 0
+				w 0.411750734
+				x -0.123047538
+				y -0.885723591
+				z -0.175539985
+			}
+		}
+		object Monster_Mary_Display.0{
+			file Monster_Mary_Display.object
+			entry Monster_Mary_Display
+			vector position{
+				x 0.180001572
+				y 0.699999928
+				z -5.09062147
+			}
+			quaternion orientation{
+				w 0.981991708
+				x 0
+				y 0.188923985
 				z 0
 			}
 		}
@@ -295,19 +190,89 @@ scene menu_background{
 	spawn_points {
 		spawn_point 0{
 			vector position{
-				x -3.7382431
-				y 0.579998612
-				z -6.36601353
+				x -1.59170735
+				y 1.89999855
+				z -7.1781745
 			}
 			quaternion orientation{
-				w 0.644673526
-				x -0.116433591
-				y 0.738559604
-				z 0.159276351
+				w 0.86986804
+				x -0.166559234
+				y 0.452110469
+				z 0.105753131
 			}
 		}
 	}
 	lights {
+		light light.1{
+			type point
+			vector position{
+				x -0.69999975
+				y 1.5
+				z -2.21999836
+			}
+			vector direction{
+				x -0
+				y -1
+				z -0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+			color diffuse_color{
+				r 0.286274523
+				g 1
+				b 0
+			}
+			color specular_color{
+				r 0.286274523
+				g 1
+				b 0
+			}
+			attenuation_range 1
+			attenuation_constant 11.9386101
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+		light light.0{
+			type spotlight
+			vector position{
+				x 3.77000022
+				y -0.100999437
+				z -7.45999193
+			}
+			vector direction{
+				x 0.117821008
+				y 0.932161689
+				z -0.342334181
+			}
+			quaternion orientation{
+				w -0.155275047
+				x -0.955579817
+				y 0.0990393236
+				z 0.230104432
+			}
+			color diffuse_color{
+				r 1
+				g 0
+				b 0
+			}
+			color specular_color{
+				r 1
+				g 0
+				b 0
+			}
+			attenuation_range 20
+			attenuation_constant 10.0936279
+			attenuation_linear 0
+			attenuation_quadratic 0
+			inner_angle 90.0000076
+			outer_angle 120.000008
+			falloff 1
+			casts_shadows 1
+		}
 		light light.3{
 			type spotlight
 			vector position{
@@ -342,150 +307,6 @@ scene menu_background{
 			attenuation_quadratic 0
 			inner_angle 38
 			outer_angle 106
-			falloff 1
-			casts_shadows 1
-		}
-		light light.2{
-			type spotlight
-			vector position{
-				x -5.71200132
-				y -3.03989983
-				z 6.37499571
-			}
-			vector direction{
-				x 0.83558023
-				y -0.165502191
-				z -0.52384609
-			}
-			quaternion orientation{
-				w 0.638814867
-				x 0.586747825
-				y -0.417931437
-				z 0.270140499
-			}
-			color diffuse_color{
-				r 0.474509835
-				g 0.149019614
-				b 0.24313727
-			}
-			color specular_color{
-				r 0.474509835
-				g 0.149019614
-				b 0.24313727
-			}
-			attenuation_range 11
-			attenuation_constant 10.1667223
-			attenuation_linear 0
-			attenuation_quadratic 0
-			inner_angle 37
-			outer_angle 59.0000038
-			falloff 1
-			casts_shadows 1
-		}
-		light light.6{
-			type point
-			vector position{
-				x -0.752000809
-				y 1.64510036
-				z -8.83500767
-			}
-			vector direction{
-				x -0.290997297
-				y -0.900723696
-				z 0.322517276
-			}
-			quaternion orientation{
-				w 0.802390099
-				x -0.220913887
-				y -0.553653419
-				z -0.0288998075
-			}
-			color diffuse_color{
-				r 0.588235319
-				g 0
-				b 0
-			}
-			color specular_color{
-				r 0.588235319
-				g 0
-				b 0
-			}
-			attenuation_range 5
-			attenuation_constant 10.3450117
-			attenuation_linear 0
-			attenuation_quadratic 0
-		}
-		light light.0{
-			type spotlight
-			vector position{
-				x 1.38799846
-				y 4.58030033
-				z -11.3350039
-			}
-			vector direction{
-				x -0.495909333
-				y -0.505558252
-				z 0.70603472
-			}
-			quaternion orientation{
-				w 0.619654417
-				x -0.0905538201
-				y 0.607295394
-				z -0.488897622
-			}
-			color diffuse_color{
-				r 0.639215708
-				g 0.498039246
-				b 0.203921586
-			}
-			color specular_color{
-				r 0.639215708
-				g 0.498039246
-				b 0.203921586
-			}
-			attenuation_range 11
-			attenuation_constant 10.1772146
-			attenuation_linear 0
-			attenuation_quadratic 0
-			inner_angle 38
-			outer_angle 106
-			falloff 1
-			casts_shadows 1
-		}
-		light light.1{
-			type spotlight
-			vector position{
-				x -4.13099909
-				y -3.03989935
-				z 2.66499996
-			}
-			vector direction{
-				x 0.0847693682
-				y -0.150673866
-				z 0.984942377
-			}
-			quaternion orientation{
-				w -0.645817637
-				x 0.582107306
-				y -0.397814661
-				z 0.292940497
-			}
-			color diffuse_color{
-				r 0.392156899
-				g 0.368627459
-				b 0.227450997
-			}
-			color specular_color{
-				r 0.392156899
-				g 0.368627459
-				b 0.227450997
-			}
-			attenuation_range 16
-			attenuation_constant 10.1168365
-			attenuation_linear 0
-			attenuation_quadratic 0
-			inner_angle 97.0000153
-			outer_angle 135
 			falloff 1
 			casts_shadows 1
 		}
