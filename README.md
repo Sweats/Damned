@@ -30,7 +30,14 @@ Here is a list of things that we have in mind to create so far:
 	- Figure out how to import new objects into the game.
 	- Write a bot that can fetch public lobbies and post them into the Discord. This would be better than launching the game and seeing if there are any public lobbies.
 
-# V1.00 CHANGELOG:
+	
+	
+	
+	
+	
+	
+** # V1.0 CHANGELOG: **
+
 
 General
 
@@ -63,5 +70,92 @@ Phantom
 - Changed background music when you are survivor and Phantom sees you from 'Run!' (monster_closer) to 'Kill!' (blind_hearing)
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+# V1.01 CHANGELOG:
+
+
+
+
+**GENERAL**
+
+- Hosting a Lobby with Community Patch will now add a special NameTag to the Lobby's Name
+
+- Added more variety to "Fake Trap Hallucination" Insanity Effect
+
+- Soundfile monster_around.ogg modified for clarity purposes
+
+
+☼ Hund Hills Community Center ☼
+- Added 3 new splotlights to the Game Room on the second floor.
+
+
+
+
+
+**BALANCE CHANGES**
+
+Lurker
+
+- monster_close.ogg is now Global
+
+
+
+
+Phantom
+
+- New music plays (monster_around.ogg) when the Phantom is within 16m of the Player
+
+- blind_hearing.ogg modified, smoothened looping and added an ease-in at the beginning
+
+
+
+Fallen:
+
+- Phasing Time now 4s (was 3s)
+
+- Max needed traps for Hunting form (Phase 2) now 16 (was 10)
+
+- Max possible Statues is now 8 (16 on Woods) (was 5, 10 on Woods)
+
+- Trapper form (Phase 1) Movement Speed Multiplier now 1.65 (was 1.0)
+
+
+
+
+☆ Insanity System ☆
+
+- Clicking on closed Objects(Doors) no longer increases Insanity
+
+
+
+
+☼ Hund Hills Community Center changes ☼
+
+- Added 3 new Mary spawnpoints into Asy_lob (white asylum lobby)
+
+- Added 1 new Mary spawnpoint into the Bar
+
+- Moved Mary spawnpoint from room 104 into the main hallway upstairs
+
+- Removed both the Mary spawn in the cabin, in the barn, and added a replacement outside.
+
+
+
+**BUGFIXES**
+
+☆ Bodom Hotel ☆
+- Fixed 1 Key Sequence that made the Map unsolvable unless you had people spawn on the other side of the map
+
+
+
+☆ Rose Crimson Hotel ☆
+- Unstuck the little cupboard door in the Spawn Room. Also fixes a Key Sequence that was previously unsolvable
+- Fixed a single door leading out of the spawn room due to the possibility of it becoming stuck
+
+☆ Hund Hills Community Center ☆
+- Adjusted boxes in outdoor area on the Y axis to properly be seated on the ground
+- Adjusted various boxes and picnic tables on the X axis so that players can properly fit through them
+- Adjusted various chairs and tables in the bar on the X axis so that players can properly fit through them
 
