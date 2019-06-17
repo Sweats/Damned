@@ -1,2 +1,2 @@
-*.stage text=crlf
-*.scene text=crlf
+*.stage text=lf
+*.scene text=lf
