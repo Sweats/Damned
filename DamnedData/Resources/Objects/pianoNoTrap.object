@@ -1,0 +1,18 @@
+object pianoNoTrap{
+	mesh piano.mesh
+	
+ 	shape box
+	{
+		vector half_extents
+		{
+			x 0.78
+			y 0.72
+			z 0.32
+		}
+	}
+	
+	mass 0
+	mask 0
+	
+	animations 0
+}

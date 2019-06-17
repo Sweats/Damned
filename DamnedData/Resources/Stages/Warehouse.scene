@@ -1,0 +1,10130 @@
+scene Warehouse{
+	ambient_music ambiance03.ogg
+	color ambient_light{
+		r 0.0745098069
+		g 0.0745098069
+		b 0.0745098069
+	}
+	objects {
+		object safe.9{
+			file safe.object
+			entry safe
+			vector position{
+				x -23.7999954
+				y -1.81300056
+				z -0.100008011
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object chandelier02ON.6{
+			file chandelier02ON.object
+			entry chandelier02ON
+			vector position{
+				x -41.7199821
+				y 2.23999977
+				z 25.0399933
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object chandelier02OFF.5{
+			file chandelier02OFF.object
+			entry chandelier02OFF
+			vector position{
+				x -41.7199821
+				y 2.24500012
+				z 30.0400009
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object papers_garbage.2{
+			file papers_garbage.object
+			entry papers_garbage
+			vector position{
+				x -15.8999987
+				y -2.34109879
+				z 24.614212
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object fuse_electrical_box.0{
+			file fuse_electrical_box.object
+			entry fuse_electrical_box
+			vector position{
+				x -27.6899948
+				y -1.10000002
+				z 9.99999905
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object chandelier02ON.5{
+			file chandelier02ON.object
+			entry chandelier02ON
+			vector position{
+				x -15.7199993
+				y 1.89999986
+				z 23.7399921
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object box02.6{
+			file box02.object
+			entry box02
+			vector position{
+				x -40.1984863
+				y -0.634000003
+				z 20.4758015
+			}
+			quaternion orientation{
+				w 0.707106769
+				x 0
+				y -0.707106888
+				z 0
+			}
+		}
+		object door_doubleDoor.3{
+			file door_doubleDoor.object
+			entry door_doubleDoor
+			vector position{
+				x -29.8201084
+				y -1.24059987
+				z 0.639692962
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object box03.1{
+			file box03.object
+			entry box03
+			vector position{
+				x -0.700000107
+				y -2.06600022
+				z -0.140000015
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object poolCue.0{
+			file poolCue.object
+			entry poolCue
+			vector position{
+				x -30.9732704
+				y -2.36419916
+				z -9.10991001
+			}
+			quaternion orientation{
+				w -0.270172805
+				x -0.654306829
+				y -0.652254462
+				z -0.271022797
+			}
+		}
+		object chandelier02OFF.1{
+			file chandelier02OFF.object
+			entry chandelier02OFF
+			vector position{
+				x 1.66000021
+				y 1.90500045
+				z 7.33000135
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object chandelier02ON.2{
+			file chandelier02ON.object
+			entry chandelier02ON
+			vector position{
+				x 1.66680002
+				y 1.89999986
+				z -3.20000076
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableRound.4{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -0.0699994937
+				y -1.16699982
+				z 1.99999988
+			}
+			quaternion orientation{
+				w -9.3027694e-008
+				x -1
+				y -8.6920025e-008
+				z 2.980231e-008
+			}
+		}
+		object libary.6{
+			file libary.object
+			entry libary
+			vector position{
+				x -19.2056522
+				y -1.13720787
+				z 0.0684328973
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object piano_chair.15{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -31.8127937
+				y -1.64399958
+				z 34.8000031
+			}
+			quaternion orientation{
+				w -7.4505806e-008
+				x 0.382683307
+				y -5.96046519e-008
+				z 0.923879623
+			}
+		}
+		object piano_chair.22{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -31.3947811
+				y -2.13399959
+				z 34.3236122
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object poolTable.4{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -32.4409714
+				y -1.58299983
+				z -6.88949728
+			}
+			quaternion orientation{
+				w 0.707107186
+				x 0
+				y -0.707106352
+				z 0
+			}
+		}
+		object oventimer.2{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x 2.52731276
+				y -1.36999977
+				z -5.11162281
+			}
+			quaternion orientation{
+				w -0.938733816
+				x 0
+				y -0.344643176
+				z 0
+			}
+		}
+		object box02.15{
+			file box02.object
+			entry box02
+			vector position{
+				x -38.8417015
+				y -1.79900002
+				z 21.4277992
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object safe.8{
+			file safe.object
+			entry safe
+			vector position{
+				x 7.63999462
+				y -1.81300056
+				z 11.129981
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object papers_garbage.0{
+			file papers_garbage.object
+			entry papers_garbage
+			vector position{
+				x 4
+				y -2.34109879
+				z -6
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object ashtray_floor.0{
+			file ashtray_floor.object
+			entry ashtray_floor
+			vector position{
+				x -19.9999981
+				y -1.82699978
+				z -5.69999981
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object piano_chair.16{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -31.1763973
+				y -1.64399958
+				z 34.8000031
+			}
+			quaternion orientation{
+				w -7.4505806e-008
+				x 0.382683307
+				y -5.96046519e-008
+				z 0.923879623
+			}
+		}
+		object box03.2{
+			file box03.object
+			entry box03
+			vector position{
+				x -1.47000003
+				y -2.06600022
+				z -0.210000053
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106888
+				z -4.470348e-008
+			}
+		}
+		object safeDoor.11{
+			file safeDoor.object
+			entry safeDoor
+			vector position{
+				x -35.4418831
+				y -1.75160027
+				z -12.5465612
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object tableRound.29{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 0.389900148
+				y -1.91000009
+				z -3.47949314
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object tableLow.26{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -23.8579979
+				y -2.06299996
+				z 29.3699818
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object sofa03.1{
+			file sofa03.object
+			entry sofa03
+			vector position{
+				x -7.46000051
+				y -1.93000007
+				z 8.72000027
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object fuse_electrical_box.2{
+			file fuse_electrical_box.object
+			entry fuse_electrical_box
+			vector position{
+				x -37.4699898
+				y -1.10000002
+				z 14.7599974
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object sofa02.2{
+			file sofa02.object
+			entry sofa02
+			vector position{
+				x -6.23999786
+				y -1.99999988
+				z -0.339999765
+			}
+			quaternion orientation{
+				w 0.72896862
+				x 0
+				y 0.684547186
+				z 0
+			}
+		}
+		object safe.2{
+			file safe.object
+			entry safe
+			vector position{
+				x -27.3399982
+				y -1.81300056
+				z 33.1999779
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableLow.31{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -29.0779972
+				y -1.44299996
+				z 29.3699818
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object poolCue.1{
+			file poolCue.object
+			entry poolCue
+			vector position{
+				x -27.1547127
+				y -2.36419916
+				z -11.1465464
+			}
+			quaternion orientation{
+				w 0.705991685
+				x -0.00222490728
+				y -0.00221799314
+				z 0.70821321
+			}
+		}
+		object door_singleWhite_damaged.1{
+			file door_singleWhite_damaged.object
+			entry door_singleWhite_damaged
+			vector position{
+				x -27.1867962
+				y -1.23949993
+				z 6.07839775
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box03.3{
+			file box03.object
+			entry box03
+			vector position{
+				x -2.23000026
+				y -2.06600022
+				z -0.530000031
+			}
+			quaternion orientation{
+				w -2.08616257e-007
+				x -3.1610135e-008
+				y 1
+				z -3.16101314e-008
+			}
+		}
+		object chandelier02OFF.7{
+			file chandelier02OFF.object
+			entry chandelier02OFF
+			vector position{
+				x -14.3400002
+				y 1.90500045
+				z -9.30200195
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object papers_garbage.4{
+			file papers_garbage.object
+			entry papers_garbage
+			vector position{
+				x -48.4269257
+				y -2.34109879
+				z 34.5137062
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object libary.2{
+			file libary.object
+			entry libary
+			vector position{
+				x -13
+				y -1.13720787
+				z 0.0684328973
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object washing_machine.0{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -11.4400005
+				y -1.67699981
+				z 14.5779953
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y -0.382683456
+				z 0
+			}
+		}
+		object papers_garbage.7{
+			file papers_garbage.object
+			entry papers_garbage
+			vector position{
+				x -28.4269257
+				y -2.34109879
+				z -9.90051079
+			}
+			quaternion orientation{
+				w -0.382683694
+				x 0
+				y 0.923879504
+				z 0
+			}
+		}
+		object piano_chair.12{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -34.0419731
+				y -1.64399958
+				z 34.8000031
+			}
+			quaternion orientation{
+				w -7.4505806e-008
+				x 0.382683307
+				y -5.96046519e-008
+				z 0.923879623
+			}
+		}
+		object piano_chair.14{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -32.7691841
+				y -1.64399958
+				z 34.8000031
+			}
+			quaternion orientation{
+				w -7.4505806e-008
+				x 0.382683307
+				y -5.96046519e-008
+				z 0.923879623
+			}
+		}
+		object boxes04.3{
+			file boxes04.object
+			entry boxes04
+			vector position{
+				x 1.07297564
+				y -1.19499981
+				z -12.113905
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y -3.57627869e-007
+				z 0
+			}
+		}
+		object shelf01.18{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -3.85858297
+				y -0.966999948
+				z 19.9524517
+			}
+			quaternion orientation{
+				w 0.975916624
+				x -4.4037801e-008
+				y 0.21814394
+				z -7.68582709e-009
+			}
+		}
+		object boxes_hugepile.1{
+			file boxes_hugepile.object
+			entry boxes_hugepile
+			vector position{
+				x -4.95999861
+				y -1.20400012
+				z 28.6000004
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object chandelier02ON.7{
+			file chandelier02ON.object
+			entry chandelier02ON
+			vector position{
+				x -34.4799919
+				y 2.23999977
+				z 30.0399933
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object newspaper03.0{
+			file newspaper03.object
+			entry newspaper03
+			vector position{
+				x 0.500000477
+				y -2.36719823
+				z -1.49999857
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object piano.33{
+			file piano.object
+			entry piano
+			vector position{
+				x -36.9199944
+				y -1.66900003
+				z 27.0399971
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object oven_single.20{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 2.38258982
+				y -1.51490319
+				z 24.3504734
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object chandelier02OFF.4{
+			file chandelier02OFF.object
+			entry chandelier02OFF
+			vector position{
+				x -15.7200031
+				y 1.90500045
+				z 20.4800014
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object papers_garbage.3{
+			file papers_garbage.object
+			entry papers_garbage
+			vector position{
+				x -31.4563446
+				y -2.34109879
+				z 27.4426384
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object boxes03.0{
+			file boxes03.object
+			entry boxes03
+			vector position{
+				x -2.64928174
+				y -1.80589497
+				z -13.5408173
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object oventimer.0{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -10.5461626
+				y -0.909999967
+				z 28.226387
+			}
+			quaternion orientation{
+				w 0.0408292674
+				x 0
+				y 0.999166131
+				z 0
+			}
+		}
+		object easter_basket.0{
+			file easter_basket.object
+			entry easter_basket
+			vector position{
+				x -2.13999987
+				y -2.37999988
+				z 0.12999998
+			}
+			quaternion orientation{
+				w 0.353474736
+				x 0
+				y 0.935444117
+				z 0
+			}
+		}
+		object papers_garbage.5{
+			file papers_garbage.object
+			entry papers_garbage
+			vector position{
+				x -29.4269257
+				y -2.34109879
+				z 6.09949207
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object chandelier02OFF.6{
+			file chandelier02OFF.object
+			entry chandelier02OFF
+			vector position{
+				x -14.3400002
+				y 1.90500045
+				z -5.99199867
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableLow.28{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -25.5979977
+				y -2.06299996
+				z 29.3699818
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object oventimer.46{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -13.5816336
+				y -1.69999981
+				z 29.8659172
+			}
+			quaternion orientation{
+				w -0.42008546
+				x 0
+				y -0.907484531
+				z 0
+			}
+		}
+		object libary.3{
+			file libary.object
+			entry libary
+			vector position{
+				x -14.5514135
+				y -1.13720787
+				z 0.0684328973
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object ouija_board.1{
+			file ouija_board.object
+			entry ouija_board
+			vector position{
+				x 1.29000008
+				y -1.89999998
+				z -3.29999971
+			}
+			quaternion orientation{
+				w 0.861259878
+				x 0.0576718338
+				y -0.0942270458
+				z -0.4960109
+			}
+		}
+		object fuse_electrical_box.1{
+			file fuse_electrical_box.object
+			entry fuse_electrical_box
+			vector position{
+				x -37.4699898
+				y -1.10000002
+				z 4.19999981
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object chandelier02OFF.8{
+			file chandelier02OFF.object
+			entry chandelier02OFF
+			vector position{
+				x -24.3400002
+				y 1.90500045
+				z -5.99199867
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object box03.0{
+			file box03.object
+			entry box03
+			vector position{
+				x -2.10000014
+				y -2.06600022
+				z -4.80000019
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object safeDoor.2{
+			file safeDoor.object
+			entry safeDoor
+			vector position{
+				x -27.2935028
+				y -1.75160027
+				z 33.5482559
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object newspaper02.1{
+			file newspaper02.object
+			entry newspaper02
+			vector position{
+				x -28.8352127
+				y -2.37219858
+				z 33.4999962
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object boxes02.0{
+			file boxes02.object
+			entry boxes02
+			vector position{
+				x 7.31859207
+				y -1.41001964
+				z -10.325243
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object washing_machine.25{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -18.4874115
+				y -1.67699981
+				z 16.5148315
+			}
+			quaternion orientation{
+				w -0.411514193
+				x 0
+				y -0.911403477
+				z 0
+			}
+		}
+		object tableRound.23{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 6.57989883
+				y -1.91000009
+				z 13.3194962
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object libary.20{
+			file libary.object
+			entry libary
+			vector position{
+				x -12.2573652
+				y -1.13720787
+				z -4.87591553
+			}
+			quaternion orientation{
+				w -0.0627907068
+				x 0
+				y -0.998026788
+				z 0
+			}
+		}
+		object ouija_planchette.0{
+			file ouija_planchette.object
+			entry ouija_planchette
+			vector position{
+				x -1.73200047
+				y -2.35919881
+				z -4.30313635
+			}
+			quaternion orientation{
+				w 0.999998868
+				x -0.00157079601
+				y 0
+				z 0
+			}
+		}
+		object poolTable.12{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -27.5795116
+				y -1.33796394
+				z -6.89049721
+			}
+			quaternion orientation{
+				w -8.9406953e-008
+				x 0.707107246
+				y -5.96046519e-008
+				z -0.707106352
+			}
+		}
+		object tableRound.33{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -36.5195961
+				y -1.91000009
+				z 1.35010099
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object oventimer.26{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -20.8386765
+				y -0.909999967
+				z 25.2671127
+			}
+			quaternion orientation{
+				w -0.735387683
+				x 0
+				y -0.677646637
+				z 0
+			}
+		}
+		object shelf01.6{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -13.7076912
+				y -0.966999948
+				z 22.7940712
+			}
+			quaternion orientation{
+				w 0.467930377
+				x -4.20696811e-009
+				y -0.883765399
+				z -4.4505061e-008
+			}
+		}
+		object stool_01.0{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -26.2399902
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object sofa02.3{
+			file sofa02.object
+			entry sofa02
+			vector position{
+				x -6.95999861
+				y -1.19000006
+				z 3.95999908
+			}
+			quaternion orientation{
+				w 0.770513237
+				x 0
+				y 0.637424052
+				z 0
+			}
+		}
+		object closet.12{
+			file closet.object
+			entry closet
+			vector position{
+				x -1.95482635
+				y -1.22600043
+				z 7.64538574
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object washing_machine.20{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -12.8503246
+				y -1.67699981
+				z 19.6448803
+			}
+			quaternion orientation{
+				w 0.911403418
+				x 0
+				y -0.411514074
+				z 0
+			}
+		}
+		object ironing_table01.3{
+			file ironing_table01.object
+			entry ironing_table01
+			vector position{
+				x -16.5680122
+				y -1.96300006
+				z 25.5033588
+			}
+			quaternion orientation{
+				w 0.2850191
+				x 0
+				y 0.958521903
+				z 0
+			}
+		}
+		object tableLow.9{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -22.4399986
+				y -1.44299996
+				z 30.7799854
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object fish.0{
+			file fish.object
+			entry fish
+			vector position{
+				x -27.9999981
+				y -2.27919888
+				z -5
+			}
+			quaternion orientation{
+				w 0.65328145
+				x -0.653281569
+				y 0.270598084
+				z 0.270598114
+			}
+		}
+		object tableRound.28{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -0.0899987519
+				y -1.91000009
+				z 4.42000246
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object libary.23{
+			file libary.object
+			entry libary
+			vector position{
+				x -16.0028267
+				y -1.13720787
+				z -3.62969923
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object tableLow.25{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -23.8579979
+				y -1.44299996
+				z 29.3699818
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object tableLow.23{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -39.2026482
+				y -2.06299996
+				z 25.6765041
+			}
+			quaternion orientation{
+				w -0.684547246
+				x 0
+				y 0.728968501
+				z 0
+			}
+		}
+		object tableLow.29{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -27.3379974
+				y -1.44299996
+				z 29.3699818
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object box02.18{
+			file box02.object
+			entry box02
+			vector position{
+				x -40.3984833
+				y -0.634000003
+				z 21.5558033
+			}
+			quaternion orientation{
+				w 0.707106769
+				x 0
+				y -0.707106888
+				z 0
+			}
+		}
+		object tin02.2{
+			file tin02.object
+			entry tin02
+			vector position{
+				x -21.4199982
+				y -2.30119872
+				z -8.82000065
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object poolTable.20{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -23.4180546
+				y -1.58299983
+				z -18.3165741
+			}
+			quaternion orientation{
+				w 0.997612536
+				x 0
+				y 0.069060564
+				z 0
+			}
+		}
+		object box02.46{
+			file box02.object
+			entry box02
+			vector position{
+				x -27.0272999
+				y -0.634000003
+				z 23.5790558
+			}
+			quaternion orientation{
+				w -2.980231e-008
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object sofa01.0{
+			file sofa01.object
+			entry sofa01
+			vector position{
+				x -3.5999999
+				y -1.98000002
+				z 2.73999977
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object shelf01.4{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -20.203743
+				y -0.966999948
+				z 19.8694363
+			}
+			quaternion orientation{
+				w 4.76837158e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object stool_01.2{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -27.2799911
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object ironing_table01.1{
+			file ironing_table01.object
+			entry ironing_table01
+			vector position{
+				x -16.6680126
+				y -1.96300006
+				z 14.7775269
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object chandelier02OFF.10{
+			file chandelier02OFF.object
+			entry chandelier02OFF
+			vector position{
+				x -30.3400002
+				y 1.90500045
+				z -5.99199867
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object safeDoor.10{
+			file safeDoor.object
+			entry safeDoor
+			vector position{
+				x -35.4418831
+				y -1.75160027
+				z -10.8465586
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object boxes01.8{
+			file boxes01.object
+			entry boxes01
+			vector position{
+				x -29.2310753
+				y -1.67716599
+				z 3.69763279
+			}
+			quaternion orientation{
+				w -0.707106292
+				x -2.52881165e-007
+				y -0.707107306
+				z 2.52880938e-007
+			}
+		}
+		object oven_single.37{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x -4.08846998
+				y -1.51490319
+				z 26.1613808
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object shelf01.5{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -14.7076912
+				y -0.966999948
+				z 21.1457634
+			}
+			quaternion orientation{
+				w 0.467930377
+				x -4.20696811e-009
+				y -0.883765399
+				z -4.4505061e-008
+			}
+		}
+		object stair.9{
+			file stair.object
+			entry stair
+			vector position{
+				x -1.65461397
+				y -1.54999995
+				z 18.2734547
+			}
+			quaternion orientation{
+				w 0.0376898982
+				x 0
+				y 0.999289572
+				z 0
+			}
+		}
+		object closet.0{
+			file closet.object
+			entry closet
+			vector position{
+				x 4.89517498
+				y -1.22600043
+				z 5.10883713
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object poolTable.21{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -21.4180546
+				y -1.58299983
+				z -14.3743734
+			}
+			quaternion orientation{
+				w 0.221208468
+				x 0
+				y -0.975226521
+				z 0
+			}
+		}
+		object tin02.1{
+			file tin02.object
+			entry tin02
+			vector position{
+				x -20.7199993
+				y -2.30119872
+				z -3.72000027
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object sofa01.1{
+			file sofa01.object
+			entry sofa01
+			vector position{
+				x -3.50999999
+				y -1.98000002
+				z 3.61999989
+			}
+			quaternion orientation{
+				w 0.0314106159
+				x 0
+				y 0.999506652
+				z 0
+			}
+		}
+		object oven_single.36{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x -7.33840656
+				y -1.94790328
+				z 15.5145454
+			}
+			quaternion orientation{
+				w 0.270597935
+				x 0.270598143
+				y 0.65328151
+				z -0.65328151
+			}
+		}
+		object stool_01.8{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -30.3999939
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object boxes01.7{
+			file boxes01.object
+			entry boxes01
+			vector position{
+				x -28.3810768
+				y -1.67716599
+				z 15.2468529
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 6.74277544e-007
+				z 0
+			}
+		}
+		object tin03.0{
+			file tin03.object
+			entry tin03
+			vector position{
+				x -8.52999783
+				y -2.31119871
+				z -5.73800135
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object piano_chair.6{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -34.6783676
+				y -2.13399959
+				z 34.8000031
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object washing_machine.13{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -15.6582642
+				y -1.67699981
+				z 15.1758308
+			}
+			quaternion orientation{
+				w 0.0314106047
+				x 0
+				y 0.999506593
+				z 0
+			}
+		}
+		object piano_chair.9{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -35.9511566
+				y -1.64399958
+				z 34.8000031
+			}
+			quaternion orientation{
+				w -7.4505806e-008
+				x 0.382683307
+				y -5.96046519e-008
+				z 0.923879623
+			}
+		}
+		object piano_chair.18{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -35.0147667
+				y -2.13399959
+				z 34.3636055
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object poolCue.7{
+			file poolCue.object
+			entry poolCue
+			vector position{
+				x -33.6257286
+				y -2.36419916
+				z -6.3307519
+			}
+			quaternion orientation{
+				w 0.273076832
+				x 0.651402473
+				y -0.653452456
+				z -0.272220194
+			}
+		}
+		object pumpkin_damned01.0{
+			file pumpkin_damned01.object
+			entry pumpkin_damned01
+			vector position{
+				x 5.70000029
+				y -2.21999979
+				z 30.0999985
+			}
+			quaternion orientation{
+				w 0.89100647
+				x 0
+				y -0.453990638
+				z 0
+			}
+		}
+		object tableRound.24{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 5.21000099
+				y -1.91000009
+				z 13.3194962
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object tableRound.16{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 2.700001
+				y -1.16699982
+				z 1.69000006
+			}
+			quaternion orientation{
+				w -9.3027694e-008
+				x -1
+				y -8.6920025e-008
+				z 2.980231e-008
+			}
+		}
+		object saloom_1stFloor.1{
+			file saloom_1stFloor.object
+			entry saloom_1stFloor
+			vector position{
+				x -22.2143726
+				y 0
+				z -7.52999783
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object washing_machine.24{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -12.14258
+				y -1.67699981
+				z 20.6448841
+			}
+			quaternion orientation{
+				w 0.999506652
+				x 0
+				y -0.0314103998
+				z 0
+			}
+		}
+		object piano_chair.11{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -34.6783676
+				y -1.64399958
+				z 34.8000031
+			}
+			quaternion orientation{
+				w -7.4505806e-008
+				x 0.382683307
+				y -5.96046519e-008
+				z 0.923879623
+			}
+		}
+		object papers_garbage.6{
+			file papers_garbage.object
+			entry papers_garbage
+			vector position{
+				x -36.4269257
+				y -2.34109879
+				z 5.09949112
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object safeDoor.9{
+			file safeDoor.object
+			entry safeDoor
+			vector position{
+				x -23.8458939
+				y -1.75250041
+				z -0.448560625
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object winebottle.0{
+			file winebottle.object
+			entry winebottle
+			vector position{
+				x 3.21999979
+				y -2.33119869
+				z 6.60000038
+			}
+			quaternion orientation{
+				w 0.65242815
+				x -0.65242815
+				y 0.27264905
+				z 0.27264908
+			}
+		}
+		object washing_machine.3{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -12.5730314
+				y -1.67699981
+				z 15.0684328
+			}
+			quaternion orientation{
+				w 0.684547067
+				x 0
+				y -0.72896868
+				z 0
+			}
+		}
+		object safe.3{
+			file safe.object
+			entry safe
+			vector position{
+				x -27.8400002
+				y -1.81300056
+				z 32.3499794
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object vase01.0{
+			file vase01.object
+			entry vase01
+			vector position{
+				x -5.19999933
+				y -2.07000041
+				z 13.4399996
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object oventimer.43{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -19.1802864
+				y -0.12499997
+				z 18.1699066
+			}
+			quaternion orientation{
+				w 0.530511141
+				x 0
+				y 0.847678065
+				z 0
+			}
+		}
+		object oventimer.7{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -3.99122334
+				y -0.909999967
+				z 19.5380192
+			}
+			quaternion orientation{
+				w 0.907484472
+				x 0
+				y -0.420085728
+				z 0
+			}
+		}
+		object piano_chair.13{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -33.4055786
+				y -1.64399958
+				z 34.8000031
+			}
+			quaternion orientation{
+				w -7.4505806e-008
+				x 0.382683307
+				y -5.96046519e-008
+				z 0.923879623
+			}
+		}
+		object papers_garbage.8{
+			file papers_garbage.object
+			entry papers_garbage
+			vector position{
+				x -14.0127134
+				y -2.34109879
+				z -4.90051079
+			}
+			quaternion orientation{
+				w -0.707107008
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object tableRound.9{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -2.17999935
+				y -1.91000009
+				z 3.24999976
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object tinCleaner.0{
+			file tinCleaner.object
+			entry tinCleaner
+			vector position{
+				x -7.79999876
+				y -2.25989985
+				z -5.00000095
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableRound.5{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -0.0999994874
+				y -1.91000009
+				z 1.99999988
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object libary.1{
+			file libary.object
+			entry libary
+			vector position{
+				x -11.4485865
+				y -1.13720787
+				z 0.0684328973
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object safe.0{
+			file safe.object
+			entry safe
+			vector position{
+				x -26.9999962
+				y -1.81300056
+				z 32.3999901
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object tin01.0{
+			file tin01.object
+			entry tin01
+			vector position{
+				x -35.0800133
+				y -2.31119871
+				z 29.3499947
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableLow.3{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -22.4399986
+				y -2.06299996
+				z 29.0399857
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object ironing_table01.5{
+			file ironing_table01.object
+			entry ironing_table01
+			vector position{
+				x -17.8574085
+				y -1.9630003
+				z 22.1212387
+			}
+			quaternion orientation{
+				w -0.63013351
+				x 3.32361871e-008
+				y -0.776486814
+				z -2.36202791e-009
+			}
+		}
+		object tinCleaner.5{
+			file tinCleaner.object
+			entry tinCleaner
+			vector position{
+				x -19.7999992
+				y -2.25989985
+				z 17.5999947
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object piano.11{
+			file piano.object
+			entry piano
+			vector position{
+				x -35.6399956
+				y -1.66900003
+				z 28.5999966
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object libary.21{
+			file libary.object
+			entry libary
+			vector position{
+				x -10.1776466
+				y -1.13720787
+				z -3.7759161
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y -0.70710659
+				z 0
+			}
+		}
+		object tableRound.26{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 7.44000149
+				y -1.91000009
+				z 12.2194967
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object boxes01.9{
+			file boxes01.object
+			entry boxes01
+			vector position{
+				x -31.7834702
+				y -1.67716599
+				z 7.60993814
+			}
+			quaternion orientation{
+				w -0.999506593
+				x -2.9787584e-008
+				y -0.031411685
+				z 9.36262623e-010
+			}
+		}
+		object tinCleaner.2{
+			file tinCleaner.object
+			entry tinCleaner
+			vector position{
+				x 5.20000029
+				y -2.25989985
+				z 14.9999962
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableRound.7{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -0.779999375
+				y -1.91000009
+				z 3.19999981
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object oven_single.38{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x -4.08846998
+				y -1.51490319
+				z 24.9617233
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box02.44{
+			file box02.object
+			entry box02
+			vector position{
+				x -26.5473003
+				y -0.634000003
+				z 21.7090549
+			}
+			quaternion orientation{
+				w -0.707106888
+				x 0
+				y -0.707106709
+				z 0
+			}
+		}
+		object closet.1{
+			file closet.object
+			entry closet
+			vector position{
+				x 4.89517498
+				y -1.22600043
+				z 6.74056244
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object oven_single.11{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 3.37336969
+				y -1.51490319
+				z 24.3504734
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box02.39{
+			file box02.object
+			entry box02
+			vector position{
+				x -27.0024605
+				y -1.79900002
+				z 22.7558041
+			}
+			quaternion orientation{
+				w -2.98023224e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object libary.15{
+			file libary.object
+			entry libary
+			vector position{
+				x -12.5999985
+				y -1.13720787
+				z -3.86450338
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y -0.382683456
+				z 0
+			}
+		}
+		object oventimer.32{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -13.2650843
+				y -1.69999981
+				z 23.0705414
+			}
+			quaternion orientation{
+				w -0.677646577
+				x 0
+				y 0.735387802
+				z 0
+			}
+		}
+		object tableLow.30{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -27.3379974
+				y -2.06299996
+				z 29.3699818
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object newspaper02.0{
+			file newspaper02.object
+			entry newspaper02
+			vector position{
+				x -4.421
+				y -2.37219858
+				z 22.4999962
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object safeDoor.1{
+			file safeDoor.object
+			entry safeDoor
+			vector position{
+				x -26.1918964
+				y -1.75160027
+				z 33.1534386
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box01.0{
+			file box01.object
+			entry box01
+			vector position{
+				x -0.819999695
+				y -1.94600022
+				z -7.69999981
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableRound.10{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 0.610000491
+				y -1.16699982
+				z 3.21999979
+			}
+			quaternion orientation{
+				w -9.3027694e-008
+				x -1
+				y -8.6920025e-008
+				z 2.980231e-008
+			}
+		}
+		object cardsTable.12{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -0.822000027
+				z 22.9009991
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 0
+				z 1
+			}
+		}
+		object washing_machine.9{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -10.9292173
+				y -1.67699981
+				z 19.0039635
+			}
+			quaternion orientation{
+				w 0.935443997
+				x 0
+				y 0.353474915
+				z 0
+			}
+		}
+		object shelf01.15{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -14.40137
+				y -0.966999948
+				z 29.8815708
+			}
+			quaternion orientation{
+				w 0.707107186
+				x 0
+				y -0.707106411
+				z 0
+			}
+		}
+		object piano_chair.0{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -31.0999985
+				y -2.13399959
+				z 34.8000031
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object chandelier02ON.4{
+			file chandelier02ON.object
+			entry chandelier02ON
+			vector position{
+				x -1.81999993
+				y 1.89999986
+				z 20.4799938
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object safeDoor.4{
+			file safeDoor.object
+			entry safeDoor
+			vector position{
+				x -28.1891098
+				y -0.628600121
+				z 32.3960648
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object washing_machine.8{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -12.7352495
+				y -1.67699981
+				z 18.2500896
+			}
+			quaternion orientation{
+				w 0.0314105451
+				x 0
+				y 0.999506652
+				z 0
+			}
+		}
+		object tableRound.8{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -2.17999935
+				y -1.16699982
+				z 3.24999976
+			}
+			quaternion orientation{
+				w -9.3027694e-008
+				x -1
+				y -8.6920025e-008
+				z 2.980231e-008
+			}
+		}
+		object tinCleaner.1{
+			file tinCleaner.object
+			entry tinCleaner
+			vector position{
+				x -7.52842712
+				y -2.31690001
+				z -5.12842846
+			}
+			quaternion orientation{
+				w -0.270598263
+				x 0.270598203
+				y 0.65328145
+				z 0.65328145
+			}
+		}
+		object closet.5{
+			file closet.object
+			entry closet
+			vector position{
+				x 6.06694126
+				y -1.22600043
+				z 5.10883713
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box02.48{
+			file box02.object
+			entry box02
+			vector position{
+				x -28.0072994
+				y -0.634000003
+				z 23.1790543
+			}
+			quaternion orientation{
+				w -2.980231e-008
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object oven_single.15{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 4.36414957
+				y -1.51490319
+				z 26.7497883
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object boxes01.0{
+			file boxes01.object
+			entry boxes01
+			vector position{
+				x 4.30000019
+				y -1.67716599
+				z -13.2270298
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box02.14{
+			file box02.object
+			entry box02
+			vector position{
+				x -37.2824783
+				y -1.79900002
+				z 21.5358028
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y -2.980231e-008
+				z 0
+			}
+		}
+		object cardsTable.28{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -47.4999962
+				y -0.822000027
+				z 32.4009972
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 0
+				z 1
+			}
+		}
+		object boxes04.4{
+			file boxes04.object
+			entry boxes04
+			vector position{
+				x -8.87282562
+				y -1.19499981
+				z -11.613903
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y -3.57627869e-007
+				z 0
+			}
+		}
+		object oven_single.28{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 1.29180968
+				y -1.51490319
+				z 28.0494461
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object libary.12{
+			file libary.object
+			entry libary
+			vector position{
+				x -17.6542397
+				y -1.13720787
+				z -0.589871287
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object ironing_table01.4{
+			file ironing_table01.object
+			entry ironing_table01
+			vector position{
+				x -16.3680115
+				y -1.96299994
+				z 25.0093212
+			}
+			quaternion orientation{
+				w -0.958521962
+				x 0
+				y 0.285018981
+				z 0
+			}
+		}
+		object tableRound.27{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -4.94979668
+				y -1.91000009
+				z 10.6596985
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object libary.24{
+			file libary.object
+			entry libary
+			vector position{
+				x -17.5542393
+				y -1.13720787
+				z -3.62969923
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object poolTable.2{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -34.0614548
+				y -1.58299983
+				z -3.97899222
+			}
+			quaternion orientation{
+				w -0.707106531
+				x 0
+				y -0.707107127
+				z 0
+			}
+		}
+		object libary.22{
+			file libary.object
+			entry libary
+			vector position{
+				x -16.0028267
+				y -1.13720787
+				z -4.15800381
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object tableRound.25{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 3.81000066
+				y -1.91000009
+				z 13.3194962
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object libary.25{
+			file libary.object
+			entry libary
+			vector position{
+				x -19.1056519
+				y -1.13720787
+				z -3.62969923
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object sofa02.0{
+			file sofa02.object
+			entry sofa02
+			vector position{
+				x -7.45999813
+				y -1.91999996
+				z 0.28000018
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object clock.4{
+			file clock.object
+			entry clock
+			vector position{
+				x -17.9199944
+				y -1.49000001
+				z -13.5140705
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object stool_01.3{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -27.7999916
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object closet.6{
+			file closet.object
+			entry closet
+			vector position{
+				x 3.57340765
+				y -1.22600043
+				z 8.40586376
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object box02.49{
+			file box02.object
+			entry box02
+			vector position{
+				x -27.4364834
+				y 0.525999963
+				z 22.9758053
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 3.57627869e-007
+				z 0
+			}
+		}
+		object oven_single.14{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 3.37336969
+				y -1.51490319
+				z 27.9494457
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object chandelier02ON.3{
+			file chandelier02ON.object
+			entry chandelier02ON
+			vector position{
+				x -1.61999989
+				y 1.89999986
+				z -3.20000076
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object oven_single.19{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 2.38258982
+				y -1.51490319
+				z 25.5501308
+			}
+			quaternion orientation{
+				w 0.684547067
+				x 0
+				y 0.72896874
+				z 0
+			}
+		}
+		object shelf01.14{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -17.4520798
+				y -0.966999948
+				z 29.6815701
+			}
+			quaternion orientation{
+				w 0.728969038
+				x 0
+				y -0.684546709
+				z 0
+			}
+		}
+		object oven_single.34{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x -0.689750314
+				y -1.51490319
+				z 24.0504723
+			}
+			quaternion orientation{
+				w 0.637423933
+				x 0
+				y 0.770513296
+				z 0
+			}
+		}
+		object cardsTable.16{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -48.9999886
+				y -1.86000013
+				z 29.0870018
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object boxes04.1{
+			file boxes04.object
+			entry boxes04
+			vector position{
+				x 6.2521677
+				y -1.19499981
+				z -6.92731524
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object cardsTable.6{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -1.86000013
+				z 32.3999977
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object oventimer.20{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -14.4029903
+				y -0.909999967
+				z 26.487154
+			}
+			quaternion orientation{
+				w 0.344643265
+				x 0
+				y -0.938733697
+				z 0
+			}
+		}
+		object boxes04.0{
+			file boxes04.object
+			entry boxes04
+			vector position{
+				x 7.49288988
+				y -1.19499981
+				z -6.82731533
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object cardsTable.5{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -1.86000013
+				z 30.4999962
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableRound.21{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -1.07989836
+				y -1.91000009
+				z 0.640100956
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object easter_basket.1{
+			file easter_basket.object
+			entry easter_basket
+			vector position{
+				x 4.0999999
+				y -2.37999988
+				z 18.0000038
+			}
+			quaternion orientation{
+				w -0.382683605
+				x 0
+				y -0.923879445
+				z 0
+			}
+		}
+		object tin02.0{
+			file tin02.object
+			entry tin02
+			vector position{
+				x -22.119997
+				y -2.30119872
+				z -15.5200005
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object clockNoTrap.7{
+			file clockNoTrap.object
+			entry clockNoTrap
+			vector position{
+				x -21.0400276
+				y -1.49000037
+				z -8.46000004
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableLow.0{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -22.4399986
+				y -2.06299996
+				z 34.2599869
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object ironing_table01.2{
+			file ironing_table01.object
+			entry ironing_table01
+			vector position{
+				x -16.3680115
+				y -1.96300006
+				z 19.309454
+			}
+			quaternion orientation{
+				w 0.630133808
+				x 0
+				y 0.776486635
+				z 0
+			}
+		}
+		object chandelier02OFF.11{
+			file chandelier02OFF.object
+			entry chandelier02OFF
+			vector position{
+				x -30.3400002
+				y 1.90500045
+				z -9.30200195
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object piano.3{
+			file piano.object
+			entry piano
+			vector position{
+				x -30.5200005
+				y -1.66900003
+				z 28.5999966
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object tableRound.15{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 2.00000072
+				y -1.91000009
+				z 3.18999958
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object washing_machine.4{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -12.973033
+				y -1.67699981
+				z 14.6162167
+			}
+			quaternion orientation{
+				w 0.999506593
+				x 0
+				y -0.0314107239
+				z 0
+			}
+		}
+		object winebottle.1{
+			file winebottle.object
+			entry winebottle
+			vector position{
+				x -17.3658123
+				y -2.33119869
+				z 16.5999985
+			}
+			quaternion orientation{
+				w 0.65242815
+				x -0.65242815
+				y 0.27264905
+				z 0.27264908
+			}
+		}
+		object boxes01.5{
+			file boxes01.object
+			entry boxes01
+			vector position{
+				x -33.2502975
+				y -1.67716599
+				z 10.5776367
+			}
+			quaternion orientation{
+				w 0.728969038
+				x 0
+				y -0.684546709
+				z 0
+			}
+		}
+		object box02.47{
+			file box02.object
+			entry box02
+			vector position{
+				x -27.9824619
+				y -1.79900002
+				z 22.9758053
+			}
+			quaternion orientation{
+				w -2.98023224e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object closet.8{
+			file closet.object
+			entry closet
+			vector position{
+				x 6.06694126
+				y -1.22600043
+				z 8.37228775
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object oven_single.16{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 3.37336969
+				y -1.51490319
+				z 26.7497883
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object piano.47{
+			file piano.object
+			entry piano
+			vector position{
+				x -45.8799858
+				y -1.66900003
+				z 21.1000004
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object oven_single.33{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 0.201029748
+				y -1.51490319
+				z 27.9494457
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object libary.4{
+			file libary.object
+			entry libary
+			vector position{
+				x -16.1028271
+				y -1.13720787
+				z 0.0684328973
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object safe.5{
+			file safe.object
+			entry safe
+			vector position{
+				x -27.0200005
+				y -0.689000726
+				z 32.4099693
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object box02.4{
+			file box02.object
+			entry box02
+			vector position{
+				x -38.3114815
+				y -0.634000003
+				z 20.4758015
+			}
+			quaternion orientation{
+				w 0.707106769
+				x 0
+				y -0.707106888
+				z 0
+			}
+		}
+		object stool_01.24{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -30.3999939
+				y -1.84100008
+				z 21.1199989
+			}
+			quaternion orientation{
+				w 0.0314106159
+				x 0
+				y -0.999506652
+				z 0
+			}
+		}
+		object sofa03.8{
+			file sofa03.object
+			entry sofa03
+			vector position{
+				x -6.83999968
+				y -1.25999832
+				z 10.9340878
+			}
+			quaternion orientation{
+				w 0.746782303
+				x 0.0622351766
+				y -0.658376694
+				z -0.0705919638
+			}
+		}
+		object washing_machine.21{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -12.1432934
+				y -1.67699981
+				z 19.8448811
+			}
+			quaternion orientation{
+				w 0.911403418
+				x 0
+				y -0.411514074
+				z 0
+			}
+		}
+		object closet.11{
+			file closet.object
+			entry closet
+			vector position{
+				x -1.95482635
+				y -1.22600043
+				z 9.27711105
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object washing_machine.16{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -16.394537
+				y -1.67699981
+				z 18.044878
+			}
+			quaternion orientation{
+				w -0.0314104855
+				x 0
+				y -0.999506593
+				z 0
+			}
+		}
+		object box02.0{
+			file box02.object
+			entry box02
+			vector position{
+				x -40.4136925
+				y -1.79900002
+				z 20.4778004
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object tableRound.22{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -2.55979776
+				y -1.91000009
+				z 0.640100956
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object easter_basket.2{
+			file easter_basket.object
+			entry easter_basket
+			vector position{
+				x 5.27270937
+				y -1.5482589
+				z -0.599999964
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object box02.33{
+			file box02.object
+			entry box02
+			vector position{
+				x -33.9273071
+				y -0.634000003
+				z 25.6090603
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 1.49011612e-007
+				z 0
+			}
+		}
+		object cardsTable.0{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -1.86000013
+				z 20.9999981
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object pianoNoTrap.9{
+			file pianoNoTrap.object
+			entry pianoNoTrap
+			vector position{
+				x -45.2399864
+				y -1.66999996
+				z 21.100008
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object sofa03.5{
+			file sofa03.object
+			entry sofa03
+			vector position{
+				x -6.24000025
+				y -1.93000007
+				z 5.54999828
+			}
+			quaternion orientation{
+				w 0.707106948
+				x 1.49011584e-007
+				y -0.70710659
+				z -2.53319769e-007
+			}
+		}
+		object poolCue.3{
+			file poolCue.object
+			entry poolCue
+			vector position{
+				x -26.3540268
+				y -2.36419916
+				z -11.3465471
+			}
+			quaternion orientation{
+				w -0.705991685
+				x 0.00222468376
+				y 0.00221779943
+				z -0.708213151
+			}
+		}
+		object poolTable.17{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -32.4409676
+				y -1.33796394
+				z -9.8010025
+			}
+			quaternion orientation{
+				w -8.9406953e-008
+				x 0.707107246
+				y -5.96046519e-008
+				z -0.707106352
+			}
+		}
+		object cardsTable.24{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -45.5999947
+				y -0.822000027
+				z 30.5009975
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 0
+				z 1
+			}
+		}
+		object piano.54{
+			file piano.object
+			entry piano
+			vector position{
+				x -39.8799858
+				y -1.66900003
+				z 34.3956261
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box02.10{
+			file box02.object
+			entry box02
+			vector position{
+				x -39.9044952
+				y 0.525999963
+				z 20.4758015
+			}
+			quaternion orientation{
+				w 0.707106769
+				x 0
+				y -0.707106888
+				z 0
+			}
+		}
+		object door_singleWhite_damaged.0{
+			file door_singleWhite_damaged.object
+			entry door_singleWhite_damaged
+			vector position{
+				x -27.529995
+				y -1.23949993
+				z 6.07839775
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object washing_machine.7{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -12.335248
+				y -1.67699981
+				z 18.9723053
+			}
+			quaternion orientation{
+				w 0.728968561
+				x 0
+				y 0.684547246
+				z 0
+			}
+		}
+		object cardsTable.10{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -0.822000027
+				z 28.6009979
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 0
+				z 1
+			}
+		}
+		object safe.6{
+			file safe.object
+			entry safe
+			vector position{
+				x -26.5399971
+				y -0.689000726
+				z 33.179966
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y -0.70710659
+				z 0
+			}
+		}
+		object door_doubleDoor.2{
+			file door_doubleDoor.object
+			entry door_doubleDoor
+			vector position{
+				x 1.47688699
+				y -1.24059987
+				z 14.1486921
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object piano_chair.19{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -34.2747726
+				y -2.13399959
+				z 34.1636086
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object chandelier02OFF.9{
+			file chandelier02OFF.object
+			entry chandelier02OFF
+			vector position{
+				x -24.3400002
+				y 1.90500045
+				z -9.30200195
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object libary.13{
+			file libary.object
+			entry libary
+			vector position{
+				x -16.1028271
+				y -1.13720787
+				z -0.45987168
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object oven_single.29{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 0.401029736
+				y -1.51490319
+				z 25.5501308
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box02.12{
+			file box02.object
+			entry box02
+			vector position{
+				x -38.0164833
+				y 0.525999963
+				z 20.4758015
+			}
+			quaternion orientation{
+				w 0.707106769
+				x 0
+				y -0.707106888
+				z 0
+			}
+		}
+		object piano_chair.17{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -35.6511612
+				y -2.13399959
+				z 34.3636055
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object boxes_hugepile.0{
+			file boxes_hugepile.object
+			entry boxes_hugepile
+			vector position{
+				x 6.39000034
+				y -1.20400012
+				z -3.19999981
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object tableRound.30{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 2.74969959
+				y -1.91000009
+				z -5.439291
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object box02.36{
+			file box02.object
+			entry box02
+			vector position{
+				x -26.1124592
+				y -1.79900002
+				z 22.7558041
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 4.17232457e-007
+				z 0
+			}
+		}
+		object boxes01.10{
+			file boxes01.object
+			entry boxes01
+			vector position{
+				x -1.16048336
+				y -1.67716599
+				z -2.21006036
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y -3.57627869e-007
+				z 0
+			}
+		}
+		object piano.48{
+			file piano.object
+			entry piano
+			vector position{
+				x -46.5199852
+				y -1.66900003
+				z 21.1000004
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object oven_single.30{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 0.401029736
+				y -1.51490319
+				z 24.3504734
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object piano_chair.23{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -30.6547794
+				y -2.13399959
+				z 34.6236076
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object libary.18{
+			file libary.object
+			entry libary
+			vector position{
+				x -9.10706615
+				y -1.13720787
+				z -4.67591619
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y -0.923879564
+				z 0
+			}
+		}
+		object end_wood.1{
+			file end_wood.object
+			entry end_wood
+			vector position{
+				x -27.3599911
+				y -1.54289973
+				z 6.7987175
+			}
+			quaternion orientation{
+				w -5.9604627e-008
+				x -0.707106769
+				y 0.707106829
+				z 3.12924385e-007
+			}
+		}
+		object box02.11{
+			file box02.object
+			entry box02
+			vector position{
+				x -38.9594917
+				y 0.525999963
+				z 20.4758015
+			}
+			quaternion orientation{
+				w 0.707106769
+				x 0
+				y -0.707106888
+				z 0
+			}
+		}
+		object clock.39{
+			file clock.object
+			entry clock
+			vector position{
+				x -15.8399925
+				y -1.49000001
+				z -9.05000019
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object cardsTable.27{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -45.5999947
+				y -1.86000013
+				z 32.3999977
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object box04.1{
+			file box04.object
+			entry box04
+			vector position{
+				x -4.75999975
+				y -1.66110003
+				z -13.380002
+			}
+			quaternion orientation{
+				w -0.999921083
+				x 0
+				y 0.0125656836
+				z 0
+			}
+		}
+		object stool_01.34{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -24.1599865
+				y -1.84100008
+				z 20.3699951
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object shelf01.0{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -21.0907631
+				y -0.966999948
+				z 16.8987255
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object washing_machine.10{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -12.035243
+				y -1.67699981
+				z 17.6898975
+			}
+			quaternion orientation{
+				w 0.353474796
+				x 0
+				y -0.935444117
+				z 0
+			}
+		}
+		object clock.26{
+			file clock.object
+			entry clock
+			vector position{
+				x -20.5199966
+				y -1.49000001
+				z -8.45999908
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object pumpkins_damned03.2{
+			file pumpkins_damned03.object
+			entry pumpkins_damned03
+			vector position{
+				x -26.6600056
+				y -2.14400005
+				z -3.17394733e-006
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y -0.923879564
+				z 0
+			}
+		}
+		object mainDinningRoom.0{
+			file mainDinningRoom.object
+			entry mainDinningRoom
+			vector position{
+				x -37.8406868
+				y 0.158300012
+				z 28.0588856
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object tableRound.18{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 1.80000126
+				y -1.16699982
+				z 0.590000033
+			}
+			quaternion orientation{
+				w -9.3027694e-008
+				x -1
+				y -8.6920025e-008
+				z 2.980231e-008
+			}
+		}
+		object tableRound.1{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -2.89999962
+				y -1.16699982
+				z 1.99999988
+			}
+			quaternion orientation{
+				w -9.3027694e-008
+				x -1
+				y -8.6920025e-008
+				z 2.980231e-008
+			}
+		}
+		object oven_single.18{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 4.36414957
+				y -1.51490319
+				z 25.5501308
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object boxes01.3{
+			file boxes01.object
+			entry boxes01
+			vector position{
+				x -34.7887268
+				y -1.67716599
+				z 6.17763472
+			}
+			quaternion orientation{
+				w -0.999506652
+				x 0
+				y -0.0314111225
+				z 0
+			}
+		}
+		object libary.19{
+			file libary.object
+			entry libary
+			vector position{
+				x -11.4059544
+				y -1.13720787
+				z -4.17591572
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 3.57627869e-007
+				z 0
+			}
+		}
+		object end_wood.2{
+			file end_wood.object
+			entry end_wood
+			vector position{
+				x -27.3599911
+				y -1.54289973
+				z 5.35839844
+			}
+			quaternion orientation{
+				w -0.707106709
+				x 1.93715067e-007
+				y 8.9406953e-008
+				z -0.707106888
+			}
+		}
+		object boxes04.2{
+			file boxes04.object
+			entry boxes04
+			vector position{
+				x -7.33651161
+				y -1.19499981
+				z -3.12731504
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object box02.34{
+			file box02.object
+			entry box02
+			vector position{
+				x -33.97649
+				y 0.525999963
+				z 25.7558079
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 3.57627869e-007
+				z 0
+			}
+		}
+		object pianoNoTrap.8{
+			file pianoNoTrap.object
+			entry pianoNoTrap
+			vector position{
+				x -43.9599876
+				y -1.66999996
+				z 21.100008
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object cardsTable.1{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -1.86000013
+				z 22.8999977
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object end_wood.3{
+			file end_wood.object
+			entry end_wood
+			vector position{
+				x -27.357687
+				y -0.0888996795
+				z 6.09700108
+			}
+			quaternion orientation{
+				w 0.495265454
+				x 0.504690111
+				y -0.495265633
+				z 0.504689991
+			}
+		}
+		object clockNoTrap.3{
+			file clockNoTrap.object
+			entry clockNoTrap
+			vector position{
+				x -17.4000244
+				y -1.49000037
+				z -8.00000191
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object box02.57{
+			file box02.object
+			entry box02
+			vector position{
+				x -28.8924637
+				y -1.79900002
+				z 22.9858055
+			}
+			quaternion orientation{
+				w -0.0157076176
+				x 0
+				y -0.999876678
+				z 0
+			}
+		}
+		object wood_debris.0{
+			file wood_debris.object
+			entry wood_debris
+			vector position{
+				x -7.54787493
+				y -1.75217736
+				z -11.7056208
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object tableRound.12{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 1.32000041
+				y -1.16699982
+				z 1.96999991
+			}
+			quaternion orientation{
+				w -9.3027694e-008
+				x -1
+				y -8.6920025e-008
+				z 2.980231e-008
+			}
+		}
+		object flat_iron.2{
+			file flat_iron.object
+			entry flat_iron
+			vector position{
+				x -15.9494944
+				y -2.2734983
+				z 17.9426403
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 1.1404854e-008
+				y 0.707106829
+				z 2.753373e-008
+			}
+		}
+		object shelf01.20{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -3.52420473
+				y -0.966999948
+				z 17.9605179
+			}
+			quaternion orientation{
+				w 0.707106292
+				x -4.1300634e-008
+				y 0.707107306
+				z 1.71072951e-008
+			}
+		}
+		object box02.2{
+			file box02.object
+			entry box02
+			vector position{
+				x -38.5346832
+				y -1.79900002
+				z 20.4778004
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object tableRound.20{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 0.300000489
+				y -1.91000009
+				z 0.640100956
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object washing_machine.18{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -15.8413773
+				y -1.67699981
+				z 18.5448799
+			}
+			quaternion orientation{
+				w 0.353475124
+				x 0
+				y -0.935443938
+				z 0
+			}
+		}
+		object piano_chair.5{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -34.0419731
+				y -2.13399959
+				z 34.8000031
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object shelf01.12{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -8.76769066
+				y -0.966999948
+				z 21.1907864
+			}
+			quaternion orientation{
+				w 0.955793202
+				x -3.4444632e-008
+				y -0.294039696
+				z -2.8495073e-008
+			}
+		}
+		object libary.10{
+			file libary.object
+			entry libary
+			vector position{
+				x -20.7570648
+				y -1.13720787
+				z -0.45987168
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object oven_single.26{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 1.29180968
+				y -1.51490319
+				z 22.9508152
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object oven_single.17{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 3.37336969
+				y -1.51490319
+				z 23.150816
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object closet.7{
+			file closet.object
+			entry closet
+			vector position{
+				x 6.06694126
+				y -1.22600043
+				z 6.74056244
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object boxes01.6{
+			file boxes01.object
+			entry boxes01
+			vector position{
+				x -32.350296
+				y -1.67716599
+				z 12.9468517
+			}
+			quaternion orientation{
+				w 0.999506593
+				x 0
+				y 0.0314114392
+				z 0
+			}
+		}
+		object piano_chair.21{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -33.09478
+				y -2.13399959
+				z 34.263607
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object sofa03.3{
+			file sofa03.object
+			entry sofa03
+			vector position{
+				x -6.24000025
+				y -1.93000007
+				z 11.5999994
+			}
+			quaternion orientation{
+				w 0.707106948
+				x 1.49011584e-007
+				y -0.70710659
+				z -2.53319769e-007
+			}
+		}
+		object poolCue.5{
+			file poolCue.object
+			entry poolCue
+			vector position{
+				x -26.6243649
+				y -2.36419916
+				z -11.298955
+			}
+			quaternion orientation{
+				w 0.70821327
+				x -0.00221780012
+				y 0.00222468399
+				z -0.705991566
+			}
+		}
+		object box_open01.0{
+			file box_open01.object
+			entry box_open01
+			vector position{
+				x -0.399999976
+				y -2.0650003
+				z -13.2500057
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object flat_iron.4{
+			file flat_iron.object
+			entry flat_iron
+			vector position{
+				x -15.6694975
+				y -2.2734983
+				z 17.9426403
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 1.1404854e-008
+				y 0.707106829
+				z 2.753373e-008
+			}
+		}
+		object shelf01.26{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -19.4530792
+				y -0.966999948
+				z 28.7378845
+			}
+			quaternion orientation{
+				w -0.263872623
+				x 0
+				y -0.964557588
+				z 0
+			}
+		}
+		object oven_single.25{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 1.3918097
+				y -1.51490319
+				z 24.3504734
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object woodBarricadeDouble_small.1{
+			file woodBarricadeDouble_small.object
+			entry woodBarricadeDouble_small
+			vector position{
+				x -27.5979977
+				y -0.56262958
+				z 6.05800009
+			}
+			quaternion orientation{
+				w -0.707075536
+				x -0.00666422211
+				y -0.707075238
+				z -0.00666424632
+			}
+		}
+		object pianoNoTrap.5{
+			file pianoNoTrap.object
+			entry pianoNoTrap
+			vector position{
+				x -37.5599937
+				y -1.66999996
+				z 26.9400024
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object cardsTable.4{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -1.86000013
+				z 28.5999966
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object piano.34{
+			file piano.object
+			entry piano
+			vector position{
+				x -36.279995
+				y -1.66900003
+				z 27.0399971
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object closet.2{
+			file closet.object
+			entry closet
+			vector position{
+				x 4.89517498
+				y -1.22600043
+				z 8.37228775
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object box02.45{
+			file box02.object
+			entry box02
+			vector position{
+				x -27.0272999
+				y -0.634000003
+				z 22.6190567
+			}
+			quaternion orientation{
+				w -2.980231e-008
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object kitchen_1stFloor.0{
+			file kitchen_1stFloor.object
+			entry kitchen_1stFloor
+			vector position{
+				x -32.6387405
+				y 0.0142000001
+				z 8.80699635
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableRound.0{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -2.89999962
+				y -1.91000009
+				z 1.99999988
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object end_depot_1stFLoor.0{
+			file end_depot_1stFLoor.object
+			entry end_depot_1stFLoor
+			vector position{
+				x -22.1714878
+				y -0.826599956
+				z 6.09720945
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object closet.3{
+			file closet.object
+			entry closet
+			vector position{
+				x 4.89517498
+				y -1.22600043
+				z 10.0040131
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object oven_single.13{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 3.37336969
+				y -1.51490319
+				z 25.5501308
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object tin02.6{
+			file tin02.object
+			entry tin02
+			vector position{
+				x -22.2399979
+				y -2.30119872
+				z -15.4299984
+			}
+			quaternion orientation{
+				w -0.382682979
+				x 0
+				y -0.923879683
+				z 0
+			}
+		}
+		object boxes01.2{
+			file boxes01.object
+			entry boxes01
+			vector position{
+				x -2.32460546
+				y -1.67716599
+				z -6.82236433
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y -3.57627869e-007
+				z 0
+			}
+		}
+		object stool_01.4{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -28.3199921
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object poolTable.1{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -32.4409714
+				y -1.58299983
+				z -3.97899222
+			}
+			quaternion orientation{
+				w -0.707106531
+				x 0
+				y -0.707107127
+				z 0
+			}
+		}
+		object door_doubleDoor.0{
+			file door_doubleDoor.object
+			entry door_doubleDoor
+			vector position{
+				x -21.6811085
+				y -1.24660015
+				z 23.6916065
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object stool_01.6{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -29.359993
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object shelf01.1{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -20.2614231
+				y -0.966999948
+				z 16.8987255
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y -3.57627869e-007
+				z 0
+			}
+		}
+		object washing_machine.11{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -15.135251
+				y -1.67699981
+				z 14.5688
+			}
+			quaternion orientation{
+				w 0.353474796
+				x 0
+				y -0.935444117
+				z 0
+			}
+		}
+		object piano_chair.8{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -35.9511566
+				y -2.13399959
+				z 34.8000031
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object libary.17{
+			file libary.object
+			entry libary
+			vector position{
+				x -9.69717216
+				y -1.13720787
+				z -0.559871674
+			}
+			quaternion orientation{
+				w -0.0157074686
+				x 0
+				y -0.999876738
+				z 0
+			}
+		}
+		object end_wood.0{
+			file end_wood.object
+			entry end_wood
+			vector position{
+				x -27.3607922
+				y -2.39290047
+				z 6.58700037
+			}
+			quaternion orientation{
+				w 0.49999994
+				x 0.500000119
+				y -0.50000006
+				z 0.5
+			}
+		}
+		object stool_01.22{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -31.4399948
+				y -1.84100008
+				z 20.8599968
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object sofa03.6{
+			file sofa03.object
+			entry sofa03
+			vector position{
+				x -6.17999887
+				y -1.93000007
+				z 2.48999739
+			}
+			quaternion orientation{
+				w 0.728968859
+				x 1.40981115e-007
+				y -0.684546947
+				z -2.57875314e-007
+			}
+		}
+		object oven_single.8{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 4.36414957
+				y -1.51490319
+				z 20.0494423
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object shelf01.8{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -10.6776905
+				y -0.966999948
+				z 22.8374557
+			}
+			quaternion orientation{
+				w 0.467930377
+				x -4.20696811e-009
+				y -0.883765399
+				z -4.4505061e-008
+			}
+		}
+		object oven_single.32{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 0.401029736
+				y -1.51490319
+				z 26.7497883
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object washing_machine.1{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -12.144001
+				y -1.67699981
+				z 14.5454187
+			}
+			quaternion orientation{
+				w 0.911403239
+				x 0
+				y -0.411514401
+				z 0
+			}
+		}
+		object ironing_table01.0{
+			file ironing_table01.object
+			entry ironing_table01
+			vector position{
+				x -14.0497684
+				y -1.96300006
+				z 15.2775288
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object oven_single.21{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 2.38258982
+				y -1.51490319
+				z 23.150816
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object piano_chair.3{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -32.7691841
+				y -2.13399959
+				z 34.8000031
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object mh_bed01.0{
+			file mh_bed01.object
+			entry mh_bed01
+			vector position{
+				x -2.6591115
+				y -1.71320713
+				z -2.68783665
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x -2.75337495e-008
+				y -1
+				z -1.1404854e-008
+			}
+		}
+		object shelf01.10{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -10.2676888
+				y -0.966999948
+				z 20.267458
+			}
+			quaternion orientation{
+				w 0.955793202
+				x -3.4444632e-008
+				y -0.294039696
+				z -2.8495073e-008
+			}
+		}
+		object libary.0{
+			file libary.object
+			entry libary
+			vector position{
+				x -9.89717293
+				y -1.13720787
+				z 0.0684328973
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object safe.1{
+			file safe.object
+			entry safe
+			vector position{
+				x -26.5399971
+				y -1.81300056
+				z 33.1999779
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box02.20{
+			file box02.object
+			entry box02
+			vector position{
+				x -37.5824738
+				y -1.79900002
+				z 25.635807
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object oven_single.0{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 4.46414948
+				y -1.51490319
+				z 15.2508125
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object washing_machine.23{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -11.5425777
+				y -1.67699981
+				z 19.4226665
+			}
+			quaternion orientation{
+				w 0.728968322
+				x 0
+				y 0.684547424
+				z 0
+			}
+		}
+		object closet.13{
+			file closet.object
+			entry closet
+			vector position{
+				x -3.25349283
+				y -1.22600043
+				z 6.50586319
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object boxes01.4{
+			file boxes01.object
+			entry boxes01
+			vector position{
+				x -33.2195091
+				y -1.67716599
+				z 8.17763519
+			}
+			quaternion orientation{
+				w 0.0314112604
+				x 0
+				y -0.999506593
+				z 0
+			}
+		}
+		object closet.9{
+			file closet.object
+			entry closet
+			vector position{
+				x 6.06694126
+				y -1.22600043
+				z 3.47711205
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object oven_single.1{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 3.27336979
+				y -1.51490319
+				z 15.0508118
+			}
+			quaternion orientation{
+				w 0.637423933
+				x 0
+				y 0.770513296
+				z 0
+			}
+		}
+		object box02.21{
+			file box02.object
+			entry box02
+			vector position{
+				x -37.6114845
+				y -0.634000003
+				z 25.5990601
+			}
+			quaternion orientation{
+				w -0.0314108133
+				x 0
+				y -0.999506593
+				z 0
+			}
+		}
+		object tin02.5{
+			file tin02.object
+			entry tin02
+			vector position{
+				x -22.3199978
+				y -2.30119872
+				z -15.5599995
+			}
+			quaternion orientation{
+				w -0.923879623
+				x 0
+				y 0.382683128
+				z 0
+			}
+		}
+		object closet.4{
+			file closet.object
+			entry closet
+			vector position{
+				x 3.57340765
+				y -1.22600043
+				z 5.74056244
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object oven_single.12{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 4.36414957
+				y -1.51490319
+				z 24.3504734
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object boxes01.1{
+			file boxes01.object
+			entry boxes01
+			vector position{
+				x -0.860483646
+				y -1.67716599
+				z -5.52236366
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object box02.43{
+			file box02.object
+			entry box02
+			vector position{
+				x -26.1472988
+				y -0.634000003
+				z 22.6190567
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 1.78813934e-007
+				z 0
+			}
+		}
+		object poolTable.0{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -33.0409622
+				y -1.58299983
+				z -1.06848884
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box02.13{
+			file box02.object
+			entry box02
+			vector position{
+				x -37.3114891
+				y -0.634000003
+				z 20.7678032
+			}
+			quaternion orientation{
+				w 0.684547126
+				x 0
+				y -0.72896868
+				z 0
+			}
+		}
+		object cardsTable.25{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -45.5999947
+				y -1.86000013
+				z 30.4999962
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object oven_single.10{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 4.36414957
+				y -1.51490319
+				z 22.9508152
+			}
+			quaternion orientation{
+				w -0.750111341
+				x 0
+				y 0.661311686
+				z 0
+			}
+		}
+		object poolCue.8{
+			file poolCue.object
+			entry poolCue
+			vector position{
+				x -36.0502357
+				y -2.36419916
+				z -2.0297246
+			}
+			quaternion orientation{
+				w 0.499209285
+				x -0.500779748
+				y 0.502355576
+				z -0.497643143
+			}
+		}
+		object poolTable.16{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -32.4409714
+				y -1.58299983
+				z -9.8000021
+			}
+			quaternion orientation{
+				w 0.707107186
+				x 0
+				y -0.707106352
+				z 0
+			}
+		}
+		object sofa03.4{
+			file sofa03.object
+			entry sofa03
+			vector position{
+				x -6.24000025
+				y -1.93000007
+				z 8.57999802
+			}
+			quaternion orientation{
+				w 0.707106948
+				x 1.49011584e-007
+				y -0.70710659
+				z -2.53319769e-007
+			}
+		}
+		object oven_single.3{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 4.36414957
+				y -1.51490319
+				z 16.45047
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object oven_single.4{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 3.37336969
+				y -1.51490319
+				z 17.6501274
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object oven_single.5{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 3.27336979
+				y -1.51490319
+				z 18.8497849
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object washing_machine.12{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -14.9352503
+				y -1.67699981
+				z 15.2758312
+			}
+			quaternion orientation{
+				w 0.935443997
+				x 0
+				y 0.353474915
+				z 0
+			}
+		}
+		object shelf01.2{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -19.4520798
+				y -0.966999948
+				z 17.378727
+			}
+			quaternion orientation{
+				w 4.76837158e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object boxOldCloth.0{
+			file boxOldCloth.object
+			entry boxOldCloth
+			vector position{
+				x 2.4000001
+				y -1.69299984
+				z -7.61000061
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object stair.6{
+			file stair.object
+			entry stair
+			vector position{
+				x -30.6263943
+				y -1.54999995
+				z 16.701767
+			}
+			quaternion orientation{
+				w -0.709324956
+				x 0
+				y 0.704881608
+				z 0
+			}
+		}
+		object oven_single.6{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 3.4733696
+				y -1.51490319
+				z 20.0494423
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object stool_01.20{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -32.4799957
+				y -1.84100008
+				z 20.8999977
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object stool_01.12{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -32.4799957
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object door_doubleDoor_r.2{
+			file door_doubleDoor_r.object
+			entry door_doubleDoor_r
+			vector position{
+				x 0.0789027214
+				y -1.24059987
+				z 14.1467094
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object stool_01.11{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -31.9599953
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object door_doubleDoor_r.1{
+			file door_doubleDoor_r.object
+			entry door_doubleDoor_r
+			vector position{
+				x -8.06199646
+				y -1.24059987
+				z -7.60729122
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object sofa03.7{
+			file sofa03.object
+			entry sofa03
+			vector position{
+				x -6.83999968
+				y -1.25999832
+				z 7.73999786
+			}
+			quaternion orientation{
+				w 0.703968823
+				x 0.0665448681
+				y -0.703968346
+				z -0.066544883
+			}
+		}
+		object stool_01.21{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -31.9599953
+				y -1.84100008
+				z 20.8599968
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object oven_single.7{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 4.36414957
+				y -1.51490319
+				z 18.8497849
+			}
+			quaternion orientation{
+				w -0.707106948
+				x -8.8817842e-015
+				y 0.70710659
+				z -5.9604627e-008
+			}
+		}
+		object stool_01.17{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -34.0399971
+				y -1.84100008
+				z 20.8599968
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object door_doubleDoor_r.3{
+			file door_doubleDoor_r.object
+			entry door_doubleDoor_r
+			vector position{
+				x -31.2180958
+				y -1.24059987
+				z 0.637710273
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object stool_01.23{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -30.9199944
+				y -1.84100008
+				z 20.8599968
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object oven_single.9{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 4.36414957
+				y -1.51490319
+				z 27.9494457
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object box02.1{
+			file box02.object
+			entry box02
+			vector position{
+				x -39.4716873
+				y -1.79900002
+				z 20.4778004
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object washing_machine.17{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -15.1875038
+				y -1.67699981
+				z 18.5448799
+			}
+			quaternion orientation{
+				w -0.728968501
+				x 0
+				y -0.684547305
+				z 0
+			}
+		}
+		object poolTable.10{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -25.9590263
+				y -1.58299983
+				z -9.80000305
+			}
+			quaternion orientation{
+				w 0.707106352
+				x 0
+				y 0.707107306
+				z 0
+			}
+		}
+		object tableRound.31{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 7.40949678
+				y -1.91000009
+				z -0.719696045
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object shelf01.22{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -3.42420483
+				y -0.966999948
+				z 15.8124866
+			}
+			quaternion orientation{
+				w -0.549023509
+				x 8.37661318e-009
+				y 0.835806966
+				z 4.3911669e-008
+			}
+		}
+		object flat_iron.0{
+			file flat_iron.object
+			entry flat_iron
+			vector position{
+				x -2.9199996
+				y -2.2734983
+				z 13.6999998
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object piano.29{
+			file piano.object
+			entry piano
+			vector position{
+				x -39.4799919
+				y -1.66900003
+				z 27.0399971
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object flat_iron.1{
+			file flat_iron.object
+			entry flat_iron
+			vector position{
+				x -11.5352812
+				y -2.2734983
+				z 17.9426403
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object shelf01.21{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -3.52420473
+				y -0.966999948
+				z 16.7124901
+			}
+			quaternion orientation{
+				w -0.549023509
+				x 8.37661318e-009
+				y 0.835806966
+				z 4.3911669e-008
+			}
+		}
+		object cardsTable.17{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -49.2000008
+				y -0.822000027
+				z 28.9009953
+			}
+			quaternion orientation{
+				w -1.37668778e-007
+				x -0.382683456
+				y 5.7024252e-008
+				z 0.923879504
+			}
+		}
+		object oven_single.35{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x -5.92521048
+				y -1.51490319
+				z 22.35116
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y -0.382683456
+				z 0
+			}
+		}
+		object clock.8{
+			file clock.object
+			entry clock
+			vector position{
+				x -15.8399925
+				y -1.49000001
+				z -7.99999905
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object stool_01.7{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -29.8799934
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object saloom_1stFloor.0{
+			file saloom_1stFloor.object
+			entry saloom_1stFloor
+			vector position{
+				x 0
+				y 0
+				z 0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object washing_machine.2{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -11.7439995
+				y -1.67699981
+				z 15.1684332
+			}
+			quaternion orientation{
+				w 0.911403239
+				x 0
+				y -0.411514401
+				z 0
+			}
+		}
+		object woodBarricadeDouble_small.0{
+			file woodBarricadeDouble_small.object
+			entry woodBarricadeDouble_small
+			vector position{
+				x -27.5979977
+				y -1.50000012
+				z 6.05800009
+			}
+			quaternion orientation{
+				w 0.7065171
+				x -0.0288707279
+				y -0.70651722
+				z 0.0288707167
+			}
+		}
+		object box02.30{
+			file box02.object
+			entry box02
+			vector position{
+				x -34.8358536
+				y -0.634000003
+				z 25.5990601
+			}
+			quaternion orientation{
+				w -4.8428749e-008
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object oven_single.24{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 1.3918097
+				y -1.51490319
+				z 25.5501308
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object pianoNoTrap.4{
+			file pianoNoTrap.object
+			entry pianoNoTrap
+			vector position{
+				x -35.6399956
+				y -1.66999996
+				z 27.0400047
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object piano.37{
+			file piano.object
+			entry piano
+			vector position{
+				x -34.3599968
+				y -1.66900003
+				z 27.0399971
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object shelf01.17{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -11.4570112
+				y -0.966999948
+				z 27.684206
+			}
+			quaternion orientation{
+				w 0.481754184
+				x 0
+				y -0.876306415
+				z 0
+			}
+		}
+		object flat_iron.6{
+			file flat_iron.object
+			entry flat_iron
+			vector position{
+				x -15.5494967
+				y -2.27349854
+				z 29.6568546
+			}
+			quaternion orientation{
+				w 0.382683337
+				x 0
+				y 0.923879623
+				z 0
+			}
+		}
+		object shelf01.24{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -20.9530849
+				y -0.966999948
+				z 26.0708523
+			}
+			quaternion orientation{
+				w 4.76837158e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object shelf01.25{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -20.0530815
+				y -0.966999948
+				z 27.6215591
+			}
+			quaternion orientation{
+				w -0.382683009
+				x 0
+				y -0.923879683
+				z 0
+			}
+		}
+		object pianoNoTrap.10{
+			file pianoNoTrap.object
+			entry pianoNoTrap
+			vector position{
+				x -47.1599846
+				y -1.66999996
+				z 21.100008
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object flat_iron.5{
+			file flat_iron.object
+			entry flat_iron
+			vector position{
+				x -15.3695002
+				y -2.2734983
+				z 17.9426403
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 1.1404854e-008
+				y 0.707106829
+				z 2.753373e-008
+			}
+		}
+		object closet.10{
+			file closet.object
+			entry closet
+			vector position{
+				x -1.95482635
+				y -1.22600043
+				z 10.9088364
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object box02.26{
+			file box02.object
+			entry box02
+			vector position{
+				x -35.8224716
+				y -1.79900002
+				z 25.635807
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object washing_machine.19{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -15.5643921
+				y -1.67699981
+				z 19.2448788
+			}
+			quaternion orientation{
+				w 0.911403418
+				x 0
+				y -0.411514074
+				z 0
+			}
+		}
+		object box02.3{
+			file box02.object
+			entry box02
+			vector position{
+				x -37.5824738
+				y -1.79900002
+				z 20.5558014
+			}
+			quaternion orientation{
+				w 0.707106769
+				x 0
+				y -0.707106888
+				z 0
+			}
+		}
+		object clock.11{
+			file clock.object
+			entry clock
+			vector position{
+				x -14.2799911
+				y -1.49000001
+				z -7.99999905
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object vase01.1{
+			file vase01.object
+			entry vase01
+			vector position{
+				x -4.23999929
+				y -2.07000041
+				z 13.4399996
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object oventimer.45{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -20.4029903
+				y -0.909999967
+				z 20.2502899
+			}
+			quaternion orientation{
+				w -0.677646577
+				x 0
+				y 0.735387802
+				z 0
+			}
+		}
+		object libary.16{
+			file libary.object
+			entry libary
+			vector position{
+				x -11.4485865
+				y -1.13720787
+				z -0.45987168
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object piano_chair.4{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -33.4055786
+				y -2.13399959
+				z 34.8000031
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object shelf01.13{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -8.36768913
+				y -0.966999948
+				z 22.5524502
+			}
+			quaternion orientation{
+				w 0.985109508
+				x -3.7744357e-008
+				y -0.171928436
+				z -2.3953314e-008
+			}
+		}
+		object tableLow.18{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -23.6900005
+				y -2.06299996
+				z 31.499958
+			}
+			quaternion orientation{
+				w -0.0314109102
+				x 0
+				y 0.999506533
+				z 0
+			}
+		}
+		object washing_machine.15{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -15.380476
+				y -1.67699981
+				z 15.9988461
+			}
+			quaternion orientation{
+				w -0.911403418
+				x 0
+				y 0.411514223
+				z 0
+			}
+		}
+		object cardsTable.11{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -0.822000027
+				z 26.7009983
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 0
+				z 1
+			}
+		}
+		object piano.26{
+			file piano.object
+			entry piano
+			vector position{
+				x -50.3581581
+				y -1.66900003
+				z 29.6869049
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y -0.382683456
+				z 0
+			}
+		}
+		object pumpkins_damned03.1{
+			file pumpkins_damned03.object
+			entry pumpkins_damned03
+			vector position{
+				x 0.410403043
+				y -1.33400011
+				z 0.609997034
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableRound.2{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -1.49999952
+				y -1.16699982
+				z 1.99999988
+			}
+			quaternion orientation{
+				w -9.3027694e-008
+				x -1
+				y -8.6920025e-008
+				z 2.980231e-008
+			}
+		}
+		object tableRound.17{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 2.700001
+				y -1.91000009
+				z 1.69000006
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object cardsTable.26{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -45.5999947
+				y -0.822000027
+				z 32.4009972
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 0
+				z 1
+			}
+		}
+		object box02.19{
+			file box02.object
+			entry box02
+			vector position{
+				x 7.44999981
+				y -1.79000008
+				z -12.6800003
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object stool_01.10{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -31.4399948
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object clock.6{
+			file clock.object
+			entry clock
+			vector position{
+				x -16.8799934
+				y -1.49000001
+				z -7.99999905
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableLow.20{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -41.0332565
+				y -2.06299996
+				z 27.0576191
+			}
+			quaternion orientation{
+				w -0.999506652
+				x 0
+				y -0.0314110816
+				z 0
+			}
+		}
+		object washing_machine.5{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -13.1130342
+				y -1.67699981
+				z 15.35009
+			}
+			quaternion orientation{
+				w 0.684547126
+				x 0
+				y -0.72896868
+				z 0
+			}
+		}
+		object saloom_1stFloor.3{
+			file saloom_1stFloor.object
+			entry saloom_1stFloor
+			vector position{
+				x -7.52799225
+				y 0
+				z 22.2142735
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object safeDoor.5{
+			file safeDoor.object
+			entry safeDoor
+			vector position{
+				x -27.0661087
+				y -0.628700137
+				z 32.0615807
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object libary.11{
+			file libary.object
+			entry libary
+			vector position{
+				x -19.2056522
+				y -1.13720787
+				z -0.45987168
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object oven_single.27{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 1.3918097
+				y -1.51490319
+				z 26.7497883
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object tableRound.14{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 2.00000072
+				y -1.16699982
+				z 3.18999958
+			}
+			quaternion orientation{
+				w -9.3027694e-008
+				x -1
+				y -8.6920025e-008
+				z 2.980231e-008
+			}
+		}
+		object stool_01.13{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -32.9999962
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object clock.3{
+			file clock.object
+			entry clock
+			vector position{
+				x -27.019989
+				y -1.49000001
+				z -15.2999992
+			}
+			quaternion orientation{
+				w 0.999506533
+				x 0
+				y 0.0314107612
+				z 0
+			}
+		}
+		object tableRound.11{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 0.610000491
+				y -1.91000009
+				z 3.21999979
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object piano.7{
+			file piano.object
+			entry piano
+			vector position{
+				x -33.079998
+				y -1.66900003
+				z 28.5999966
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object newspaper01.0{
+			file newspaper01.object
+			entry newspaper01
+			vector position{
+				x -44.8999977
+				y -2.36699843
+				z 25.956852
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object stool_01.5{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -28.8399925
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object cardsTable.15{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -51.2999992
+				y -1.86000013
+				z 20.9999981
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object box02.41{
+			file box02.object
+			entry box02
+			vector position{
+				x -26.1472988
+				y -0.634000003
+				z 24.4990578
+			}
+			quaternion orientation{
+				w -0.70710665
+				x 0
+				y 0.707107008
+				z 0
+			}
+		}
+		object chandelier02ON.0{
+			file chandelier02ON.object
+			entry chandelier02ON
+			vector position{
+				x -1.61999989
+				y 1.89999986
+				z -8.20000076
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object chandelier02OFF.3{
+			file chandelier02OFF.object
+			entry chandelier02OFF
+			vector position{
+				x -34.4700241
+				y 2.24500012
+				z 25.0400009
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tin02.3{
+			file tin02.object
+			entry tin02
+			vector position{
+				x -42.6200066
+				y -2.30119872
+				z 34.6800003
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object shelf01.11{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -9.76769066
+				y -0.966999948
+				z 21.0291233
+			}
+			quaternion orientation{
+				w 0.955793202
+				x -3.4444632e-008
+				y -0.294039696
+				z -2.8495073e-008
+			}
+		}
+		object piano_chair.2{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -32.1327896
+				y -2.13399959
+				z 34.8000031
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object sofa03.0{
+			file sofa03.object
+			entry sofa03
+			vector position{
+				x -7.46000051
+				y -1.93000007
+				z 5.64000034
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object tableLow.32{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -29.0779972
+				y -2.06299996
+				z 29.3699818
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object poolCue.4{
+			file poolCue.object
+			entry poolCue
+			vector position{
+				x -26.9543667
+				y -2.36419916
+				z -11.3965464
+			}
+			quaternion orientation{
+				w 0.70821327
+				x -0.00221780012
+				y 0.00222468399
+				z -0.705991566
+			}
+		}
+		object libary.5{
+			file libary.object
+			entry libary
+			vector position{
+				x -17.6542397
+				y -1.13720787
+				z 0.0684328973
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object safe.4{
+			file safe.object
+			entry safe
+			vector position{
+				x -27.8400002
+				y -0.689000726
+				z 32.3499794
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object poolTable.6{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -33.1214714
+				y -1.33796394
+				z -3.90999174
+			}
+			quaternion orientation{
+				w -1.07062682e-007
+				x 0.960293889
+				y -9.15980447e-009
+				z -0.278990507
+			}
+		}
+		object libary.8{
+			file libary.object
+			entry libary
+			vector position{
+				x -22.3084774
+				y -1.13720787
+				z 0.0684328973
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object clock.28{
+			file clock.object
+			entry clock
+			vector position{
+				x -21.5599976
+				y -1.49000001
+				z -8.45999908
+			}
+			quaternion orientation{
+				w 0.999506533
+				x 0
+				y -0.0314107612
+				z 0
+			}
+		}
+		object tableRound.3{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -1.49999952
+				y -1.91000009
+				z 1.99999988
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object box02.28{
+			file box02.object
+			entry box02
+			vector position{
+				x -35.8564873
+				y 0.525999963
+				z 25.6558075
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object stool_01.27{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -28.8399925
+				y -1.84100008
+				z 20.8599968
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object box02.7{
+			file box02.object
+			entry box02
+			vector position{
+				x -41.3536797
+				y -1.79900002
+				z 20.7078018
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object newspaper03.1{
+			file newspaper03.object
+			entry newspaper03
+			vector position{
+				x -41.1000023
+				y -2.36719823
+				z 27.8142147
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object tinCleaner.4{
+			file tinCleaner.object
+			entry tinCleaner
+			vector position{
+				x -14.7999992
+				y -2.25989985
+				z 26.1999969
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object pianoNoTrap.7{
+			file pianoNoTrap.object
+			entry pianoNoTrap
+			vector position{
+				x -40.1199913
+				y -1.66999996
+				z 27.0400047
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object box02.35{
+			file box02.object
+			entry box02
+			vector position{
+				x -26.1124592
+				y -1.79900002
+				z 23.7158051
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 4.17232457e-007
+				z 0
+			}
+		}
+		object cardsTable.2{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -1.86000013
+				z 24.7999973
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableLow.10{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -22.4399986
+				y -1.44299996
+				z 32.5199852
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object poolTable.14{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -25.9590263
+				y -1.33796394
+				z -9.8010025
+			}
+			quaternion orientation{
+				w -8.9406953e-008
+				x 0.707107246
+				y -5.96046519e-008
+				z -0.707106352
+			}
+		}
+		object poolCue.6{
+			file poolCue.object
+			entry poolCue
+			vector position{
+				x -34.2379913
+				y -2.36419916
+				z -6.03075218
+			}
+			quaternion orientation{
+				w 0.653452396
+				x -0.272220284
+				y 0.273076892
+				z -0.651402414
+			}
+		}
+		object stool_01.15{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -34.0399971
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object box02.23{
+			file box02.object
+			entry box02
+			vector position{
+				x -36.7024727
+				y -1.79900002
+				z 25.635807
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object ouija_board.0{
+			file ouija_board.object
+			entry ouija_board
+			vector position{
+				x -21.6000023
+				y -1.71300042
+				z 5.99999905
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object safe.7{
+			file safe.object
+			entry safe
+			vector position{
+				x -27.3199978
+				y -0.689000726
+				z 33.179966
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 3.57627869e-007
+				z 0
+			}
+		}
+		object oven_single.31{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 0.201029748
+				y -1.51490319
+				z 23.150816
+			}
+			quaternion orientation{
+				w 0.766492963
+				x -4.2295184e-010
+				y 0.642252743
+				z -5.0476906e-010
+			}
+		}
+		object piano.45{
+			file piano.object
+			entry piano
+			vector position{
+				x -44.599987
+				y -1.66900003
+				z 21.1000004
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object door_doubleDoor.1{
+			file door_doubleDoor.object
+			entry door_doubleDoor
+			vector position{
+				x -8.060112
+				y -1.24059987
+				z -9.00530338
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object poolTable.7{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -33.1409569
+				y -1.33796394
+				z -1.06948614
+			}
+			quaternion orientation{
+				w -8.9406953e-008
+				x 0.707107246
+				y -5.96046519e-008
+				z -0.707106352
+			}
+		}
+		object libary.9{
+			file libary.object
+			entry libary
+			vector position{
+				x -22.4384785
+				y -1.13720787
+				z -0.559871674
+			}
+			quaternion orientation{
+				w -0.0157074686
+				x 0
+				y -0.999876738
+				z 0
+			}
+		}
+		object poolTable.13{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -27.5795116
+				y -1.33796394
+				z -9.8010025
+			}
+			quaternion orientation{
+				w -8.9406953e-008
+				x 0.707107246
+				y -5.96046519e-008
+				z -0.707106352
+			}
+		}
+		object tableRound.34{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -36.5195961
+				y -1.91000009
+				z 16.2693977
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object oventimer.49{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -13.4726896
+				y -1.69999981
+				z 20.66502
+			}
+			quaternion orientation{
+				w 0.344643265
+				x 0
+				y -0.938733697
+				z 0
+			}
+		}
+		object stool_01.26{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -29.359993
+				y -1.84100008
+				z 20.8599968
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object tableLow.11{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -22.4399986
+				y -1.44299996
+				z 34.2599869
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object box02.22{
+			file box02.object
+			entry box02
+			vector position{
+				x -26.1124592
+				y -1.79900002
+				z 24.675806
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 4.17232457e-007
+				z 0
+			}
+		}
+		object stool_01.16{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -34.5599976
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object stair.0{
+			file stair.object
+			entry stair
+			vector position{
+				x -33.4999962
+				y -1.54999995
+				z 5.55999851
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object oventimer.33{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -11.2002783
+				y -1.69999981
+				z 23.5926113
+			}
+			quaternion orientation{
+				w -0.907484531
+				x 0
+				y 0.420085609
+				z 0
+			}
+		}
+		object libary.14{
+			file libary.object
+			entry libary
+			vector position{
+				x -14.5514135
+				y -1.13720787
+				z -0.559871674
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object closet.14{
+			file closet.object
+			entry closet
+			vector position{
+				x -0.733058691
+				y -1.22600043
+				z 9.27711105
+			}
+			quaternion orientation{
+				w -0.737512887
+				x 0
+				y -0.675333083
+				z 0
+			}
+		}
+		object washing_machine.22{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -12.7503242
+				y -1.67699981
+				z 20.344883
+			}
+			quaternion orientation{
+				w 0.728968322
+				x 0
+				y 0.684547424
+				z 0
+			}
+		}
+		object shelf01.9{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -13.2676888
+				y -0.966999948
+				z 20.7891502
+			}
+			quaternion orientation{
+				w 0.467930377
+				x -4.20696811e-009
+				y -0.883765399
+				z -4.4505061e-008
+			}
+		}
+		object clockNoTrap.4{
+			file clockNoTrap.object
+			entry clockNoTrap
+			vector position{
+				x -15.3200226
+				y -1.49000037
+				z -8.00000191
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object box02.58{
+			file box02.object
+			entry box02
+			vector position{
+				x -27.8924618
+				y -1.79900002
+				z 23.7158051
+			}
+			quaternion orientation{
+				w -0.00628344342
+				x 0
+				y -0.99998033
+				z 0
+			}
+		}
+		object oventimer.16{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -9.55965137
+				y -0.909999967
+				z 19.2491341
+			}
+			quaternion orientation{
+				w -0.344643027
+				x 0
+				y 0.938733816
+				z 0
+			}
+		}
+		object piano.31{
+			file piano.object
+			entry piano
+			vector position{
+				x -38.1999931
+				y -1.66900003
+				z 27.0399971
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object oven_single.22{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 2.38258982
+				y -1.51490319
+				z 26.7497883
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object cardsTable.19{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -47.4999962
+				y -1.86000013
+				z 24.7999973
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object oven_single.39{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 0.558493376
+				y -1.51490319
+				z 19.8776798
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object stool_01.9{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -30.9199944
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object tableRound.32{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 5.22959805
+				y -1.91000009
+				z -0.819696069
+			}
+			quaternion orientation{
+				w 0.353474736
+				x 0
+				y 0.935444117
+				z 0
+			}
+		}
+		object poolTable.11{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -25.9590263
+				y -1.58299983
+				z -6.8894968
+			}
+			quaternion orientation{
+				w 0.707106352
+				x 0
+				y 0.707107306
+				z 0
+			}
+		}
+		object piano.8{
+			file piano.object
+			entry piano
+			vector position{
+				x -33.7199974
+				y -1.66900003
+				z 31.7199955
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object shelf01.23{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -2.55720544
+				y -0.966999948
+				z 14.9824829
+			}
+			quaternion orientation{
+				w -0.625243366
+				x 1.2471884e-008
+				y 0.78042984
+				z 4.2928459e-008
+			}
+		}
+		object stool_01.30{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -27.2799911
+				y -1.84100008
+				z 21.0099983
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object tableRound.6{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -0.779999375
+				y -1.16699982
+				z 3.19999981
+			}
+			quaternion orientation{
+				w -9.3027694e-008
+				x -1
+				y -8.6920025e-008
+				z 2.980231e-008
+			}
+		}
+		object chandelier02ON.1{
+			file chandelier02ON.object
+			entry chandelier02ON
+			vector position{
+				x 1.66680002
+				y 1.89999986
+				z -8.20000076
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object box02.42{
+			file box02.object
+			entry box02
+			vector position{
+				x -26.1472988
+				y -0.634000003
+				z 23.5790577
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 1.78813934e-007
+				z 0
+			}
+		}
+		object chandelier02OFF.0{
+			file chandelier02OFF.object
+			entry chandelier02OFF
+			vector position{
+				x -1.62
+				y 1.90500045
+				z 7.33000135
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableLow.15{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -23.5900002
+				y -2.06299996
+				z 34.039959
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object piano_chair.10{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -35.3147621
+				y -1.64399958
+				z 34.8000031
+			}
+			quaternion orientation{
+				w -7.4505806e-008
+				x 0.382683307
+				y -5.96046519e-008
+				z 0.923879623
+			}
+		}
+		object shelf01.16{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -14.3013697
+				y -0.966999948
+				z 26.384201
+			}
+			quaternion orientation{
+				w 0.612907469
+				x 0
+				y -0.790154636
+				z 0
+			}
+		}
+		object piano_chair.1{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -31.5963936
+				y -2.13399959
+				z 34.8000031
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object tableLow.21{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -42.2032585
+				y -2.06299996
+				z 34.5944481
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710665
+				z 0
+			}
+		}
+		object box02.31{
+			file box02.object
+			entry box02
+			vector position{
+				x -34.9764862
+				y 0.525999963
+				z 25.6558075
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object oven_single.23{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 2.38258982
+				y -1.51490319
+				z 27.9494457
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object papers_garbage.1{
+			file papers_garbage.object
+			entry papers_garbage
+			vector position{
+				x 6.0999999
+				y -2.34109879
+				z 10.1999998
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object tableLow.24{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -23.9900017
+				y -1.44299996
+				z 27.8987312
+			}
+			quaternion orientation{
+				w 0.0941081867
+				x 0
+				y 0.995562077
+				z 0
+			}
+		}
+		object cardsTable.8{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -0.822000027
+				z 34.3009987
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 0
+				z 1
+			}
+		}
+		object safe.11{
+			file safe.object
+			entry safe
+			vector position{
+				x -35.7899857
+				y -1.81300056
+				z -12.5000219
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object stool_01.28{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -28.3199921
+				y -1.84100008
+				z 20.8599968
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object box02.8{
+			file box02.object
+			entry box02
+			vector position{
+				x -41.1384888
+				y -0.634000003
+				z 20.4758015
+			}
+			quaternion orientation{
+				w 0.707106769
+				x 0
+				y -0.707106888
+				z 0
+			}
+		}
+		object clock.45{
+			file clock.object
+			entry clock
+			vector position{
+				x -31.9507065
+				y -1.49000001
+				z -11.6097298
+			}
+			quaternion orientation{
+				w 0.911403239
+				x 0
+				y 0.411514401
+				z 0
+			}
+		}
+		object piano_chair.20{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -33.7347755
+				y -2.13399959
+				z 34.3636055
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object cardsTable.18{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -49.3999977
+				y -1.86000013
+				z 24.7999973
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object shelf01.3{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -21.0520859
+				y -0.966999948
+				z 19.9294357
+			}
+			quaternion orientation{
+				w 4.76837158e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object chandelier02OFF.2{
+			file chandelier02OFF.object
+			entry chandelier02OFF
+			vector position{
+				x -1.82000005
+				y 1.90500045
+				z 23.7700024
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object box02.40{
+			file box02.object
+			entry box02
+			vector position{
+				x -27.0024605
+				y -1.79900002
+				z 23.7158051
+			}
+			quaternion orientation{
+				w -2.98023224e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object tin02.4{
+			file tin02.object
+			entry tin02
+			vector position{
+				x -32.4200096
+				y -2.30119872
+				z -8.11999798
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object safeDoor.0{
+			file safeDoor.object
+			entry safeDoor
+			vector position{
+				x -27.0458946
+				y -1.75250041
+				z 32.0514374
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object clock.0{
+			file clock.object
+			entry clock
+			vector position{
+				x -6.35999203
+				y -1.49000001
+				z -13.6999979
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object box02.17{
+			file box02.object
+			entry box02
+			vector position{
+				x -40.9388733
+				y -1.79900002
+				z 21.7277966
+			}
+			quaternion orientation{
+				w 0.695912778
+				x 0
+				y -0.718126357
+				z 0
+			}
+		}
+		object box02.29{
+			file box02.object
+			entry box02
+			vector position{
+				x -34.9424706
+				y -1.79900002
+				z 25.635807
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object cardsTable.22{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -45.5999947
+				y -0.822000027
+				z 28.6009979
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 0
+				z 1
+			}
+		}
+		object stool_01.14{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -33.5199966
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object box02.9{
+			file box02.object
+			entry box02
+			vector position{
+				x -40.8484993
+				y 0.525999963
+				z 20.4758015
+			}
+			quaternion orientation{
+				w 0.707106769
+				x 0
+				y -0.707106888
+				z 0
+			}
+		}
+		object clock.46{
+			file clock.object
+			entry clock
+			vector position{
+				x -31.100708
+				y -1.49000001
+				z -4.99251175
+			}
+			quaternion orientation{
+				w -0.911403418
+				x 0
+				y -0.411514163
+				z 0
+			}
+		}
+		object stool_01.29{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -27.7999916
+				y -1.84100008
+				z 20.9399986
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object poolTable.3{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -30.8204823
+				y -1.58299983
+				z -6.88949728
+			}
+			quaternion orientation{
+				w 0.707106352
+				x 0
+				y 0.707107306
+				z 0
+			}
+		}
+		object oventimer.3{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x 5.01891518
+				y -1.37800002
+				z 13.5334511
+			}
+			quaternion orientation{
+				w 0.0408292674
+				x 0
+				y 0.999166131
+				z 0
+			}
+		}
+		object tableLow.19{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -23.9900017
+				y -2.06299996
+				z 27.8987312
+			}
+			quaternion orientation{
+				w 0.0941081867
+				x 0
+				y 0.995562077
+				z 0
+			}
+		}
+		object washing_machine.14{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -16.180479
+				y -1.67699981
+				z 15.7758331
+			}
+			quaternion orientation{
+				w -0.911403418
+				x 0
+				y 0.411514223
+				z 0
+			}
+		}
+		object stool_01.1{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -26.7599907
+				y -1.84100008
+				z 20.4199963
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object box04.0{
+			file box04.object
+			entry box04
+			vector position{
+				x -4.68000031
+				y -2.13699985
+				z -13.380002
+			}
+			quaternion orientation{
+				w -0.999876678
+				x 0
+				y 0.015706962
+				z 0
+			}
+		}
+		object clockNoTrap.8{
+			file clockNoTrap.object
+			entry clockNoTrap
+			vector position{
+				x -12.840023
+				y -1.49000037
+				z -14.4400024
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object cardsTable.7{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -1.86000013
+				z 34.2999992
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object safe.10{
+			file safe.object
+			entry safe
+			vector position{
+				x -35.7899857
+				y -1.81300056
+				z -10.8000193
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object stool_01.19{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -32.9999962
+				y -1.84100008
+				z 20.8599968
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object cardsTable.21{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -47.4999962
+				y -0.822000027
+				z 24.8009987
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 0
+				z 1
+			}
+		}
+		object safeDoor.7{
+			file safeDoor.object
+			entry safeDoor
+			vector position{
+				x -27.2739067
+				y -0.628499925
+				z 33.5280685
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableRound.13{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 1.32000041
+				y -1.91000009
+				z 1.96999991
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object oventimer.14{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -8.24616146
+				y -0.909999967
+				z 22.5708675
+			}
+			quaternion orientation{
+				w 0.735387802
+				x 0
+				y 0.677646518
+				z 0
+			}
+		}
+		object flat_iron.3{
+			file flat_iron.object
+			entry flat_iron
+			vector position{
+				x -14.9494944
+				y -2.27349854
+				z 18.2426414
+			}
+			quaternion orientation{
+				w 0.382683337
+				x 0
+				y 0.923879623
+				z 0
+			}
+		}
+		object sofa02.1{
+			file sofa02.object
+			entry sofa02
+			vector position{
+				x -7.45999813
+				y -1.91999996
+				z 2.84000015
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object clockNoTrap.1{
+			file clockNoTrap.object
+			entry clockNoTrap
+			vector position{
+				x -14.8000221
+				y -1.49000037
+				z -8.00000191
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object libary.7{
+			file libary.object
+			entry libary
+			vector position{
+				x -20.7570648
+				y -1.13720787
+				z 0.0684328973
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object poolTable.5{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -32.4409676
+				y -1.33796394
+				z -6.89049721
+			}
+			quaternion orientation{
+				w -8.9406953e-008
+				x 0.707107246
+				y -5.96046519e-008
+				z -0.707106352
+			}
+		}
+		object box02.50{
+			file box02.object
+			entry box02
+			vector position{
+				x -26.0564804
+				y 0.525999963
+				z 24.5758114
+			}
+			quaternion orientation{
+				w -0.707106471
+				x 0
+				y 0.707107067
+				z 0
+			}
+		}
+		object tin03.1{
+			file tin03.object
+			entry tin03
+			vector position{
+				x -43.529995
+				y -2.31119871
+				z 20.2619972
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object shelf01.7{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -12.0176926
+				y -0.966999948
+				z 22.9157619
+			}
+			quaternion orientation{
+				w 0.467930377
+				x -4.20696811e-009
+				y -0.883765399
+				z -4.4505061e-008
+			}
+		}
+		object cardsTable.14{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -51.2999992
+				y -0.822000027
+				z 21.0009995
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 0
+				z 1
+			}
+		}
+		object stool_01.25{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -29.8799934
+				y -1.84100008
+				z 20.8599968
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object box02.5{
+			file box02.object
+			entry box02
+			vector position{
+				x -39.2584839
+				y -0.634000003
+				z 20.4758015
+			}
+			quaternion orientation{
+				w 0.707106829
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object cardsTable.9{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -51.2999992
+				y -1.86000013
+				z 34.2999992
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object cardsTable.23{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -45.5999947
+				y -1.86000013
+				z 28.5999966
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableLow.22{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -21.6599998
+				y -2.06299996
+				z 6.0599885
+			}
+			quaternion orientation{
+				w -0.0314109102
+				x 0
+				y 0.999506533
+				z 0
+			}
+		}
+		object safeDoor.3{
+			file safeDoor.object
+			entry safeDoor
+			vector position{
+				x -28.1891098
+				y -1.75160027
+				z 32.3960648
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object newspaper03.2{
+			file newspaper03.object
+			entry newspaper03
+			vector position{
+				x -36.2999992
+				y -2.36719823
+				z 14.2000017
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box02.32{
+			file box02.object
+			entry box02
+			vector position{
+				x -34.0624695
+				y -1.79900002
+				z 25.635807
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 3.57627869e-007
+				z 0
+			}
+		}
+		object tableLow.12{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -22.4399986
+				y -0.822999954
+				z 34.2599869
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object box02.25{
+			file box02.object
+			entry box02
+			vector position{
+				x -36.7364883
+				y 0.525999963
+				z 25.6558075
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object tableRound.35{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x -33.7996254
+				y -1.91000009
+				z 13.3294945
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object tinCleaner.3{
+			file tinCleaner.object
+			entry tinCleaner
+			vector position{
+				x -13.7999992
+				y -2.25989985
+				z 26.9999962
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object cardsTable.20{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -49.3999977
+				y -0.822000027
+				z 24.8009987
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 0
+				z 1
+			}
+		}
+		object stool_01.31{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -26.7599907
+				y -1.84100008
+				z 20.9899998
+			}
+			quaternion orientation{
+				w 0.0627903789
+				x 0
+				y -0.998026788
+				z 0
+			}
+		}
+		object oventimer.50{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -19.0782928
+				y -1.69999981
+				z 26.9659176
+			}
+			quaternion orientation{
+				w -0.938733816
+				x 0
+				y -0.344643116
+				z 0
+			}
+		}
+		object tableLow.1{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -22.4599991
+				y -2.06299996
+				z 32.5199852
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object door_doubleDoor_r.0{
+			file door_doubleDoor_r.object
+			entry door_doubleDoor_r
+			vector position{
+				x -21.6789951
+				y -1.24660015
+				z 22.2937012
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box02.16{
+			file box02.object
+			entry box02
+			vector position{
+				x -39.8517075
+				y -1.79900002
+				z 21.5277996
+			}
+			quaternion orientation{
+				w 0.695912778
+				x 0
+				y -0.718126357
+				z 0
+			}
+		}
+		object clock.1{
+			file clock.object
+			entry clock
+			vector position{
+				x -19.4799957
+				y -1.49000001
+				z -7.99999905
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableLow.34{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -29.277998
+				y -2.06299996
+				z 28.3399811
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object poolCue.2{
+			file poolCue.object
+			entry poolCue
+			vector position{
+				x -27.6543694
+				y -2.36419916
+				z -11.2465467
+			}
+			quaternion orientation{
+				w 0.00221787393
+				x 0.70821321
+				y 0.705991685
+				z 0.00222483277
+			}
+		}
+		object sofa03.2{
+			file sofa03.object
+			entry sofa03
+			vector position{
+				x -7.46000051
+				y -1.93000007
+				z 11.8000002
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object stool_01.18{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -33.5199966
+				y -1.84100008
+				z 20.8599968
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object box02.56{
+			file box02.object
+			entry box02
+			vector position{
+				x -10.7800055
+				y -0.610000134
+				z -13.5000038
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object box02.24{
+			file box02.object
+			entry box02
+			vector position{
+				x -36.6729431
+				y -0.634000003
+				z 25.5990601
+			}
+			quaternion orientation{
+				w -0.0314108133
+				x 0
+				y -0.999506593
+				z 0
+			}
+		}
+		object tableLow.13{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -22.4399986
+				y -0.822999954
+				z 32.5199852
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object clockNoTrap.6{
+			file clockNoTrap.object
+			entry clockNoTrap
+			vector position{
+				x -20.0050297
+				y -1.49000037
+				z -7.95300007
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object stool_01.33{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -25.7199898
+				y -1.84100008
+				z 21.0499973
+			}
+			quaternion orientation{
+				w -0.0972356498
+				x 0
+				y -0.995261371
+				z 0
+			}
+		}
+		object box02.38{
+			file box02.object
+			entry box02
+			vector position{
+				x -27.0024605
+				y -1.79900002
+				z 21.7958031
+			}
+			quaternion orientation{
+				w -2.98023224e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object washing_machine.6{
+			file washing_machine.object
+			entry washing_machine
+			vector position{
+				x -11.9130335
+				y -1.67699981
+				z 18.4723072
+			}
+			quaternion orientation{
+				w 0.999506593
+				x 0
+				y -0.0314106941
+				z 0
+			}
+		}
+		object safeDoor.6{
+			file safeDoor.object
+			entry safeDoor
+			vector position{
+				x -26.1919117
+				y -0.628700137
+				z 33.1337738
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y -0.70710659
+				z 0
+			}
+		}
+		object clockNoTrap.5{
+			file clockNoTrap.object
+			entry clockNoTrap
+			vector position{
+				x -17.0000229
+				y -1.49000037
+				z -4.78000164
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y -0.923879564
+				z 0
+			}
+		}
+		object boxes01.11{
+			file boxes01.object
+			entry boxes01
+			vector position{
+				x -35.7195168
+				y -1.67716599
+				z 14.746851
+			}
+			quaternion orientation{
+				w 0.68454659
+				x 0
+				y 0.728969157
+				z 0
+			}
+		}
+		object poolTable.9{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -27.5795116
+				y -1.58299983
+				z -9.80000305
+			}
+			quaternion orientation{
+				w 0.707106352
+				x 0
+				y 0.707107306
+				z 0
+			}
+		}
+		object box02.54{
+			file box02.object
+			entry box02
+			vector position{
+				x -10.760005
+				y -1.79000008
+				z -13.4800034
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y -3.57627869e-007
+				z 0
+			}
+		}
+		object tableLow.2{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -22.4399986
+				y -2.06299996
+				z 30.7799854
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object poolTable.8{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -27.5795116
+				y -1.58299983
+				z -6.88949728
+			}
+			quaternion orientation{
+				w 0.707106352
+				x 0
+				y 0.707107306
+				z 0
+			}
+		}
+		object pumpkins_damned03.0{
+			file pumpkins_damned03.object
+			entry pumpkins_damned03
+			vector position{
+				x -29.4300022
+				y -0.923999906
+				z 29.409996
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object oventimer.30{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -1.47268724
+				y -1.69999981
+				z 15.3961573
+			}
+			quaternion orientation{
+				w -0.938733816
+				x 0
+				y -0.344643176
+				z 0
+			}
+		}
+		object cardsTable.29{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -47.4999962
+				y -1.86000013
+				z 32.3999977
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object poolTable.15{
+			file poolTable.object
+			entry poolTable
+			vector position{
+				x -25.9590263
+				y -1.33796394
+				z -6.89049721
+			}
+			quaternion orientation{
+				w -8.9406953e-008
+				x 0.707107246
+				y -5.96046519e-008
+				z -0.707106352
+			}
+		}
+		object tinCleaner.6{
+			file tinCleaner.object
+			entry tinCleaner
+			vector position{
+				x -19.7999992
+				y -2.25989985
+				z 20.5999947
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object tableLow.4{
+			file tableLow.object
+			entry tableLow
+			vector position{
+				x -22.4399986
+				y -2.06299996
+				z 27.2999859
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object newspaper03.3{
+			file newspaper03.object
+			entry newspaper03
+			vector position{
+				x -25.2999992
+				y -2.36719823
+				z 2.68220901e-006
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		object bowl_broken.0{
+			file bowl_broken.object
+			entry bowl_broken
+			vector position{
+				x -7.29999924
+				y -2
+				z -5.70000029
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object mh_bed01.1{
+			file mh_bed01.object
+			entry mh_bed01
+			vector position{
+				x -2.6591115
+				y -1.71320713
+				z -12.3413525
+			}
+			quaternion orientation{
+				w -0.536242962
+				x 0.460916102
+				y -0.460915953
+				z 0.536242902
+			}
+		}
+		object oventimer.18{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -14.4029903
+				y -0.909999967
+				z 22.2282181
+			}
+			quaternion orientation{
+				w -0.938733816
+				x 0
+				y -0.344643116
+				z 0
+			}
+		}
+		object box02.53{
+			file box02.object
+			entry box02
+			vector position{
+				x -9.88000488
+				y -1.79000008
+				z -12.8800011
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object box02.37{
+			file box02.object
+			entry box02
+			vector position{
+				x -26.1124592
+				y -1.79900002
+				z 21.7958031
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 4.17232457e-007
+				z 0
+			}
+		}
+		object stool_01.32{
+			file stool_01.object
+			entry stool_01
+			vector position{
+				x -26.2399902
+				y -1.84100008
+				z 20.8999977
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object box02.27{
+			file box02.object
+			entry box02
+			vector position{
+				x -35.7643967
+				y -0.634000003
+				z 25.5990601
+			}
+			quaternion orientation{
+				w -4.8428749e-008
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object clockNoTrap.0{
+			file clockNoTrap.object
+			entry clockNoTrap
+			vector position{
+				x -13.7600212
+				y -1.49000037
+				z -7.9000001
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object woodBarricade_active.0{
+			file woodBarricade_active.object
+			entry woodBarricade_active
+			vector position{
+				x 4
+				y -0.899999976
+				z 5.02000284
+			}
+			quaternion orientation{
+				w 0.704926908
+				x 0.0554789379
+				y 0.0554789491
+				z -0.704927146
+			}
+		}
+		object stair.3{
+			file stair.object
+			entry stair
+			vector position{
+				x 4.12538624
+				y -1.54999995
+				z -12.2215405
+			}
+			quaternion orientation{
+				w -0.679953635
+				x 0
+				y 0.733255148
+				z 0
+			}
+		}
+		object oven_single.2{
+			file oven_single.object
+			entry oven_single
+			vector position{
+				x 3.37336969
+				y -1.51490319
+				z 16.45047
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object box02.51{
+			file box02.object
+			entry box02
+			vector position{
+				x -26.0564804
+				y 0.525999963
+				z 22.4558086
+			}
+			quaternion orientation{
+				w -1
+				x 0
+				y 3.57627869e-007
+				z 0
+			}
+		}
+		object pianoNoTrap.2{
+			file pianoNoTrap.object
+			entry pianoNoTrap
+			vector position{
+				x -34.9999962
+				y -1.66999996
+				z 27.0400047
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object pumpkin_damned01.2{
+			file pumpkin_damned01.object
+			entry pumpkin_damned01
+			vector position{
+				x -5
+				y -1.38999999
+				z 11.0000029
+			}
+			quaternion orientation{
+				w -2.08616228e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object cardsTable.13{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -0.822000027
+				z 21.0009995
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 0
+				z 1
+			}
+		}
+		object tinCleaner.7{
+			file tinCleaner.object
+			entry tinCleaner
+			vector position{
+				x -27.8284283
+				y -2.31690001
+				z 29.9857807
+			}
+			quaternion orientation{
+				w -0.653281629
+				x 0.653281569
+				y 0.270597816
+				z 0.270597875
+			}
+		}
+		object oventimer.41{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -17.1650772
+				y -0.12499997
+				z 29.437376
+			}
+			quaternion orientation{
+				w 0.16573599
+				x 0
+				y 0.986170232
+				z 0
+			}
+		}
+		object pumpkin_damned01.3{
+			file pumpkin_damned01.object
+			entry pumpkin_damned01
+			vector position{
+				x 5.81999969
+				y -2.08000016
+				z 5.3000021
+			}
+			quaternion orientation{
+				w -2.08616228e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object clockNoTrap.2{
+			file clockNoTrap.object
+			entry clockNoTrap
+			vector position{
+				x -16.3600235
+				y -1.49000037
+				z -8.00000191
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object tableRound.19{
+			file tableRound.object
+			entry tableRound
+			vector position{
+				x 1.70000124
+				y -1.91000009
+				z 0.590000033
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object piano_chair.7{
+			file piano_chair.object
+			entry piano_chair
+			vector position{
+				x -35.3147621
+				y -2.13399959
+				z 34.8000031
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object oventimer.1{
+			file oventimer.object
+			entry oventimer
+			vector position{
+				x -53.0575905
+				y -1.19000006
+				z 24.4671097
+			}
+			quaternion orientation{
+				w -0.735387683
+				x 0
+				y -0.677646637
+				z 0
+			}
+		}
+		object pianoNoTrap.0{
+			file pianoNoTrap.object
+			entry pianoNoTrap
+			vector position{
+				x -31.1599998
+				y -1.66999996
+				z 28.8000088
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object cardsTable.3{
+			file cardsTable.object
+			entry cardsTable
+			vector position{
+				x -53.2000008
+				y -1.86000013
+				z 26.6999969
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object pianoNoTrap.6{
+			file pianoNoTrap.object
+			entry pianoNoTrap
+			vector position{
+				x -38.8399925
+				y -1.66999996
+				z 27.0400047
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object box02.52{
+			file box02.object
+			entry box02
+			vector position{
+				x -25.95648
+				y 0.525999963
+				z 23.5758095
+			}
+			quaternion orientation{
+				w -0.790154755
+				x 0
+				y 0.61290741
+				z 0
+			}
+		}
+		object radio.0{
+			file radio.object
+			entry radio
+			vector position{
+				x -50.8786736
+				y -1
+				z 34.3355331
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object stair.2{
+			file stair.object
+			entry stair
+			vector position{
+				x -33.9240417
+				y -1.54999995
+				z 11.758647
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object pianoNoTrap.1{
+			file pianoNoTrap.object
+			entry pianoNoTrap
+			vector position{
+				x -34.9999962
+				y -1.66999996
+				z 28.8000088
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object pianoNoTrap.3{
+			file pianoNoTrap.object
+			entry pianoNoTrap
+			vector position{
+				x -33.7199974
+				y -1.66999996
+				z 27.0400047
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		object stair.8{
+			file stair.object
+			entry stair
+			vector position{
+				x -0.874613762
+				y -1.54999995
+				z 10.8805199
+			}
+			quaternion orientation{
+				w 0.0376898982
+				x 0
+				y 0.999289572
+				z 0
+			}
+		}
+		object stair.7{
+			file stair.object
+			entry stair
+			vector position{
+				x -31.9095116
+				y -1.54999995
+				z 16.6517658
+			}
+			quaternion orientation{
+				w -0.686834097
+				x 0
+				y 0.72681427
+				z 0
+			}
+		}
+		object stair.10{
+			file stair.object
+			entry stair
+			vector position{
+				x -1.98461401
+				y -1.54999995
+				z 30.0697041
+			}
+			quaternion orientation{
+				w 0.733255267
+				x 0
+				y 0.679953575
+				z 0
+			}
+		}
+		object safeDoor.8{
+			file safeDoor.object
+			entry safeDoor
+			vector position{
+				x 7.59369612
+				y -1.75160027
+				z 10.7818594
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		object stair.5{
+			file stair.object
+			entry stair
+			vector position{
+				x -28.4263935
+				y -1.54999995
+				z 13.1507711
+			}
+			quaternion orientation{
+				w -0.639841735
+				x 0
+				y 0.768506706
+				z 0
+			}
+		}
+		object shelf01.19{
+			file shelf01.object
+			entry shelf01
+			vector position{
+				x -2.42420578
+				y -0.966999948
+				z 19.9524517
+			}
+			quaternion orientation{
+				w 0.999506652
+				x -4.074289e-008
+				y -0.0314100944
+				z -1.8396122e-008
+			}
+		}
+		object stair.4{
+			file stair.object
+			entry stair
+			vector position{
+				x -35.2240219
+				y -1.54999995
+				z 1.07846355
+			}
+			quaternion orientation{
+				w -0.639841735
+				x 0
+				y 0.768506706
+				z 0
+			}
+		}
+		object pumpkin_damned01.1{
+			file pumpkin_damned01.object
+			entry pumpkin_damned01
+			vector position{
+				x -52.3999901
+				y -2.23000002
+				z 21.7999954
+			}
+			quaternion orientation{
+				w -0.382683605
+				x 0
+				y -0.923879445
+				z 0
+			}
+		}
+		object box02.55{
+			file box02.object
+			entry box02
+			vector position{
+				x -9.90000534
+				y -0.610000134
+				z -12.8800011
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		object stair.1{
+			file stair.object
+			entry stair
+			vector position{
+				x -27.9240417
+				y -1.54999995
+				z 8.31864929
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object radio.1{
+			file radio.object
+			entry radio
+			vector position{
+				x -2.17999983
+				y -1.0999999
+				z 3.71999931
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+	}
+	spawn_points {
+		spawn_point 20{
+			vector position{
+				x -51.2343102
+				y -1.30000007
+				z 32.4656906
+			}
+			quaternion orientation{
+				w -0.382682949
+				x 0
+				y -0.923879743
+				z 0
+			}
+		}
+		spawn_point 18{
+			vector position{
+				x -32.7343102
+				y -1.30000007
+				z 26.3999958
+			}
+			quaternion orientation{
+				w -0.707106471
+				x 0
+				y -0.707107067
+				z 0
+			}
+		}
+		spawn_point 17{
+			vector position{
+				x -10.2343035
+				y -1.30000007
+				z -15.000001
+			}
+			quaternion orientation{
+				w -0.707106948
+				x 0
+				y 0.70710659
+				z 0
+			}
+		}
+		spawn_point 10{
+			vector position{
+				x -9.23430634
+				y -1.30000007
+				z -2.06568718
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		spawn_point 6{
+			vector position{
+				x 2.96568871
+				y -1.30000007
+				z 10.5
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y -0.382683456
+				z 0
+			}
+		}
+		spawn_point 5{
+			vector position{
+				x -19.5999966
+				y -1.30000007
+				z 25.5
+			}
+			quaternion orientation{
+				w -0.382683605
+				x 0
+				y -0.923879445
+				z 0
+			}
+		}
+		spawn_point 2{
+			vector position{
+				x -7.39999866
+				y -1.30000007
+				z 29.0999947
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		spawn_point 3{
+			vector position{
+				x -8.59999561
+				y -1.30000007
+				z 29.0999947
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		spawn_point 4{
+			vector position{
+				x -18.3999882
+				y -1.30000007
+				z 8.20000076
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y -0.923879564
+				z 0
+			}
+		}
+		spawn_point 0{
+			vector position{
+				x -2.60000038
+				y -1.30000007
+				z 29.1499958
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		spawn_point 1{
+			vector position{
+				x -5.39999771
+				y -1.30000007
+				z 25.8999977
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y -1
+				z 0
+			}
+		}
+		spawn_point 8{
+			vector position{
+				x -4.43430805
+				y -1.30000007
+				z -8.06568718
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
+		spawn_point 14{
+			vector position{
+				x -31.1999817
+				y -1.30000007
+				z 15.5000019
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		spawn_point 9{
+			vector position{
+				x -0.13430807
+				y -0.300000072
+				z 4.33431149
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		spawn_point 7{
+			vector position{
+				x 4.96568871
+				y -1.30000007
+				z -10.3656864
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y -0.382683456
+				z 0
+			}
+		}
+		spawn_point 23{
+			vector position{
+				x -34.9999847
+				y -1.30000007
+				z -1.0656867
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		spawn_point 15{
+			vector position{
+				x -34.7999878
+				y -1.30000007
+				z 3.80000067
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+		spawn_point 12{
+			vector position{
+				x -23.7999916
+				y -1.30000007
+				z -8.4656868
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		spawn_point 21{
+			vector position{
+				x -37.6686249
+				y -1.30000007
+				z 34.1656952
+			}
+			quaternion orientation{
+				w -0.382682949
+				x 0
+				y -0.923879743
+				z 0
+			}
+		}
+		spawn_point 11{
+			vector position{
+				x -15.2343063
+				y -1.30000007
+				z -11.4656868
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		spawn_point 16{
+			vector position{
+				x -22.7999878
+				y -1.30000007
+				z -1.59999943
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		spawn_point 13{
+			vector position{
+				x -34.7999802
+				y -1.30000007
+				z -14.265686
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		spawn_point 19{
+			vector position{
+				x -49.1343117
+				y -1.30000007
+				z 21.3999958
+			}
+			quaternion orientation{
+				w -0.923879385
+				x 0
+				y -0.382683843
+				z 0
+			}
+		}
+		spawn_point 22{
+			vector position{
+				x -30.1999912
+				y -1.30000007
+				z -10.4656868
+			}
+			quaternion orientation{
+				w -1.49011612e-007
+				x 0
+				y 1
+				z 0
+			}
+		}
+	}
+	lights {
+		light light.7{
+			type point
+			vector position{
+				x -34.4599915
+				y 0.45999983
+				z 30.1700974
+			}
+			vector direction{
+				x -0
+				y -1
+				z -0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+			color diffuse_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			color specular_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			attenuation_range 5
+			attenuation_constant 10.3926353
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+		light light.6{
+			type point
+			vector position{
+				x -41.6999817
+				y 0.45999983
+				z 25.1700974
+			}
+			vector direction{
+				x -0
+				y -1
+				z -0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+			color diffuse_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			color specular_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			attenuation_range 5
+			attenuation_constant 10.3926353
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+		light light.5{
+			type point
+			vector position{
+				x -15.6999989
+				y 0.119999886
+				z 23.8700962
+			}
+			vector direction{
+				x -0
+				y -1
+				z -0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+			color diffuse_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			color specular_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			attenuation_range 5
+			attenuation_constant 10.3926353
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+		light light.4{
+			type point
+			vector position{
+				x -1.80000019
+				y 0.119999886
+				z 20.6100979
+			}
+			vector direction{
+				x -0
+				y -1
+				z -0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+			color diffuse_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			color specular_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			attenuation_range 5
+			attenuation_constant 10.3926353
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+		light light.3{
+			type point
+			vector position{
+				x 1.60099995
+				y 0.119999886
+				z -3.0999999
+			}
+			vector direction{
+				x -0
+				y -1
+				z -0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+			color diffuse_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			color specular_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			attenuation_range 5
+			attenuation_constant 10.3926353
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+		light light.2{
+			type point
+			vector position{
+				x 1.60099995
+				y 0.119999886
+				z -8.10299873
+			}
+			vector direction{
+				x -0
+				y -1
+				z -0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+			color diffuse_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			color specular_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			attenuation_range 5
+			attenuation_constant 10.3926353
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+		light light.1{
+			type point
+			vector position{
+				x -1.60000014
+				y 0.119999886
+				z -8.10299873
+			}
+			vector direction{
+				x -0
+				y -1
+				z -0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+			color diffuse_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			color specular_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			attenuation_range 5
+			attenuation_constant 10.3926353
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+		light light.0{
+			type point
+			vector position{
+				x -1.60000014
+				y 0.119999886
+				z -3.0999999
+			}
+			vector direction{
+				x -0
+				y -1
+				z -0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+			color diffuse_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			color specular_color{
+				r 0.764705956
+				g 0.482352972
+				b 0.168627456
+			}
+			attenuation_range 5
+			attenuation_constant 10.3926353
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+	}
+}
