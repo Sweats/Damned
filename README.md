@@ -1,4 +1,6 @@
-PATCHNOTES/CHANGELOG HERE: https://github.com/Sweats/Damned/blob/master/Damned%20PTB%20changelog.txt
+# PATCHNOTES/CHANGELOG HERE: 
+
+https://github.com/Sweats/Damned/blob/master/Damned%20PTB%20changelog.md
 
 
 
