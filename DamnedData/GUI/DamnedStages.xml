@@ -144,16 +144,16 @@
 			<State name="pushed_checked" offset="0 1100 300 100"/>
 		</BasisSkin>
 	</Resource>
-	<Resource type="ResourceSkin" name="hundhillscommunitycenter" size="300 100" texture="DamnedStages.png">
+	<Resource type="ResourceSkin" name="hundhillscommunitycenter" size="300 100" texture="DamnedStages_HHCC.png">
 		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 1200 300 100"/>
-			<State name="normal" offset="600 1200 300 100"/>
-			<State name="highlighted" offset="300 1200 300 100"/>
-			<State name="pushed" offset="600 1200 300 100"/>
-			<State name="disabled_checked" offset="0 1200 300 100"/>
-			<State name="normal_checked" offset="0 1200 300 100"/>
-			<State name="highlighted_checked" offset="300 1200 300 100"/>
-			<State name="pushed_checked" offset="0 1200 300 100"/>
+			<State name="disabled" offset="600 0 300 100"/>
+			<State name="normal" offset="600 0 300 100"/>
+			<State name="highlighted" offset="300 0 300 100"/>
+			<State name="pushed" offset="0 0 300 100"/>
+			<State name="disabled_checked" offset="0 0 300 100"/>
+			<State name="normal_checked" offset="0 0 300 100"/>
+			<State name="highlighted_checked" offset="300 0 300 100"/>
+			<State name="pushed_checked" offset="0 0 300 100"/>
 		</BasisSkin>
 	</Resource>
 </MyGUI>
