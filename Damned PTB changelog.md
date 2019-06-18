@@ -1,8 +1,14 @@
 ﻿# V1.03 CHANGELOG:
 
 
+
+
+
 **General**
 - Disabled the use of the Escape key in lobby as it was the culprit of bugging out lobbies so that you may no longer click anything.
+
+
+
 
 
 
@@ -38,6 +44,9 @@ trap net change: -3<<
 
 
 
+
+
+
 **BUGFIXES**
 
 
@@ -68,9 +77,15 @@ trap net change: -3<<
 # V1.02 CHANGELOG:
 
 
+
+
+
 **GENERAL**
 
 - Changed the menu background back to what it was on patch 1.00 (was the original damned menu)
+
+
+
 
 
 **BUGFIXES**
@@ -98,6 +113,9 @@ trap net change: -3<<
 
 
 
+
+
+
 **GENERAL**
 
 - Hosting a Lobby with Community Patch will now add a special NameTag to the Lobby's Name
@@ -117,12 +135,13 @@ trap net change: -3<<
 
 
 
+
+
 **BALANCE CHANGES**
 
 Lurker
 
 - monster_close.ogg is now Global
-
 
 
 
@@ -162,6 +181,9 @@ Fallen:
 
 - Removed both the Mary spawn in the cabin, in the barn, and added a replacement outside.
 
+
+
+
 **BUGFIXES**
 
 ☆ Bodom Hotel ☆
@@ -193,6 +215,8 @@ Fallen:
 - Added a new Community-made Map 'Hund Hills Community Center'
 - Debug Console now displays a list of Maps and their internal ID
 - Changed background music when you are survivor and Phantom sees you from 'Run!' (monster_closer) to 'Kill!' (blind_hearing)
+
+
 
 
 **BALANCE CHANGES**
