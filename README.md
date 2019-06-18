@@ -1,4 +1,7 @@
-<PATCHNOTES/CHANGELOG HERE: https://github.com/Sweats/Damned/blob/master/Damned%20PTB%20changelog.txt>
+PATCHNOTES/CHANGELOG HERE: https://github.com/Sweats/Damned/blob/master/Damned%20PTB%20changelog.txt
+
+
+
 
 # Damned
 A repository for updating a game on Steam called Damned.
