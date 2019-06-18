@@ -12,12 +12,12 @@
 
 - Added more trap spawns to the maps listed below:
 
-Black Lake Asylum
-Black Lake Woods
-Bright Hotel
-Factory
-Tyberg Hospital
-Serenity Asylum
+- Black Lake Asylum
+- Black Lake Woods
+- Bright Hotel
+- Factory
+- Tyberg Hospital
+- Serenity Asylum
 
 
 *WAREHOUSE*
