@@ -16,7 +16,7 @@
 
 **BALANCE CHANGES**
 
-- Added more trap spawns to the maps listed below:
+Added more trap spawns to the maps listed below:
 
 - Black Lake Asylum
 - Black Lake Woods
@@ -30,10 +30,11 @@
 
 - This map originally had a poor distribution of traps (some traps being grouped up in clusters of up to 8 at a time) and as such been moderately reworked. Information below:
 
-8 clocks replaced with non-trap clock variants (in the clock room)
-5 timers removed, 4 traps added (in the oven timer/shelf room, AKA spawn point)
-10 pianos replaced with 10 non-trap piano variants, 3 traps added (in the room with multiple safes stacked as a tower)
-12 traps added to empty room (room before the clock room, which originally had 2 traps)
+1. 8 clocks replaced with non-trap clock variants (in the clock room)
+2. 5 timers removed, 4 traps added (in the oven timer/shelf room, AKA spawn point)
+3. 10 pianos replaced with 10 non-trap piano variants, 3 traps added (in the room with multiple safes stacked as a tower)
+4. 12 traps added to empty room (room before the clock room, which originally had 2 traps)
+
 trap net change: -3<<
 
 
@@ -47,7 +48,7 @@ trap net change: -3<<
 
 
 
-**BUGFIXES**
+ :wrench: **BUGFIXES** :wrench:
 
 
 :star: PogChamp Hotel :star:
@@ -57,13 +58,13 @@ trap net change: -3<<
 
 
 
-☆ Hund Hills Community Center (HHCC) ☆
+:star: Hund Hills Community Center (HHCC) :star:
 
 - Covered staircase meshhole
 
 
 
-☆ BRIGHT HOTEL ☆
+:star: BRIGHT HOTEL :star:
 
 - Adjusted the position of tables and chairs on the X-axis in the diner so that they no longer fatshame players. (impede movement from being too close)
 
@@ -91,7 +92,7 @@ trap net change: -3<<
 **BUGFIXES**
 
 
-☆ Hund Hills Community Center ☆
+:star: Hund Hills Community Center :star:
 
 - Removed various test objects from the map
 - Added boards at gameroom doubledoors to cover meshholes
@@ -128,7 +129,7 @@ trap net change: -3<<
 
 
 
-☼ Hund Hills Community Center ☼
+:star: Hund Hills Community Center :star:
 - Added 3 new spotlights to the Game Room on the second floor.
 
 
@@ -171,7 +172,7 @@ Fallen:
 - Clicking on locked doors no longer increases Insanity
 
 
-☼ Hund Hills Community Center changes ☼
+:star: Hund Hills Community Center changes :star:
 
 - Added 3 new Mary spawnpoints into Asy_lob (white asylum lobby)
 
@@ -186,14 +187,14 @@ Fallen:
 
 **BUGFIXES**
 
-☆ Bodom Hotel ☆
+:star: Bodom Hotel :star:
 - Fixed 1 Key Sequence that made the Map unsolvable unless you had people spawn on the other side of the map
 
-☆ Rose Crimson Hotel ☆
+:star: Rose Crimson Hotel :star:
 - Unstuck the little cupboard door in the Spawn Room. Also fixes a Key Sequence that was previously unsolvable
 - Fixed a single door leading out of the spawn room due to the possibility of it becoming stuck
 
-☆ Hund Hills Community Center ☆
+:star: Hund Hills Community Center :star:
 - Adjusted boxes in outdoor area on the Y axis to properly be seated on the ground
 - Adjusted various boxes and picnic tables on the X axis so that players can properly fit through them
 - Adjusted various chairs and tables in the bar on the X axis so that players can properly fit through them
