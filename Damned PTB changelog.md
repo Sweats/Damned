@@ -40,7 +40,7 @@ trap net change: -3<<
 
 
 *TRAP CHANGES*
-- Percentage modifier (percent of traps that activate on a map per shift) has been modified on all maps as a result of adding more traps, or not having enough.
+- Percentage modifier (percent of traps that activate on a map per shift) has been modified on all maps for fallen as a result of adding more traps, or not having enough.
 
 
 
