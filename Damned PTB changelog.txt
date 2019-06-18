@@ -1,30 +1,95 @@
-# V1.00 CHANGELOG:
+﻿# V1.03 CHANGELOG:
 
 
 **General**
-- Added a new Community-made Map 'Pog Champ Hotel'
-- Added a new Community-made Map 'Hund Hills Community Center'
-- Debug Console now displays a list of Maps and their internal ID
-- Changed background music when you are survivor and Phantom sees you from 'Run!' (monster_closer) to 'Kill!' (blind_hearing)
+- Disabled the use of the Escape key in lobby as it was the culprit of bugging out lobbies so that you may no longer click anything.
+
+
+
 
 
 **BALANCE CHANGES**
 
-Fallen
-- Traps needed for Seeker Form (P2) = 10, instead of random between 9 and 12
-- Seeker (P2) starts transforming to Destroyer (P3) when a Survivor is within 6m line-of-sight, instead of previous 10m
-- Seeker Form (P2) can now see Humans
-- Destroyer Form (P3) now lasts for 30s, up from 7s
-- While in Destroyer Form, press E button to phase out of Destroyer into Trapper Form and revert back into Destroyer after 3s assuming your 30s Form Time didn't elapse yet.
-This ability has a cooldown of 5s (8s if you count the 3s of phasing time).
+- Added more trap spawns to the maps listed below:
+
+Black Lake Asylum
+Black Lake Woods
+Bright Hotel
+Factory
+Tyberg Hospital
+Serenity Asylum
+
+
+*WAREHOUSE*
+
+- This map originally had a poor distribution of traps (some traps being grouped up in clusters of up to 8 at a time) and as such been moderately reworked. Information below:
+
+8 clocks replaced with non-trap clock variants (in the clock room)
+5 timers removed, 4 traps added (in the oven timer/shelf room, AKA spawn point)
+10 pianos replaced with 10 non-trap piano variants, 3 traps added (in the room with multiple safes stacked as a tower)
+12 traps added to empty room (room before the clock room, which originally had 2 traps)
+trap net change: -3<<
+
+
+
+*TRAP CHANGES*
+- Percentage modifier (percent of traps that activate on a map per shift) has been modified on all maps as a result of adding more traps, or not having enough.
+
+
+
+
+**BUGFIXES**
+
+
+☆ PogChamp Hotel ☆
+
+- Corrected some spawnpoints
+- Fixed issue with doorhandles clipping through wooden planks on doors
+
+
+
+☆ Hund Hills Community Center (HHCC) ☆
+
+- Covered staircase meshhole
+
+
+
+☆ BRIGHT HOTEL ☆
+
+- Adjusted the position of tables and chairs on the X-axis in the diner so that they no longer fatshame players. (impede movement from being too close)
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+# V1.02 CHANGELOG:
+
+
+**GENERAL**
+
+- Changed the menu background back to what it was on patch 1.00 (was the original damned menu)
+
+
+**BUGFIXES**
+
+
+☆ Hund Hills Community Center ☆
+
+- Removed various test objects from the map
+- Added boards at gameroom doubledoors to cover meshholes
+- Adjusted projector objects to be properly aligned
+- Fixed issue on 2nd floor where a table was not able to be set as a trap
+- Miniature makeshift passage added between staircase and exit room so that lurker can properly fit through the doorframe
+- Adjusted spawn points for both survivor and monster so they do not fall through the map when host starts game before players are fully loaded
 
 
 
 
 
-
-
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -115,95 +180,27 @@ Fallen:
 
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
 
-# V1.02 CHANGELOG:
-
-
-**GENERAL**
-
-- Changed the menu background back to what it was on patch 1.00 (was the original damned menu)
-
-
-**BUGFIXES**
-
-
-☆ Hund Hills Community Center ☆
-
-- Removed various test objects from the map
-- Added boards at gameroom doubledoors to cover meshholes
-- Adjusted projector objects to be properly aligned
-- Fixed issue on 2nd floor where a table was not able to be set as a trap
-- Miniature makeshift passage added between staircase and exit room so that lurker can properly fit through the doorframe
-- Adjusted spawn points for both survivor and monster so they do not fall through the map when host starts game before players are fully loaded
-
-
-
-
-
-
-
-
-
-
-# V1.03 CHANGELOG:
+# V1.00 CHANGELOG:
 
 
 **General**
-- Disabled the use of the Escape key in lobby as it was the culprit of bugging out lobbies so that you may no longer click anything.
-
-
-
+- Added a new Community-made Map 'Pog Champ Hotel'
+- Added a new Community-made Map 'Hund Hills Community Center'
+- Debug Console now displays a list of Maps and their internal ID
+- Changed background music when you are survivor and Phantom sees you from 'Run!' (monster_closer) to 'Kill!' (blind_hearing)
 
 
 **BALANCE CHANGES**
 
-- Added more trap spawns to the maps listed below:
-
-Black Lake Asylum
-Black Lake Woods
-Bright Hotel
-Factory
-Tyberg Hospital
-Serenity Asylum
-
-
-*WAREHOUSE*
-
-- This map originally had a poor distribution of traps (some traps being grouped up in clusters of up to 8 at a time) and as such been moderately reworked. Information below:
-
-8 clocks replaced with non-trap clock variants (in the clock room)
-5 timers removed, 4 traps added (in the oven timer/shelf room, AKA spawn point)
-10 pianos replaced with 10 non-trap piano variants, 3 traps added (in the room with multiple safes stacked as a tower)
-12 traps added to empty room (room before the clock room, which originally had 2 traps)
-trap net change: -3<<
-
-
-
-*TRAP CHANGES*
-- Percentage modifier (percent of traps that activate on a map per shift) has been modified on all maps as a result of adding more traps, or not having enough.
-
-
-
-
-**BUGFIXES**
-
-
-☆ PogChamp Hotel ☆
-
-- Corrected some spawnpoints
-- Fixed issue with doorhandles clipping through wooden planks on doors
-
-
-
-☆ Hund Hills Community Center (HHCC) ☆
-
-- Covered staircase meshhole
-
-
-
-☆ BRIGHT HOTEL ☆
-
-- Adjusted the position of tables and chairs on the X-axis in the diner so that they no longer fatshame players. (impede movement from being too close)
+Fallen
+- Traps needed for Seeker Form (P2) = 10, instead of random between 9 and 12
+- Seeker (P2) starts transforming to Destroyer (P3) when a Survivor is within 6m line-of-sight, instead of previous 10m
+- Seeker Form (P2) can now see Humans
+- Destroyer Form (P3) now lasts for 30s, up from 7s
+- While in Destroyer Form, press E button to phase out of Destroyer into Trapper Form and revert back into Destroyer after 3s assuming your 30s Form Time didn't elapse yet.
+This ability has a cooldown of 5s (8s if you count the 3s of phasing time).
