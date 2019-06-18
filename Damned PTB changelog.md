@@ -50,7 +50,7 @@ trap net change: -3<<
 **BUGFIXES**
 
 
-☆ PogChamp Hotel ☆
+:star: PogChamp Hotel :star:
 
 - Corrected some spawnpoints
 - Fixed issue with doorhandles clipping through wooden planks on doors
