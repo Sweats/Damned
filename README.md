@@ -41,21 +41,3 @@ Here is a list of things that we have in mind to create so far:
 	- Write a bot that can fetch public lobbies and post them into the Discord. This would be better than launching the game
 	and seeing if there are any public lobbies.
 	
-	
-	
-Here is a list of things that will for sure happen in a future patch:
-
-	- Phantom rebalancing
-	
-	- New maps
-	
-	
-	
-Here is a list of things that may or may not happen in a future patch:
-
-	- Monster inclusive chat in game	
-	
-	- In game hyperlinks to patch notes and the community discord
-	
-	- New monster (dependent on successfully importing a model into the game, and the coding changes necessary)
-	
