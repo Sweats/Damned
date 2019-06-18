@@ -4,7 +4,7 @@
 
 
 
-**General**
+ :exclamation: **General**
 - Disabled the use of the Escape key in lobby as it was the culprit of bugging out lobbies so that you may no longer click anything.
 
 
@@ -14,7 +14,7 @@
 
 
 
-**BALANCE CHANGES**
+ :flashlight: **BALANCE CHANGES**
 
 Added more trap spawns to the maps listed below:
 
@@ -48,23 +48,23 @@ trap net change: -3<<
 
 
 
- :wrench: **BUGFIXES** :wrench:
+ :wrench: **BUGFIXES**
 
 
-:star: PogChamp Hotel :star:
+:star: PogChamp Hotel
 
 - Corrected some spawnpoints
 - Fixed issue with doorhandles clipping through wooden planks on doors
 
 
 
-:star: Hund Hills Community Center (HHCC) :star:
+:star: Hund Hills Community Center (HHCC)
 
 - Covered staircase meshhole
 
 
 
-:star: BRIGHT HOTEL :star:
+:star: BRIGHT HOTEL
 
 - Adjusted the position of tables and chairs on the X-axis in the diner so that they no longer fatshame players. (impede movement from being too close)
 
@@ -81,7 +81,7 @@ trap net change: -3<<
 
 
 
-**GENERAL**
+ :exclamation: **GENERAL**
 
 - Changed the menu background back to what it was on patch 1.00 (was the original damned menu)
 
@@ -89,10 +89,10 @@ trap net change: -3<<
 
 
 
-**BUGFIXES**
+ :wrench: **BUGFIXES**
 
 
-:star: Hund Hills Community Center :star:
+:star: Hund Hills Community Center
 
 - Removed various test objects from the map
 - Added boards at gameroom doubledoors to cover meshholes
@@ -117,7 +117,7 @@ trap net change: -3<<
 
 
 
-**GENERAL**
+ :exclamation: **GENERAL**
 
 - Hosting a Lobby with Community Patch will now add a special NameTag to the Lobby's Name
 
@@ -129,7 +129,7 @@ trap net change: -3<<
 
 
 
-:star: Hund Hills Community Center :star:
+:star: Hund Hills Community Center
 - Added 3 new spotlights to the Game Room on the second floor.
 
 
@@ -138,7 +138,7 @@ trap net change: -3<<
 
 
 
-**BALANCE CHANGES**
+ :flashlight: **BALANCE CHANGES**
 
 Lurker
 
@@ -167,12 +167,12 @@ Fallen:
 
 
 
-☆ Insanity System ☆
+ :dizzy: Insanity System
 
 - Clicking on locked doors no longer increases Insanity
 
 
-:star: Hund Hills Community Center changes :star:
+:star: Hund Hills Community Center changes
 
 - Added 3 new Mary spawnpoints into Asy_lob (white asylum lobby)
 
@@ -185,16 +185,16 @@ Fallen:
 
 
 
-**BUGFIXES**
+ :wrench: **BUGFIXES**
 
-:star: Bodom Hotel :star:
+:star: Bodom Hotel
 - Fixed 1 Key Sequence that made the Map unsolvable unless you had people spawn on the other side of the map
 
-:star: Rose Crimson Hotel :star:
+:star: Rose Crimson Hotel
 - Unstuck the little cupboard door in the Spawn Room. Also fixes a Key Sequence that was previously unsolvable
 - Fixed a single door leading out of the spawn room due to the possibility of it becoming stuck
 
-:star: Hund Hills Community Center :star:
+:star: Hund Hills Community Center
 - Adjusted boxes in outdoor area on the Y axis to properly be seated on the ground
 - Adjusted various boxes and picnic tables on the X axis so that players can properly fit through them
 - Adjusted various chairs and tables in the bar on the X axis so that players can properly fit through them
@@ -211,7 +211,7 @@ Fallen:
 # V1.00 CHANGELOG:
 
 
-**General**
+ :exclamation: **GENERAL**
 - Added a new Community-made Map 'Pog Champ Hotel'
 - Added a new Community-made Map 'Hund Hills Community Center'
 - Debug Console now displays a list of Maps and their internal ID
@@ -220,7 +220,7 @@ Fallen:
 
 
 
-**BALANCE CHANGES**
+ :flashlight: **BALANCE CHANGES**
 
 Fallen
 - Traps needed for Seeker Form (P2) = 10, instead of random between 9 and 12
