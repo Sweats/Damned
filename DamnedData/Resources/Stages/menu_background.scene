@@ -1,0 +1,314 @@
+scene menu_background{
+	ambient_music main_menu.ogg
+	color ambient_light{
+		r 0.0431372561
+		g 0.0431372561
+		b 0.0431372561
+	}
+	objects {
+		object mh_shelf01_1.1{
+			file mh_shelf01_1.object
+			entry mh_shelf01_1
+			vector position{
+				x 1.88400042
+				y 0.899891973
+				z -9.56999874
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object boxes02.1{
+			file boxes02.object
+			entry boxes02
+			vector position{
+				x 7.17904377
+				y 0.889999986
+				z -12.0040569
+			}
+			quaternion orientation{
+				w -0.710431218
+				x 9.1985608e-010
+				y 0.703766644
+				z -1.4569089e-010
+			}
+		}
+		object boxes02.0{
+			file boxes02.object
+			entry boxes02
+			vector position{
+				x 6.57904387
+				y 0.889999986
+				z -8.56811523
+			}
+			quaternion orientation{
+				w -0.591591358
+				x 0
+				y 0.806238055
+				z 0
+			}
+		}
+		object boxes02.2{
+			file boxes02.object
+			entry boxes02
+			vector position{
+				x 8.15160561
+				y 1.49000001
+				z -10.2040501
+			}
+			quaternion orientation{
+				w -0.710431218
+				x 9.1985608e-010
+				y 0.703766644
+				z -1.4569089e-010
+			}
+		}
+		object Monster_Lurker_Display.0{
+			file Monster_Lurker_Display.object
+			entry Monster_Lurker_Display
+			vector position{
+				x 3.87964797
+				y 0.904999971
+				z -7.67614937
+			}
+			quaternion orientation{
+				w 0.70710659
+				x -1.47821515e-008
+				y -0.707107008
+				z -2.09758455e-009
+			}
+		}
+		object mh_shelf01_1.0{
+			file mh_shelf01_1.object
+			entry mh_shelf01_1
+			vector position{
+				x 1.10000002
+				y 0.899891973
+				z -8.78585339
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
+				z 0
+			}
+		}
+		object mh_kitchen.0{
+			file mh_kitchen.object
+			entry mh_kitchen
+			vector position{
+				x 10.5675344
+				y 1.75899982
+				z 1.94999981
+			}
+			quaternion orientation{
+				w 0.950080991
+				x 1.47176973e-008
+				y -0.312003285
+				z 2.33105535e-009
+			}
+		}
+		object asy_lobby.0{
+			file asy_lobby.object
+			entry asy_lobby
+			vector position{
+				x 5.8999958
+				y 2
+				z -8.3999958
+			}
+			quaternion orientation{
+				w 0.950569987
+				x 4.17076862e-009
+				y -0.310510576
+				z -1.4426317e-008
+			}
+		}
+		object Monster_Phantom_Display.0{
+			file Monster_Phantom_Display.object
+			entry Monster_Phantom_Display
+			vector position{
+				x -0.694605589
+				y 0.800000072
+				z -2.19066048
+			}
+			quaternion orientation{
+				w -0.0941083729
+				x -6.63851596e-009
+				y 0.995561957
+				z -3.38249206e-009
+			}
+		}
+		object statue2.2{
+			file statue2.object
+			entry statue2
+			vector position{
+				x -1.04320836
+				y 0.159999818
+				z -8.02438736
+			}
+			quaternion orientation{
+				w 0.427773774
+				x 0.0549283624
+				y -0.901702225
+				z 0.0304222219
+			}
+		}
+		object statue2.1{
+			file statue2.object
+			entry statue2
+			vector position{
+				x -8.16010666
+				y 0.7299999
+				z -6.19999504
+			}
+			quaternion orientation{
+				w 0.411750734
+				x -0.123047538
+				y -0.885723591
+				z -0.175539985
+			}
+		}
+		object Monster_Mary_Display.0{
+			file Monster_Mary_Display.object
+			entry Monster_Mary_Display
+			vector position{
+				x 0.180001572
+				y 0.699999928
+				z -5.09062147
+			}
+			quaternion orientation{
+				w 0.981991708
+				x 0
+				y 0.188923985
+				z 0
+			}
+		}
+	}
+	spawn_points {
+		spawn_point 0{
+			vector position{
+				x -1.59170735
+				y 1.89999855
+				z -7.1781745
+			}
+			quaternion orientation{
+				w 0.86986804
+				x -0.166559234
+				y 0.452110469
+				z 0.105753131
+			}
+		}
+	}
+	lights {
+		light light.1{
+			type point
+			vector position{
+				x -0.69999975
+				y 1.5
+				z -2.21999836
+			}
+			vector direction{
+				x -0
+				y -1
+				z -0
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+			color diffuse_color{
+				r 0.286274523
+				g 1
+				b 0
+			}
+			color specular_color{
+				r 0.286274523
+				g 1
+				b 0
+			}
+			attenuation_range 1
+			attenuation_constant 11.9386101
+			attenuation_linear 0
+			attenuation_quadratic 0
+		}
+		light light.0{
+			type spotlight
+			vector position{
+				x 3.77000022
+				y -0.100999437
+				z -7.45999193
+			}
+			vector direction{
+				x 0.117821008
+				y 0.932161689
+				z -0.342334181
+			}
+			quaternion orientation{
+				w -0.155275047
+				x -0.955579817
+				y 0.0990393236
+				z 0.230104432
+			}
+			color diffuse_color{
+				r 1
+				g 0
+				b 0
+			}
+			color specular_color{
+				r 1
+				g 0
+				b 0
+			}
+			attenuation_range 20
+			attenuation_constant 10.0936279
+			attenuation_linear 0
+			attenuation_quadratic 0
+			inner_angle 90.0000076
+			outer_angle 120.000008
+			falloff 1
+			casts_shadows 1
+		}
+		light light.3{
+			type spotlight
+			vector position{
+				x -2.71200132
+				y 6.96209908
+				z -4.62500334
+			}
+			vector direction{
+				x 0.866824031
+				y -0.165502131
+				z -0.470345855
+			}
+			quaternion orientation{
+				w 0.625372112
+				x 0.577973008
+				y -0.4377909
+				z 0.288437396
+			}
+			color diffuse_color{
+				r 0.054901965
+				g 0.054901965
+				b 0.054901965
+			}
+			color specular_color{
+				r 0.054901965
+				g 0.054901965
+				b 0.054901965
+			}
+			attenuation_range 11
+			attenuation_constant 10.1186304
+			attenuation_linear 0
+			attenuation_quadratic 0
+			inner_angle 38
+			outer_angle 106
+			falloff 1
+			casts_shadows 1
+		}
+	}
+}
