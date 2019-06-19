@@ -61,7 +61,8 @@ trap net change: -3<<
 :star: Hund Hills Community Center (HHCC)
 
 - Covered staircase meshhole
-
+- Adjusted certain objects outside on the Y-axis so they are properly seated on the ground
+- Fixed door on 2nd floor being given improper attributes
 
 
 :star: BRIGHT HOTEL
