@@ -1,0 +1,8 @@
+object Woodplank_Display{
+	mesh woodBarricadeSingle01.mesh
+	shape none
+	mass 0
+	mask 0
+	
+	animations 0
+}
