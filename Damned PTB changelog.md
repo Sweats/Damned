@@ -70,8 +70,8 @@ trap net change: -3<<
 - Adjusted the position of tables and chairs on the X-axis in the diner so that they no longer fatshame players. (impede movement from being too close)
 
 
- :nut_and_bolt: **V1.03 HOTFIX A:**
-                     (6/19)
+ :nut_and_bolt: **V1.03 HOTFIX A (6/19):**
+ 
                     
 ☆ Hund Hills Community Center (HHCC) ☆
 
