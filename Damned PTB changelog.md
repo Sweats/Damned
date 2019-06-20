@@ -80,7 +80,7 @@ trap net change: -3<<
 - Fixed an issue with a door meshholes on the 1st floor
 - Fixed an issue with door meshholes on the 2nd floor
 - Fixed an issue with forest wall meshholes in the gameroom
-- Fixed issue where the key to the red passageway was incorectly tagged as a Rusty key.
+- Fixed issue where the key to the red passageway was incorrectly tagged as a Rusty key.
 
 
 
