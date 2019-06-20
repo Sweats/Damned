@@ -70,6 +70,20 @@ trap net change: -3<<
 - Adjusted the position of tables and chairs on the X-axis in the diner so that they no longer fatshame players. (impede movement from being too close)
 
 
+ :nut_and_bolt: **V1.03 HOTFIX A:**
+
+UPDATE (6/19, current posting time)
+☆ Hund Hills Community Center (HHCC) ☆
+
+- Added objects to porch area
+- Fixed an issue with a pooltable meshhole on the 2nd floor
+- Fixed an issue with a door meshholes on the 1st floor
+- Fixed an issue with door meshholes on the 2nd floor
+- Fixed an issue with forest wall meshholes in the gameroom
+- Fixed issue where the key to the red passageway was incorectly tagged as a Rusty key.
+
+
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
