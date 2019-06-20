@@ -71,8 +71,8 @@ trap net change: -3<<
 
 
  :nut_and_bolt: **V1.03 HOTFIX A:**
-
-UPDATE (6/19)
+                     (6/19)
+                    
 ☆ Hund Hills Community Center (HHCC) ☆
 
 - Added objects to porch area
