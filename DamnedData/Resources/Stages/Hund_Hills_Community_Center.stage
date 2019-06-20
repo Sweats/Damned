@@ -316,10 +316,6 @@ stage Hund_Hills_Community_Center{
 			unlocker_mask 34
 		}
 		locked_object {
-			object closet_LeftDoor_Sound.8
-			unlocker_mask 34
-		}
-		locked_object {
 			object safeDoor.2
 			unlocker_mask 32
 		}
@@ -328,12 +324,16 @@ stage Hund_Hills_Community_Center{
 			unlocker_mask 34
 		}
 		locked_object {
-			object forest_door_barn_2.0
-			unlocker_mask 155
+			object closet_LeftDoor_Sound.8
+			unlocker_mask 34
 		}
 		locked_object {
 			object closet_RightDoor_Sound.11
 			unlocker_mask 34
+		}
+		locked_object {
+			object forest_door_barn_2.0
+			unlocker_mask 155
 		}
 		locked_object {
 			object closet_LeftDoor_Sound.11
@@ -344,14 +344,6 @@ stage Hund_Hills_Community_Center{
 			unlocker_mask 34
 		}
 		locked_object {
-			object door_RestroomM.0
-			unlocker_mask 31
-		}
-		locked_object {
-			object desk01_drawer01_lock.0
-			unlocker_mask 19
-		}
-		locked_object {
 			object closet_LeftDoor_Sound.6
 			unlocker_mask 34
 		}
@@ -360,20 +352,32 @@ stage Hund_Hills_Community_Center{
 			unlocker_mask 13
 		}
 		locked_object {
+			object door_RestroomM.0
+			unlocker_mask 31
+		}
+		locked_object {
+			object desk01_drawer01_lock.0
+			unlocker_mask 19
+		}
+		locked_object {
 			object closet_RightDoor_Sound.7
 			unlocker_mask 34
 		}
 		locked_object {
-			object door_singleConference_r.2
-			unlocker_mask 30
+			object safeDoor.3
+			unlocker_mask 33
+		}
+		locked_object {
+			object mh_door_a103.0
+			unlocker_mask 97
 		}
 		locked_object {
 			object door_doubleDoor.2
 			unlocker_mask 9
 		}
 		locked_object {
-			object mh_door_a103.0
-			unlocker_mask 97
+			object door_singleConference_r.2
+			unlocker_mask 30
 		}
 		locked_object {
 			object closet_LeftDoor_Sound.1
@@ -390,10 +394,6 @@ stage Hund_Hills_Community_Center{
 		locked_object {
 			object closet_LeftDoor_Sound.12
 			unlocker_mask 34
-		}
-		locked_object {
-			object safeDoor.3
-			unlocker_mask 33
 		}
 		locked_object {
 			object door_doubleDoor_r.3
@@ -456,10 +456,6 @@ stage Hund_Hills_Community_Center{
 			unlocker_mask 99
 		}
 		locked_object {
-			object door_doubleDoor.6
-			unlocker_mask 14
-		}
-		locked_object {
 			object door_singleCEO.1
 			unlocker_mask 6
 		}
@@ -470,6 +466,10 @@ stage Hund_Hills_Community_Center{
 		locked_object {
 			object door_singleConference_r.0
 			unlocker_mask 18
+		}
+		locked_object {
+			object door_doubleDoor.6
+			unlocker_mask 14
 		}
 		locked_object {
 			object door_singleConference_r.1
@@ -500,14 +500,6 @@ stage Hund_Hills_Community_Center{
 			unlocker_mask 4
 		}
 		locked_object {
-			object closet_LeftDoor_Sound.2
-			unlocker_mask 34
-		}
-		locked_object {
-			object door_doubleDoor_r.4
-			unlocker_mask 14
-		}
-		locked_object {
 			object closet_LeftDoor_Sound.13
 			unlocker_mask 34
 		}
@@ -516,40 +508,16 @@ stage Hund_Hills_Community_Center{
 			unlocker_mask 34
 		}
 		locked_object {
+			object door_doubleDoor_r.4
+			unlocker_mask 14
+		}
+		locked_object {
 			object forest_door_camping_1.0
 			unlocker_mask 79
 		}
 		locked_object {
-			object desk01_drawer01_lock.2
-			unlocker_mask 19
-		}
-		locked_object {
-			object forest_door_barn_1.0
-			unlocker_mask 155
-		}
-		locked_object {
-			object closet_RightDoor_Sound.12
+			object closet_LeftDoor_Sound.2
 			unlocker_mask 34
-		}
-		locked_object {
-			object desk01_drawer01_lock.4
-			unlocker_mask 19
-		}
-		locked_object {
-			object door_singleDoor_r.0
-			unlocker_mask 1
-		}
-		locked_object {
-			object closet_LeftDoor_Sound.9
-			unlocker_mask 34
-		}
-		locked_object {
-			object door_singleWhite.0
-			unlocker_mask 17
-		}
-		locked_object {
-			object door_double_kitchen.0
-			unlocker_mask 10
 		}
 		locked_object {
 			object safeDoor.4
@@ -560,6 +528,38 @@ stage Hund_Hills_Community_Center{
 			unlocker_mask 16
 		}
 		locked_object {
+			object desk01_drawer01_lock.2
+			unlocker_mask 19
+		}
+		locked_object {
+			object closet_RightDoor_Sound.12
+			unlocker_mask 34
+		}
+		locked_object {
+			object forest_door_barn_1.0
+			unlocker_mask 155
+		}
+		locked_object {
+			object desk01_drawer01_lock.4
+			unlocker_mask 19
+		}
+		locked_object {
+			object door_double_kitchen.0
+			unlocker_mask 10
+		}
+		locked_object {
+			object door_singleWhite.0
+			unlocker_mask 17
+		}
+		locked_object {
+			object door_singleDoor_r.0
+			unlocker_mask 1
+		}
+		locked_object {
+			object closet_LeftDoor_Sound.9
+			unlocker_mask 34
+		}
+		locked_object {
 			object closet_RightDoor_Sound.6
 			unlocker_mask 34
 		}
@@ -568,12 +568,12 @@ stage Hund_Hills_Community_Center{
 			unlocker_mask 17
 		}
 		locked_object {
-			object door_singleWhite.4
-			unlocker_mask 17
-		}
-		locked_object {
 			object door_doubleDoor.0
 			unlocker_mask 15
+		}
+		locked_object {
+			object door_singleWhite.4
+			unlocker_mask 17
 		}
 		locked_object {
 			object safeDoor.0
@@ -876,6 +876,24 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
+		object_spawn_point object_spawn_point.211{
+			groups {
+				group 29{
+					require_mask 404
+				}
+			}
+			vector position{
+				x -2.21118951
+				y 3.00999999
+				z -34.1699219
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
 		object_spawn_point object_spawn_point.246{
 			groups {
 				group 17{
@@ -913,24 +931,6 @@ stage Hund_Hills_Community_Center{
 				x 15.2891045
 				y 3.45000029
 				z -54.6198997
-			}
-			quaternion orientation{
-				w 0.707106709
-				x 0
-				y 0.707106829
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.211{
-			groups {
-				group 29{
-					require_mask 404
-				}
-			}
-			vector position{
-				x -2.21118951
-				y 3.00999999
-				z -34.1699219
 			}
 			quaternion orientation{
 				w 0.707106709
@@ -1032,31 +1032,7 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.114{
-			groups {
-				group 32{
-					require_mask 404
-				}
-				group 22{
-					require_mask 403
-				}
-				group 16{
-					require_mask 402
-				}
-			}
-			vector position{
-				x 8.9149065
-				y 3.37100124
-				z -29.0800095
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.223{
+		object_spawn_point object_spawn_point.224{
 			groups {
 				group 10{
 					require_mask 404
@@ -1069,9 +1045,9 @@ stage Hund_Hills_Community_Center{
 				}
 			}
 			vector position{
-				x -32.1309967
-				y -1.8986001
-				z -12.5200119
+				x -31.4410019
+				y -1.31870008
+				z -3.60890388
 			}
 			quaternion orientation{
 				w 1
@@ -1080,45 +1056,30 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.219{
+		object_spawn_point object_spawn_point.214{
 			groups {
-				group 30{
+				group 28{
 					require_mask 404
 				}
-			}
-			vector position{
-				x 11.6911125
-				y 3.36200047
-				z -41.3098755
-			}
-			quaternion orientation{
-				w 0.707106709
-				x 0
-				y 0.707106829
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.179{
-			groups {
-				group 32{
-					require_mask 404
-				}
-				group 22{
-					require_mask 403
-				}
-				group 16{
+				group 8{
 					require_mask 402
 				}
+				group 30{
+					require_mask 401
+				}
+				group 8{
+					require_mask 403
+				}
 			}
 			vector position{
-				x -1.14509296
-				y 3.15100241
-				z -32.5000229
+				x -12.8799934
+				y -4.36000156
+				z 53.851078
 			}
 			quaternion orientation{
-				w 1
+				w 0.382683307
 				x 0
-				y 0
+				y 0.923879564
 				z 0
 			}
 		}
@@ -1164,57 +1125,6 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.214{
-			groups {
-				group 28{
-					require_mask 404
-				}
-				group 8{
-					require_mask 402
-				}
-				group 30{
-					require_mask 401
-				}
-				group 8{
-					require_mask 403
-				}
-			}
-			vector position{
-				x -12.8799934
-				y -4.36000156
-				z 53.851078
-			}
-			quaternion orientation{
-				w 0.382683307
-				x 0
-				y 0.923879564
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.224{
-			groups {
-				group 10{
-					require_mask 404
-				}
-				group 25{
-					require_mask 403
-				}
-				group 19{
-					require_mask 402
-				}
-			}
-			vector position{
-				x -31.4410019
-				y -1.31870008
-				z -3.60890388
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
-			}
-		}
 		object_spawn_point object_spawn_point.111{
 			groups {
 				group 32{
@@ -1236,6 +1146,114 @@ stage Hund_Hills_Community_Center{
 				w 1
 				x 0
 				y 0
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.219{
+			groups {
+				group 30{
+					require_mask 404
+				}
+			}
+			vector position{
+				x 11.6911125
+				y 3.36200047
+				z -41.3098755
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.223{
+			groups {
+				group 10{
+					require_mask 404
+				}
+				group 25{
+					require_mask 403
+				}
+				group 19{
+					require_mask 402
+				}
+			}
+			vector position{
+				x -32.1309967
+				y -1.8986001
+				z -12.5200119
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.114{
+			groups {
+				group 32{
+					require_mask 404
+				}
+				group 22{
+					require_mask 403
+				}
+				group 16{
+					require_mask 402
+				}
+			}
+			vector position{
+				x 8.9149065
+				y 3.37100124
+				z -29.0800095
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.179{
+			groups {
+				group 32{
+					require_mask 404
+				}
+				group 22{
+					require_mask 403
+				}
+				group 16{
+					require_mask 402
+				}
+			}
+			vector position{
+				x -1.14509296
+				y 3.15100241
+				z -32.5000229
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.149{
+			groups {
+				group 10{
+					require_mask 402
+				}
+			}
+			vector position{
+				x -14.5320053
+				y 3.42000127
+				z -40.9408913
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
 				z 0
 			}
 		}
@@ -1266,24 +1284,6 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.149{
-			groups {
-				group 10{
-					require_mask 402
-				}
-			}
-			vector position{
-				x -14.5320053
-				y 3.42000127
-				z -40.9408913
-			}
-			quaternion orientation{
-				w 0.707106709
-				x 0
-				y 0.707106829
-				z 0
-			}
-		}
 		object_spawn_point object_spawn_point.21{
 			groups {
 				group 2{
@@ -1299,30 +1299,6 @@ stage Hund_Hills_Community_Center{
 			vector position{
 				x 6.7249999
 				y 3.55100012
-				z -15.9200096
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.205{
-			groups {
-				group 2{
-					require_mask 404
-				}
-				group 9{
-					require_mask 403
-				}
-				group 19{
-					require_mask 401
-				}
-			}
-			vector position{
-				x 6.7249999
-				y 3.14000058
 				z -15.9200096
 			}
 			quaternion orientation{
@@ -1380,6 +1356,30 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
+		object_spawn_point object_spawn_point.205{
+			groups {
+				group 2{
+					require_mask 404
+				}
+				group 9{
+					require_mask 403
+				}
+				group 19{
+					require_mask 401
+				}
+			}
+			vector position{
+				x 6.7249999
+				y 3.14000058
+				z -15.9200096
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
 		object_spawn_point object_spawn_point.148{
 			groups {
 				group 20{
@@ -1398,6 +1398,75 @@ stage Hund_Hills_Community_Center{
 				w 0.707106709
 				x 0
 				y 0.707106829
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.244{
+			groups {
+				group 24{
+					require_mask 404
+				}
+				group 14{
+					require_mask 403
+				}
+				group 5{
+					require_mask 402
+				}
+			}
+			vector position{
+				x -18.3918972
+				y -1.38870001
+				z 11.9300919
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.196{
+			groups {
+				group 18{
+					require_mask 404
+				}
+			}
+			vector position{
+				x -21.300993
+				y 3.17000055
+				z 1.3789928
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.234{
+			groups {
+				group 14{
+					require_mask 404
+				}
+				group 16{
+					require_mask 403
+				}
+				group 20{
+					require_mask 402
+				}
+				group 6{
+					require_mask 401
+				}
+			}
+			vector position{
+				x 39.8139343
+				y -1.64999962
+				z -7.59101295
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
 				z 0
 			}
 		}
@@ -1497,75 +1566,6 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.196{
-			groups {
-				group 18{
-					require_mask 404
-				}
-			}
-			vector position{
-				x -21.300993
-				y 3.17000055
-				z 1.3789928
-			}
-			quaternion orientation{
-				w 0.707106709
-				x 0
-				y 0.707106829
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.244{
-			groups {
-				group 24{
-					require_mask 404
-				}
-				group 14{
-					require_mask 403
-				}
-				group 5{
-					require_mask 402
-				}
-			}
-			vector position{
-				x -18.3918972
-				y -1.38870001
-				z 11.9300919
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.234{
-			groups {
-				group 14{
-					require_mask 404
-				}
-				group 16{
-					require_mask 403
-				}
-				group 20{
-					require_mask 402
-				}
-				group 6{
-					require_mask 401
-				}
-			}
-			vector position{
-				x 39.8139343
-				y -1.64999962
-				z -7.59101295
-			}
-			quaternion orientation{
-				w 0.707106709
-				x 0
-				y -0.707106829
-				z 0
-			}
-		}
 		object_spawn_point object_spawn_point.229{
 			groups {
 				group 27{
@@ -1662,24 +1662,6 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.218{
-			groups {
-				group 30{
-					require_mask 404
-				}
-			}
-			vector position{
-				x 20.7011127
-				y 3.17200065
-				z -42.2098618
-			}
-			quaternion orientation{
-				w 0.707106709
-				x 0
-				y 0.707106829
-				z 0
-			}
-		}
 		object_spawn_point object_spawn_point.228{
 			groups {
 				group 27{
@@ -1704,6 +1686,24 @@ stage Hund_Hills_Community_Center{
 				w 0.707106709
 				x 0
 				y -0.707106829
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.218{
+			groups {
+				group 30{
+					require_mask 404
+				}
+			}
+			vector position{
+				x 20.7011127
+				y 3.17200065
+				z -42.2098618
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
 				z 0
 			}
 		}
@@ -4632,6 +4632,33 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
+		object_spawn_point object_spawn_point.60{
+			groups {
+				group 1{
+					require_mask 402
+				}
+				group 1{
+					require_mask 401
+				}
+				group 1{
+					require_mask 403
+				}
+				group 1{
+					require_mask 404
+				}
+			}
+			vector position{
+				x 38.2229881
+				y -1.84000015
+				z -22.2610035
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
 		object_spawn_point object_spawn_point.27{
 			groups {
 				group 17{
@@ -4653,7 +4680,7 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.60{
+		object_spawn_point object_spawn_point.61{
 			groups {
 				group 1{
 					require_mask 402
@@ -4669,9 +4696,9 @@ stage Hund_Hills_Community_Center{
 				}
 			}
 			vector position{
-				x 38.2229881
-				y -1.84000015
-				z -22.2610035
+				x 36.590004
+				y -1.03999996
+				z -15.3310089
 			}
 			quaternion orientation{
 				w 1
@@ -4701,33 +4728,6 @@ stage Hund_Hills_Community_Center{
 				w 0.707106709
 				x 0
 				y 0.707106829
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.61{
-			groups {
-				group 1{
-					require_mask 402
-				}
-				group 1{
-					require_mask 401
-				}
-				group 1{
-					require_mask 403
-				}
-				group 1{
-					require_mask 404
-				}
-			}
-			vector position{
-				x 36.590004
-				y -1.03999996
-				z -15.3310089
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
 				z 0
 			}
 		}
@@ -4827,6 +4827,30 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
+		object_spawn_point object_spawn_point.37{
+			groups {
+				group 32{
+					require_mask 404
+				}
+				group 22{
+					require_mask 403
+				}
+				group 16{
+					require_mask 402
+				}
+			}
+			vector position{
+				x 6.42490005
+				y 2.90100074
+				z -26.8200092
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
 		object_spawn_point object_spawn_point.187{
 			groups {
 				group 17{
@@ -4867,30 +4891,6 @@ stage Hund_Hills_Community_Center{
 				x 17.5279961
 				y -1.68990016
 				z -17.1409111
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.37{
-			groups {
-				group 32{
-					require_mask 404
-				}
-				group 22{
-					require_mask 403
-				}
-				group 16{
-					require_mask 402
-				}
-			}
-			vector position{
-				x 6.42490005
-				y 2.90100074
-				z -26.8200092
 			}
 			quaternion orientation{
 				w 1
@@ -5079,30 +5079,6 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.208{
-			groups {
-				group 3{
-					require_mask 404
-				}
-				group 4{
-					require_mask 403
-				}
-				group 23{
-					require_mask 401
-				}
-			}
-			vector position{
-				x 7.78810406
-				y 3.31000137
-				z -35.0108948
-			}
-			quaternion orientation{
-				w 0.707106709
-				x 0
-				y 0.707106829
-				z 0
-			}
-		}
 		object_spawn_point object_spawn_point.57{
 			groups {
 				group 18{
@@ -5140,6 +5116,30 @@ stage Hund_Hills_Community_Center{
 				x 17.7891026
 				y 3.7310009
 				z -39.4398384
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.208{
+			groups {
+				group 3{
+					require_mask 404
+				}
+				group 4{
+					require_mask 403
+				}
+				group 23{
+					require_mask 401
+				}
+			}
+			vector position{
+				x 7.78810406
+				y 3.31000137
+				z -35.0108948
 			}
 			quaternion orientation{
 				w 0.707106709
@@ -5196,6 +5196,27 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
+		object_spawn_point object_spawn_point.188{
+			groups {
+				group 17{
+					require_mask 404
+				}
+				group 25{
+					require_mask 401
+				}
+			}
+			vector position{
+				x -20.4100037
+				y -4.29799986
+				z 50.1510544
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
 		object_spawn_point object_spawn_point.132{
 			groups {
 				group 22{
@@ -5239,27 +5260,6 @@ stage Hund_Hills_Community_Center{
 				x 15.9249067
 				y 3.9410007
 				z -28.1600075
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.188{
-			groups {
-				group 17{
-					require_mask 404
-				}
-				group 25{
-					require_mask 401
-				}
-			}
-			vector position{
-				x -20.4100037
-				y -4.29799986
-				z 50.1510544
 			}
 			quaternion orientation{
 				w 1
@@ -5316,6 +5316,24 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
+		object_spawn_point object_spawn_point.213{
+			groups {
+				group 29{
+					require_mask 404
+				}
+			}
+			vector position{
+				x -2.31118941
+				y 3.00999999
+				z -28.1698265
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y 0.707106829
+				z 0
+			}
+		}
 		object_spawn_point object_spawn_point.163{
 			groups {
 				group 29{
@@ -5337,21 +5355,45 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.213{
+		object_spawn_point object_spawn_point.198{
 			groups {
-				group 29{
+				group 18{
 					require_mask 404
 				}
 			}
 			vector position{
-				x -2.31118941
-				y 3.00999999
-				z -28.1698265
+				x -30.7709904
+				y 3.6400001
+				z 3.91799212
 			}
 			quaternion orientation{
 				w 0.707106709
 				x 0
 				y 0.707106829
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.81{
+			groups {
+				group 10{
+					require_mask 404
+				}
+				group 25{
+					require_mask 403
+				}
+				group 19{
+					require_mask 402
+				}
+			}
+			vector position{
+				x -19.7310009
+				y -1.29870009
+				z -3.56890821
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
 				z 0
 			}
 		}
@@ -5395,48 +5437,6 @@ stage Hund_Hills_Community_Center{
 				x -19.2820053
 				y 3.92000175
 				z -25.8108978
-			}
-			quaternion orientation{
-				w 0.707106709
-				x 0
-				y 0.707106829
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.81{
-			groups {
-				group 10{
-					require_mask 404
-				}
-				group 25{
-					require_mask 403
-				}
-				group 19{
-					require_mask 402
-				}
-			}
-			vector position{
-				x -19.7310009
-				y -1.29870009
-				z -3.56890821
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.198{
-			groups {
-				group 18{
-					require_mask 404
-				}
-			}
-			vector position{
-				x -30.7709904
-				y 3.6400001
-				z 3.91799212
 			}
 			quaternion orientation{
 				w 0.707106709
@@ -5553,6 +5553,30 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
+		object_spawn_point object_spawn_point.248{
+			groups {
+				group 5{
+					require_mask 401
+				}
+				group 24{
+					require_mask 402
+				}
+				group 29{
+					require_mask 403
+				}
+			}
+			vector position{
+				x -8.22300529
+				y -0.749899864
+				z -11.189908
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
+				z 0
+			}
+		}
 		object_spawn_point object_spawn_point.238{
 			groups {
 				group 11{
@@ -5577,30 +5601,6 @@ stage Hund_Hills_Community_Center{
 				w 0.707106709
 				x 0
 				y 0.707106829
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.248{
-			groups {
-				group 5{
-					require_mask 401
-				}
-				group 24{
-					require_mask 402
-				}
-				group 29{
-					require_mask 403
-				}
-			}
-			vector position{
-				x -8.22300529
-				y -0.749899864
-				z -11.189908
-			}
-			quaternion orientation{
-				w 0.707106709
-				x 0
-				y -0.707106829
 				z 0
 			}
 		}
@@ -5638,57 +5638,6 @@ stage Hund_Hills_Community_Center{
 				x -5.50999832
 				y -4.68899918
 				z 66.1210327
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.119{
-			groups {
-				group 15{
-					require_mask 404
-				}
-				group 26{
-					require_mask 401
-				}
-				group 15{
-					require_mask 403
-				}
-			}
-			vector position{
-				x -58.2819519
-				y 3.58000016
-				z 15.5600891
-			}
-			quaternion orientation{
-				w 0.707106709
-				x 0
-				y 0.707106829
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.62{
-			groups {
-				group 1{
-					require_mask 402
-				}
-				group 1{
-					require_mask 401
-				}
-				group 1{
-					require_mask 403
-				}
-				group 1{
-					require_mask 404
-				}
-			}
-			vector position{
-				x 32.5599785
-				y -1.04999995
-				z -20.7510052
 			}
 			quaternion orientation{
 				w 1
@@ -5751,27 +5700,54 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.26{
+		object_spawn_point object_spawn_point.62{
 			groups {
-				group 5{
-					require_mask 401
-				}
-				group 24{
+				group 1{
 					require_mask 402
 				}
-				group 29{
+				group 1{
+					require_mask 401
+				}
+				group 1{
+					require_mask 403
+				}
+				group 1{
+					require_mask 404
+				}
+			}
+			vector position{
+				x 32.5599785
+				y -1.04999995
+				z -20.7510052
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.119{
+			groups {
+				group 15{
+					require_mask 404
+				}
+				group 26{
+					require_mask 401
+				}
+				group 15{
 					require_mask 403
 				}
 			}
 			vector position{
-				x -10.0330067
-				y -0.749899864
-				z -11.189908
+				x -58.2819519
+				y 3.58000016
+				z 15.5600891
 			}
 			quaternion orientation{
 				w 0.707106709
 				x 0
-				y -0.707106829
+				y 0.707106829
 				z 0
 			}
 		}
@@ -5799,6 +5775,30 @@ stage Hund_Hills_Community_Center{
 				w 0.923879504
 				x 0
 				y 0.382683456
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.26{
+			groups {
+				group 5{
+					require_mask 401
+				}
+				group 24{
+					require_mask 402
+				}
+				group 29{
+					require_mask 403
+				}
+			}
+			vector position{
+				x -10.0330067
+				y -0.749899864
+				z -11.189908
+			}
+			quaternion orientation{
+				w 0.707106709
+				x 0
+				y -0.707106829
 				z 0
 			}
 		}
@@ -6447,6 +6447,75 @@ stage Hund_Hills_Community_Center{
 				z 0
 			}
 		}
+		object_spawn_point object_spawn_point.251{
+			groups {
+				group 14{
+					require_mask 404
+				}
+				group 6{
+					require_mask 401
+				}
+				group 20{
+					require_mask 402
+				}
+				group 16{
+					require_mask 403
+				}
+			}
+			vector position{
+				x 31.7039394
+				y -1.6899997
+				z -6.71000862
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.168{
+			groups {
+				group 24{
+					require_mask 403
+				}
+			}
+			vector position{
+				x 12.026989
+				y -1.46090007
+				z -10.269906
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.101{
+			groups {
+				group 14{
+					require_mask 404
+				}
+				group 20{
+					require_mask 402
+				}
+				group 6{
+					require_mask 401
+				}
+			}
+			vector position{
+				x 30.8129845
+				y -1.9399997
+				z -8.80000877
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
 		object_spawn_point object_spawn_point.169{
 			groups {
 				group 9{
@@ -6487,75 +6556,6 @@ stage Hund_Hills_Community_Center{
 				x -32.230999
 				y -1.31870008
 				z -6.11890364
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.101{
-			groups {
-				group 14{
-					require_mask 404
-				}
-				group 20{
-					require_mask 402
-				}
-				group 6{
-					require_mask 401
-				}
-			}
-			vector position{
-				x 30.8129845
-				y -1.9399997
-				z -8.80000877
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.168{
-			groups {
-				group 24{
-					require_mask 403
-				}
-			}
-			vector position{
-				x 12.026989
-				y -1.46090007
-				z -10.269906
-			}
-			quaternion orientation{
-				w 1
-				x 0
-				y 0
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.251{
-			groups {
-				group 14{
-					require_mask 404
-				}
-				group 6{
-					require_mask 401
-				}
-				group 20{
-					require_mask 402
-				}
-				group 16{
-					require_mask 403
-				}
-			}
-			vector position{
-				x 31.7039394
-				y -1.6899997
-				z -6.71000862
 			}
 			quaternion orientation{
 				w 1
