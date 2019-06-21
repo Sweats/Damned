@@ -10,6 +10,23 @@
 #include "TerrorSave/TerrorSave.h"
 
 namespace terror {
+
+	//Fallen Trap Modifiers
+	float trapmod_Black_Lake_Asylum = 0.45f;
+	float trapmod_Black_Lake_Woods = 0.45f;
+	float trapmod_Bodom_Hotel = 0.4f;
+	float trapmod_Bright_Hotel = 0.55f;
+	float trapmod_Factory = 0.5f;
+	float trapmod_Hund_Hills_Asylum = 0.45f;
+	float trapmod_Hund_Hills_Community_Center = 0.6f;
+	float trapmod_Pines_Grill_Restaurant = 0.35f;
+	float trapmod_Pog_Champ_Hotel = 0.35f;
+	float trapmod_Rose_Crimson_Hotel = 0.4f;
+	float trapmod_Serenity_Asylum = 0.4f;
+	float trapmod_Tygerberg_Hospital = 0.4f;
+	float trapmod_Warehouse = 0.3f;
+	
+
 	class LocalStatueObjectViewComponent : public entities::Component {
 	public:
 		LocalStatueObjectViewComponent() {}
@@ -108,18 +125,37 @@ namespace terror {
 				StateChangedMessagePtr stateChangedMessage = static_ptr_cast<StateChangedMessage>(message);
 				if (stateChangedMessage->getCurrentState() == TRAPPER) {
 					this->statue->releaseObject();
-					if (this->stageComponent->getStageName() == "Rose_Crimson_Hotel") {
-						this->scareTrapSystem->reset(0.3f);
+					if (this->stageComponent->getStageName() == "Black_Lake_Asylum") {
+						this->scareTrapSystem->reset(trapmod_Black_Lake_Asylum);
+					} else if (this->stageComponent->getStageName() == "Black_Lake_Woods") {
+						this->scareTrapSystem->reset(trapmod_Black_Lake_Woods);
+					} else if (this->stageComponent->getStageName() == "Bodom_Hotel") {
+						this->scareTrapSystem->reset(trapmod_Bodom_Hotel);
+					} else if (this->stageComponent->getStageName() == "Bright_Hotel") {
+						this->scareTrapSystem->reset(trapmod_Bright_Hotel);
 					} else if (this->stageComponent->getStageName() == "Factory") {
-						this->scareTrapSystem->reset(0.8f);
-					} else if (this->stageComponent->getStageName() == "Warehouse") {
-						this->scareTrapSystem->reset(0.45f);
+						this->scareTrapSystem->reset(trapmod_Factory);
+					} else if (this->stageComponent->getStageName() == "Hund_Hills_Asylum") {
+						this->scareTrapSystem->reset(trapmod_Hund_Hills_Asylum);
+					} else if (this->stageComponent->getStageName() == "Hund_Hills_Community_Center") {
+						this->scareTrapSystem->reset(trapmod_Hund_Hills_Community_Center);
+					} else if (this->stageComponent->getStageName() == "Pines_Grill_Restaurant") {
+						this->scareTrapSystem->reset(trapmod_Pines_Grill_Restaurant);
 					} else if (this->stageComponent->getStageName() == "Pog_Champ_Hotel") {
-						//Tentative change
+						this->scareTrapSystem->reset(trapmod_Pog_Champ_Hotel);
+					} else if (this->stageComponent->getStageName() == "Rose_Crimson_Hotel") {
+						this->scareTrapSystem->reset(trapmod_Rose_Crimson_Hotel);
+					} else if (this->stageComponent->getStageName() == "Serenity_Asylum") {
+						this->scareTrapSystem->reset(trapmod_Serenity_Asylum);
+					} else if (this->stageComponent->getStageName() == "Tygerberg_Hospital") {
+						this->scareTrapSystem->reset(trapmod_Tygerberg_Hospital);
+					} else if (this->stageComponent->getStageName() == "Warehouse") {
+						this->scareTrapSystem->reset(trapmod_Warehouse);
+					}else {
+						//default
 						this->scareTrapSystem->reset(0.5f);
-					} else {
-						this->scareTrapSystem->reset(0.7f);
 					}
+
 				}
 				if (stateChangedMessage->getCurrentState() == SEEKER) {
 					this->seekerSound->play();
@@ -178,8 +214,8 @@ namespace terror {
 			if (this->triggerTransform == true){
 				this->timeSinceTrigger+= diffTime;
 				if (this->timeSinceTrigger >= 2.0f) {
-					this->stateComponent->setState(DESTROYER);
 					this->triggerTransform = false;
+					this->stateComponent->setState(DESTROYER);
 					this->timeSinceTrigger = 0.0f;
 				}
 			}
@@ -280,9 +316,9 @@ namespace terror {
 			}
 			this->timeSinceTransformation += diffTime;
 			if (this->triggerPhasing == true) {
-				if (this->timeSinceTransformation >= this->lastPhasing+3.0f){
-					this->stateComponent->setState(DESTROYER);
+				if (this->timeSinceTransformation >= this->lastPhasing+4.0f){
 					this->triggerPhasing = false;
+					this->stateComponent->setState(DESTROYER);
 				}
 			}
 			if (this->timeSinceTransformation >= this->timeInDestroyerMode) {
@@ -495,16 +531,34 @@ namespace terror {
 			MouseCursorPtr mouseCursor = MouseCursor::getInstance();
 
 			StageComponentPtr stageComponent = this->statue->getEntity()->getComponent<StageComponent>();
-			if (stageComponent->getStageName() == "Rose_Crimson_Hotel") {
-				this->scareTrapSystem->reset(0.3f);
+			if (stageComponent->getStageName() == "Black_Lake_Asylum") {
+				this->scareTrapSystem->reset(trapmod_Black_Lake_Asylum);
+			} else if (stageComponent->getStageName() == "Black_Lake_Woods") {
+				this->scareTrapSystem->reset(trapmod_Black_Lake_Woods);
+			} else if (stageComponent->getStageName() == "Bodom_Hotel") {
+				this->scareTrapSystem->reset(trapmod_Bodom_Hotel);
+			} else if (stageComponent->getStageName() == "Bright_Hotel") {
+				this->scareTrapSystem->reset(trapmod_Bright_Hotel);
 			} else if (stageComponent->getStageName() == "Factory") {
-				this->scareTrapSystem->reset(0.6f);
-			} else if (stageComponent->getStageName() == "Warehouse") {
-				this->scareTrapSystem->reset(0.25f);
+				this->scareTrapSystem->reset(trapmod_Factory);
+			} else if (stageComponent->getStageName() == "Hund_Hills_Asylum") {
+				this->scareTrapSystem->reset(trapmod_Hund_Hills_Asylum);
+			} else if (stageComponent->getStageName() == "Hund_Hills_Community_Center") {
+				this->scareTrapSystem->reset(trapmod_Hund_Hills_Community_Center);
+			} else if (stageComponent->getStageName() == "Pines_Grill_Restaurant") {
+				this->scareTrapSystem->reset(trapmod_Pines_Grill_Restaurant);
 			} else if (stageComponent->getStageName() == "Pog_Champ_Hotel") {
-				//Tentative change
-				this->scareTrapSystem->reset(0.35f);
+				this->scareTrapSystem->reset(trapmod_Pog_Champ_Hotel);
+			} else if (stageComponent->getStageName() == "Rose_Crimson_Hotel") {
+				this->scareTrapSystem->reset(trapmod_Rose_Crimson_Hotel);
+			} else if (stageComponent->getStageName() == "Serenity_Asylum") {
+				this->scareTrapSystem->reset(trapmod_Serenity_Asylum);
+			} else if (stageComponent->getStageName() == "Tygerberg_Hospital") {
+				this->scareTrapSystem->reset(trapmod_Tygerberg_Hospital);
+			} else if (stageComponent->getStageName() == "Warehouse") {
+				this->scareTrapSystem->reset(trapmod_Warehouse);
 			}else {
+				//default
 				this->scareTrapSystem->reset(0.5f);
 			}
 
@@ -644,8 +698,8 @@ namespace terror {
 				float tmpMax = p3Point->getMaxP3Time();
 				float lastPhasing = p3Point->getLastPhasing();
 
-				if (lastPhasing == 0.0f || tmpCurr >= lastPhasing+8.0f){
-					if(tmpCurr+3.0f < tmpMax){
+				if (lastPhasing == 0.0f || tmpCurr >= lastPhasing+9.0f){
+					if(tmpCurr+4.0f < tmpMax){
 						p3Point->setLastPhasing(tmpCurr);
 						this->statue->setState(TRAPPER);
 						p3Point->doTriggerPhasing();
@@ -664,6 +718,8 @@ namespace terror {
 					this->statue->setState(DESTROYER);
 				}
 			}
+			*/
+			/*
 			if (button == this->controls->crouch){
 				float tmpCurr = p3Point->getCurrP3Time();
 				float lastPhasing = p3Point->getLastPhasing();

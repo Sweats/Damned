@@ -30,9 +30,9 @@ namespace terror {
 			: Monster(characterData, characterActions, monsterActions), statueClonesSystem(statueClonesSystem), timeToUpdate(1.0f)
 		{
 			if (stageName == "Black_Lake_Woods") {
-				this->statueClonesSystem->setMaxClones(10);
+				this->statueClonesSystem->setMaxClones(16);
 			}else {
-				this->statueClonesSystem->setMaxClones(5);
+				this->statueClonesSystem->setMaxClones(8);
 			}
 
 			this->animations.add(characterData->actor->getAnimation("idle"));
@@ -41,7 +41,6 @@ namespace terror {
 			this->animations.add(characterData->actor->getAnimation("walk45Left"));
 			this->animations.add(characterData->actor->getAnimation("walkStrafeRight"));
 			this->animations.add(characterData->actor->getAnimation("walkStrafeLeft"));
-			
 			characterData->actor->enableGhostMode();
 			{
 				this->entity = entities::EntityPtr(new entities::Entity);
@@ -49,7 +48,7 @@ namespace terror {
 				PovComponentPtr pov(new PovComponent(THIRD_PERSON));
 				this->entity->addComponent(pov);
 
-				int trapsToBecomeSeeker = 10;
+				int trapsToBecomeSeeker = 16;
 				StatueStateComponentPtr state(new StatueStateComponent(trapsToBecomeSeeker));
 				this->entity->addComponent(state);
 
@@ -229,11 +228,13 @@ namespace terror {
 			if (stateInfo->getState() != int(this->getState())) {
 				this->setState(StatueState(stateInfo->getState()));
 			}
-			/*if (stateInfo->isVisible() && this->getState() != DESTROYER) {
-				this->setState(DESTROYER);
+			/*if (stateInfo->isVisible() && this->getState() != TRAPPER) {
+				//attempt to remedy choppy animation
+				this->actions->walk->setAnimationSpeed(1.0f);
 			}
-			if (!stateInfo->isVisible() && this->getState() == DESTROYER) {
-				this->setState(TRAPPER);
+			if (!stateInfo->isVisible() && this->getState() == TRAPPER) {
+				//attempt to remedy choppy animation
+				this->actions->walk->setAnimationSpeed(0.25f);
 			}*/
 		}
 	};
