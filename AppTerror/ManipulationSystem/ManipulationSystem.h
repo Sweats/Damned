@@ -244,7 +244,7 @@ namespace terror {
 				int itemMask = object->getMask()%2000;				
 				ItemDataPtr itemData = itemDatabase->getItemData(itemMask);
 				message = std::string("Item ") + itemData->getName() + std::string(" used to loose a board");
-				this->stage->destroyObject(object);
+				//this->stage->destroyObject(object);
 			}
 			writeMessage(message);
 		}
