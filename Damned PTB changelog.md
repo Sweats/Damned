@@ -72,6 +72,10 @@ trap net change: -3<<
 
  :nut_and_bolt: **V1.03 HOTFIX A (6/19):**
  
+ *GENERAL*
+ 
+ - Added "Companion planks". Companion planks are wooden plank entities that appear after dismantling a barricade from a door, which was originally a feature but eventually stopped working - now they are back.
+ 
                     
 ☆ Hund Hills Community Center (HHCC) ☆
 
