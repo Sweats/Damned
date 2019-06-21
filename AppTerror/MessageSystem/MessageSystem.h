@@ -6,7 +6,8 @@
 namespace terror {
 	class Message {
 	public:
-		Message(const std::string& messageText) : timeToShow(10.0f)
+		//doubled time to show, 10s seems not enough, people aren't paying attention?
+		Message(const std::string& messageText) : timeToShow(20.0f)
 		{
 			int charsPerLine = 80;
 			int nSplits = messageText.size()/charsPerLine;		
