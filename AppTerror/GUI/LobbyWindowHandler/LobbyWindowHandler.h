@@ -337,15 +337,16 @@ namespace terror {
 				this->lobbyLayout->getWidget("NumberOfLivesCombobox")->setVisible(false);
 			}
 		}
-
+/*
 		virtual void buttonPressed(const ButtonCode button, const InputDevice device, const char buttonText) {
-			if (((button == BC_ESCAPE) || (button == this->terrorSave->controls->guiReturn)) && this->lobbyLayout->isVisible()) {
+			if ((button == this->terrorSave->controls->guiReturn) && this->lobbyLayout->isVisible()) {
 				LeaveGameRequestPtr leaveGameRequest(new LeaveGameRequest);
 				this->terrorClient->sendObject(leaveGameRequest);
 				this->terrorClient->reset();
 				this->lobbyLayout->hide();
 			}
 		}
+*/
 	};
 
 	typedef SharedPointer<LobbyWindowHandler> LobbyWindowHandlerPtr;
