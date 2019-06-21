@@ -175,7 +175,32 @@ namespace terror {
 				<< " 155 Bolt_Cutter bolt_cutter.png metal.ogg"
 				<< " 156 Iron_Key Iron_key.png key_picking.ogg"
 				<< " 157 Room_Key icon_rooms_a1.png key_picking.ogg"
-				<< " 158 Silver_Key icon_key3.png key_picking.ogg";
+				<< " 158 Silver_Key icon_key3.png key_picking.ogg"
+				<< " 159 Numeric_Code icon_paper.png paper.ogg"
+				<< " 160 Numeric_Code icon_paper.png paper.ogg"
+				<< " 161 Numeric_Code icon_paper.png paper.ogg"
+				<< " 162 Numeric_Code icon_paper.png paper.ogg"
+				<< " 163 Numeric_Code icon_paper.png paper.ogg"
+				<< " 164 Numeric_Code icon_paper.png paper.ogg"
+				<< " 165 Numeric_Code icon_paper.png paper.ogg"
+				<< " 166 Numeric_Code icon_paper.png paper.ogg"
+				<< " 167 Numeric_Code icon_paper.png paper.ogg"
+				<< " 168 Numeric_Code icon_paper.png paper.ogg"
+				<< " 169 Numeric_Code icon_paper.png paper.ogg"
+				<< " 170 Numeric_Code icon_paper.png paper.ogg"
+				<< " 171 Numeric_Code icon_paper.png paper.ogg"
+				<< " 172 Numeric_Code icon_paper.png paper.ogg"
+				<< " 173 Numeric_Code icon_paper.png paper.ogg"
+				<< " 174 Numeric_Code icon_paper.png paper.ogg"
+				<< " 175 Numeric_Code icon_paper.png paper.ogg"
+				<< " 176 Numeric_Code icon_paper.png paper.ogg"
+				<< " 177 Numeric_Code icon_paper.png paper.ogg"
+				<< " 178 Numeric_Code icon_paper.png paper.ogg"
+				<< " 179 Numeric_Code icon_paper.png paper.ogg"
+				<< " 180 Numeric_Code icon_paper.png paper.ogg"
+				<< " 181 Iron_Key Iron_key.png key_picking.ogg"
+				<< " 182 Iron_Key Iron_key.png key_picking.ogg"
+				<< " 183 Iron_Key Iron_key.png key_picking.ogg";
 				
 			this->items.clear();
 
