@@ -123,6 +123,7 @@ namespace terror {
 					}
 					return;
 				}
+				/*
 				if (monsterDistance > 25.0f && this->monsterClose) {
 					this->monsterClose = false;
 					if (this->monsterCloseSound) {
@@ -130,6 +131,7 @@ namespace terror {
 					}
 					return;
 				}
+				*/
 				if (!this->monsterAround) {
 					this->monsterAround = true;
 					return;
@@ -140,12 +142,29 @@ namespace terror {
 					if (this->blindCloseSound) {
 						this->blindCloseSound->play();
 					}
+					if (this->monsterAroundSound) {
+						this->monsterAroundSound->stop();
+					}
 					return;
 				}
 				if (monsterDistance > 15.0f && this->monsterCloser) {
 					this->monsterCloser = false;
 					if (this->blindCloseSound) {
 						this->blindCloseSound->stop();
+					}
+					return;
+				}
+				if (monsterDistance <= 16.0f && !this->monsterCloser && !this->monsterAround) {
+					this->monsterAround = true;
+					if (this->monsterAroundSound) {
+						this->monsterAroundSound->play();
+					}
+					return;
+				}
+				if (monsterDistance > 20.0f && !this->monsterCloser && this->monsterAround) {
+					this->monsterAround = false;
+					if (this->monsterAroundSound) {
+						this->monsterAroundSound->stop();
 					}
 					return;
 				}
