@@ -10,7 +10,7 @@ namespace terror {
 	public:
 		InsanitySystem(CharacterHandlerPtr characterHandler, CollisionTesterPtr collisionTester, RenderCameraPtr camera, PostProcessingEffectPtr monsterInFovView)
 			: EventHandler(20), characterHandler(characterHandler), collisionTester(collisionTester), camera(camera), monsterInFovView(monsterInFovView), maxInsanity(1000.0f), 
-			defaultInsanityIncreaseRate(1.0f),	maxDistanceFromHuman(10.0f), maxDistanceFromMonster(10.0f), humanDeathInsanityIncrease(60.f), lockedObjectInsanityIncrease(1.0f), 
+			defaultInsanityIncreaseRate(1.0f),	maxDistanceFromHuman(10.0f), maxDistanceFromMonster(10.0f), humanDeathInsanityIncrease(60.f), lockedObjectInsanityIncrease(0.0f), 
 			scareTrapInsanityIncrease(10.f), maxInsanityReached(false), monsterArmInsanityIncrease(25.0f), monsterWasInFov(false), gameSettings(GameSettings::getInstance())
 		{
 			this->insanity = EnergyPtr(new Energy(this->maxInsanity, this->defaultInsanityIncreaseRate, 0.0f));
