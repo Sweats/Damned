@@ -38,7 +38,7 @@ namespace terror {
 	public:
 		//StatueStateComponent(int trapsToBecomeSeeker) : trapsToBecomeSeeker(randomNumber(9, 12)), trapsArmed(0), state(TRAPPER) {}
 		//Tentative change, Original: randomNumber(9, 12)
-		StatueStateComponent(int trapsToBecomeSeeker) : trapsToBecomeSeeker(10), trapsArmed(0), state(TRAPPER) {}
+		StatueStateComponent(int trapsToBecomeSeeker) : trapsToBecomeSeeker(16), trapsArmed(0), state(TRAPPER) {}
 
 		StatueState getState() {
 			return this->state;
@@ -50,7 +50,7 @@ namespace terror {
 				this->trapsArmed = 0;
 				//this->trapsToBecomeSeeker = randomNumber(9, 12);
 				//Tentative change, Original: randomNumber(9, 12)
-				this->trapsToBecomeSeeker = 10;
+				this->trapsToBecomeSeeker = 16;
 			}
 
 			StateChangedMessagePtr message(new StateChangedMessage(this->state));
@@ -60,6 +60,18 @@ namespace terror {
 		virtual void handleMessage(entities::MessagePtr message) {
 			if (hashByType(message) == hashByType<TrapArmedMessage>()) {
 				++this->trapsArmed;
+				//wtf is this code, this doesnt seem efficient
+				//put integers into stringstream
+				this->trapsArmed_conv << this->trapsArmed;
+				this->trapsToBecomeSeeker_conv << trapsToBecomeSeeker;
+				//build message string
+				this->trapsArmed_msg = this->trapsArmed_conv.str();
+				this->trapsToBecomeSeeker_msg = this->trapsToBecomeSeeker_conv.str();
+				//clear stringstream
+				this->trapsArmed_conv.str(std::string());
+				this->trapsToBecomeSeeker_conv.str(std::string());
+				//send msg
+				writeMessage("Traps: "+this->trapsArmed_msg+" / "+this->trapsToBecomeSeeker_msg);
 				if (this->trapsArmed >= this->trapsToBecomeSeeker) {
 					this->setState(SEEKER);
 				}
@@ -72,6 +84,10 @@ namespace terror {
 		StatueState state;
 		int trapsToBecomeSeeker;
 		int trapsArmed;
+		string trapsArmed_msg;
+		string trapsToBecomeSeeker_msg;
+		stringstream trapsArmed_conv;
+		stringstream trapsToBecomeSeeker_conv;
 	};
 	typedef SharedPointer<StatueStateComponent> StatueStateComponentPtr;	
 
@@ -138,7 +154,8 @@ namespace terror {
 	private:
 		void handleSounds() {
 			StatueState state = this->stateComponent->getState();
-			if (state == TRAPPER && this->p3_active == false) {
+			//if (state == TRAPPER && this->p3_active == false) {
+			if (state == TRAPPER) {
 				if (this->povComponent->getPovType() == FIRST_PERSON) {
 					this->statueKillMusic->stop();
 					this->survivorMusic->stop();
@@ -155,8 +172,9 @@ namespace terror {
 					this->killSound->play();
 				}
 			}
-			if (state == DESTROYER && this->p3_active == false) {
-				this->p3_active = true;
+			//if (state == DESTROYER && this->p3_active == false) {
+			if (state == DESTROYER) {
+				//this->p3_active = true;
 				if (this->povComponent->getPovType() == FIRST_PERSON) {
 					this->statueMusic->stop();
 					this->survivorMusic->stop();
@@ -301,8 +319,10 @@ namespace terror {
 
 		virtual void initialize() {
 			this->stageComponent = this->getOwner()->getComponent<StageComponent>();
-
-			this->trapperSpeedMultiplier = 1.0;
+			//Original: 1.0
+			this->trapperSpeedMultiplier = 1.65;
+			//Immediately updates Movementspeed
+			this->walk->setSpeedMultiplier(this->trapperSpeedMultiplier);
 			if (this->stageComponent && this->stageComponent->isForestStage()) {
 				this->seekerSpeedMultiplier = 3.5f/3.25f;
 				this->destroyerSpeedMultiplier = 2.75f/3.25f;
@@ -323,7 +343,7 @@ namespace terror {
 				StateChangedMessagePtr stateChangedMessage = static_ptr_cast<StateChangedMessage>(message);
 				switch (stateChangedMessage->getCurrentState()) {
 				case TRAPPER:
-					this->walk->setSpeedMultiplier(this->trapperSpeedMultiplier);					
+					this->walk->setSpeedMultiplier(this->trapperSpeedMultiplier);
 					break;
 
 				case SEEKER:
