@@ -85,6 +85,47 @@ trap net change: -3<<
 
 
 
+
+:nut_and_bolt: **V1.03 HOTFIX B (6/21):**
+
+☆ Hund Hills Community Center (HHCC) ☆
+
+- Replaced 2 tables that were originally traps into non-trap table variants
+
+
+
+☆ PogChamp Hotel ☆
+
+- Fixed meshhole on Physical room door
+- Fixed gap between kitchen door and boxes
+- Slightly adjusted planks on some doors on the Y-axis so they no longer collide with doorhandles
+
+
+☆ Rose Crimson Hotel ☆
+
+- Moved an ouja board in the pantry on the floor onto a box (so that mary may walk by more easily)
+- Moved Mary spawnpoint from a stall in the womens restroom to another stall (so that can easily get out)
+
+
+☆ Black Lake Asylum ☆
+
+- Fixed an issue where the 3 conjoined offices were not alligned with the hallway, thus creating meshholes.
+
+
+☆ Pinegrills Restaurant ☆
+
+- Moved an ouja board near the pianos to be propped up against them instead of on the middle of the floor (so mary can walk by more easily)
+- Moved an ouja board in the 2nd dining hall off the floor and onto a table (so that mary can walk by more easily)
+
+
+☆ Serenity Asylum ☆
+
+- Created a miniature makeshift passage on the 2nd floor and aligned room A101 to it (this was done because room A101 originally clipped through the staircase leading to the 3rd floor, and thus the exit, but mary could not walk over it. these changes were to make it so that she can)
+
+
+
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
