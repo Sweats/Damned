@@ -289,7 +289,7 @@ void main() {
 		stageHandler->connectStageLoadedEvent(Bind(&LifeMode::notifyStageLoaded, static_ptr_cast<LifeMode>(gameModeSystem->getGameModes()[LIFE_MODE]), _1));
 		stageHandler->connectStageUnloadedEvent(Bind(&LifeMode::notifyStageUnloaded, static_ptr_cast<LifeMode>(gameModeSystem->getGameModes()[LIFE_MODE])));
 
-		DeathSystemPtr deathSystem(new DeathSystem(characterHandler, terrorClient, gameModeSystem));
+		DeathSystemPtr deathSystem(new DeathSystem(characterHandler, terrorClient, gameModeSystem, pauseHandler));
 		stageHandler->connectStageLoadedEvent(Bind(&DeathSystem::notifyStageLoaded, deathSystem, _1));
 		stageHandler->connectStageUnloadedEvent(Bind(&DeathSystem::notifyStageUnloaded, deathSystem));
 		deathSystem->connectHumanDeathEvent(Bind(&CharacterHandler::notifyHumanDeath, characterHandler, _1));
@@ -408,7 +408,7 @@ void main() {
 		PostProcessingEffectPtr blackAndWhiteView = postProcessingSystem->addPostProcessingEffect("BlackAndWhiteView");
 		SoundPtr breathSound = core->createSound("breath2.ogg");
 		breathSound->setRepeat(false);
-		InsanityEffectPtr blackAndWhiteEffect(new BlackAndWhiteEffect(blackAndWhiteView, breathSound));
+		InsanityEffectPtr blackAndWhiteEffect(new BlackAndWhiteEffect(blackAndWhiteView, breathSound, characterHandler));
 		insanitySystem->connectInsanityEffect(blackAndWhiteEffect);
 
 		SoundSourcePtr insanitySoundSource = core->createSoundSource();

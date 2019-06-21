@@ -9,8 +9,8 @@
 namespace terror {
 	class DeathSystem : public NetworkObserver {
 	public:
-		DeathSystem(CharacterHandlerPtr characterHandler, TerrorClientPtr terrorClient, GameModeSystemPtr gameModeSystem) 
-			: NetworkObserver(false), characterHandler(characterHandler), terrorClient(terrorClient), gameModeSystem(gameModeSystem) {}
+		DeathSystem(CharacterHandlerPtr characterHandler, TerrorClientPtr terrorClient, GameModeSystemPtr gameModeSystem, PauseHandlerPtr pauseHandler) 
+			: NetworkObserver(false), characterHandler(characterHandler), terrorClient(terrorClient), gameModeSystem(gameModeSystem), pauseHandler(pauseHandler) {}
 
 		void notifyStageLoaded(StagePtr stage) {
 			this->stage = stage;
@@ -37,6 +37,13 @@ namespace terror {
 		}
 
 		void doKillCharacter(CharacterType character, bool playerDisconnected = false) {
+			//std::cout << "\nGame State: " << this->pauseHandler->isPaused();
+			/* DOESN'T WORK YET COMPLETELY, PLAYERS CAN'T REGAIN CONTROL ON CHARACTER.
+			if (this->pauseHandler->isPaused()){
+				return;
+			}
+			*/
+
 			PlayersStatePtr playersState = PlayersState::getInstance();
 			PlayerInfoPtr localPlayerInfo = playersState->getPlayerInfo(this->terrorClient->getId());
 			
@@ -83,6 +90,7 @@ namespace terror {
 		StagePtr stage;
 		HumanSignal humanDeathSignal;
 		GameModeSystemPtr gameModeSystem;
+		PauseHandlerPtr pauseHandler;
 
 	private:
 		virtual void handleUdpPacket(UdpPacketPtr udpPacket) {
