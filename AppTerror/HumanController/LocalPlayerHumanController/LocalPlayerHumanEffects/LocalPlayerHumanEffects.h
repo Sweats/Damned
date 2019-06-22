@@ -114,7 +114,7 @@ namespace terror {
 				}
 				if (/*isInFov && */monsterDistance <= 15.0f && !this->monsterClose) {
 					this->monsterClose = true;
-					this->monsterAround = true;
+					this->monsterAround = false;
 					if (this->monsterAroundSound) {
 						this->monsterAroundSound->stop();
 					}
@@ -138,32 +138,37 @@ namespace terror {
 				}
 			}else if (monster->getType() == BLIND) {
 				if (isInFov && monsterDistance <= 10.0f && !this->monsterCloser) {
-					this->monsterCloser = true;
 					if (this->blindCloseSound) {
+						this->monsterCloser = true;
 						this->blindCloseSound->play();
 					}
 					if (this->monsterAroundSound) {
+						this->monsterAround = false;
 						this->monsterAroundSound->stop();
 					}
 					return;
 				}
-				if (monsterDistance > 15.0f && this->monsterCloser) {
-					this->monsterCloser = false;
+				if (monsterDistance > 12.0f && this->monsterCloser) {
 					if (this->blindCloseSound) {
+						this->monsterCloser = false;
 						this->blindCloseSound->stop();
 					}
-					return;
-				}
-				if (monsterDistance <= 16.0f && !this->monsterCloser && !this->monsterAround) {
-					this->monsterAround = true;
-					if (this->monsterAroundSound) {
+					if (!this->monsterAroundSound) {
+						this->monsterAround = true;
 						this->monsterAroundSound->play();
 					}
 					return;
 				}
-				if (monsterDistance > 20.0f && !this->monsterCloser && this->monsterAround) {
-					this->monsterAround = false;
+				if (monsterDistance <= 13.0f && !this->monsterCloser && !this->monsterAround) {
 					if (this->monsterAroundSound) {
+						this->monsterAround = true;
+						this->monsterAroundSound->play();
+					}
+					return;
+				}
+				if (monsterDistance > 15.0f && !this->monsterCloser && this->monsterAround) {
+					if (this->monsterAroundSound) {
+						this->monsterAround = false;
 						this->monsterAroundSound->stop();
 					}
 					return;
