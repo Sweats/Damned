@@ -108,7 +108,7 @@ trap net change: -3<<
 ☆ Rose Crimson Hotel ☆
 
 - Moved an ouja board in the pantry on the floor onto a box (so that mary may walk by more easily)
-- Moved Mary spawnpoint from a stall in the womens restroom to another stall (so that can easily get out)
+- Moved Mary spawnpoint from a stall in the womens restroom to another stall (so that she can easily get out)
 
 
 ☆ Black Lake Asylum ☆
