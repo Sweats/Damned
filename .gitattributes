@@ -1,2 +1,3 @@
+text eol=crlf
 *.stage text=crlf
 *.scene text=crlf
