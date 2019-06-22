@@ -130,6 +130,26 @@ trap net change: -3<<
 
 
 
+:nut_and_bolt: **V1.03 HOTFIX C (6/22):**
+
+
+BALANCE CHANGES:
+
+
+*Phantom*
+
+- Changed aura music range that plays when a survivor is within 16m of phantom to 12m.
+
+
+
+
+BUGFIXES:
+
+☆ Hund Hills Community Center (HHCC) ☆
+
+- Reapplied the lock property to a door in the bar.
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
