@@ -150,6 +150,44 @@ BUGFIXES:
 - Reapplied the lock property to a door in the bar.
 
 
+
+:nut_and_bolt: **V1.03 HOTFIX D (6/23):**
+
+
+☆ Hund Hills Community Center ☆
+
+- Removed a key spawn that had the potential to glitch out, and become stuck
+- Adjusted a key spawn so it no longer overlaps with another object spawn
+
+
+☆ Factory ☆
+
+- Fixed issue where a box was clipping into a catwalk steel pillar
+- Fixed the position of all ladders that were previously underground to a degree.
+
+
+☆ Bodom Hotel ☆
+
+- Fixed floating handkerchief box in ladies restroom
+
+
+
+☆ Tyberg Hospital ☆
+
+- Fixed an ancient fatshame spot that Mary and Lurker could no longer go through - as such, the room has been slightly modified to accomodate this change.
+- Fixed an issue where a basket trap was unclickable due to being inside another trap
+
+
+☆ Black Lake Asylum ☆
+
+- Moved an ouija board off the doctor's lounge sofa because it was difficult to click.
+
+
+☆ Black Lake Woods ☆
+
+- When disabling the barn chain lock, the chains no longer appear on the ground with an extremely large hitbox
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
