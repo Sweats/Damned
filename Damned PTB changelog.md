@@ -162,7 +162,7 @@ BUGFIXES:
 
 ☆ Factory ☆
 
-- Fixed issue where a box was clipping into a catwalk steel pillar
+- Fixed an issue where a box was clipping into a catwalk steel pillar
 - Fixed the position of all ladders that were previously underground to a degree.
 
 
