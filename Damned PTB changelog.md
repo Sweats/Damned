@@ -180,7 +180,7 @@ BUGFIXES:
 
 ☆ Black Lake Asylum ☆
 
-- Moved an ouija board off the doctor's lounge sofa because it was difficult to click.
+- Moved an ouija board off the doctor's lounge sofa because it was difficult to click
 
 
 ☆ Black Lake Woods ☆
