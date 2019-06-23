@@ -185,7 +185,8 @@ BUGFIXES:
 
 ☆ Black Lake Woods ☆
 
-- When disabling the barn chain lock, the chains no longer appear on the ground with an extremely large hitbox
+- When disabling the barn chain lock the chains that would normally drop (with a very large hitbox) now disappear instead
+- When using the boltcutters on the chain, it now displays "Item Bolt Cutter used to cut a chain" instead of "used to loose a board"
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
