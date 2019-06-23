@@ -174,7 +174,7 @@ BUGFIXES:
 
 ☆ Tyberg Hospital ☆
 
-- Fixed an ancient fatshame spot that Mary and Lurker could no longer go through - as such, the room has been slightly modified to accomodate this change.
+- Fixed an ancient fatshame spot that Mary and Lurker could not go through - as such, the room has been slightly modified to accomodate this change.
 - Fixed an issue where a basket trap was unclickable due to being inside another trap
 
 
