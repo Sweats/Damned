@@ -136,16 +136,16 @@ stage Factory{
 			unlocker_mask 133
 		}
 		locked_object {
-			object door_factory.14
-			unlocker_mask 133
+			object door_factory.11
+			unlocker_mask 131
 		}
 		locked_object {
 			object door_factory.3
 			unlocker_mask 132
 		}
 		locked_object {
-			object door_factory.11
-			unlocker_mask 131
+			object door_factory.14
+			unlocker_mask 133
 		}
 		locked_object {
 			object door_factory.0
@@ -245,24 +245,6 @@ stage Factory{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.41{
-			groups {
-				group 3{
-					require_mask 401
-				}
-			}
-			vector position{
-				x -6.02919436
-				y -13.1900063
-				z -10.2797976
-			}
-			quaternion orientation{
-				w -0.707106233
-				x 0
-				y -0.707107425
-				z 0
-			}
-		}
 		object_spawn_point object_spawn_point.34{
 			groups {
 				group 3{
@@ -281,21 +263,39 @@ stage Factory{
 				z 2.98023295e-008
 			}
 		}
-		object_spawn_point object_spawn_point.4{
+		object_spawn_point object_spawn_point.41{
 			groups {
-				group 1{
+				group 3{
 					require_mask 401
 				}
 			}
 			vector position{
-				x -5.89300442
-				y -8.30000019
-				z -24.5010033
+				x -6.02919436
+				y -13.1900063
+				z -10.2797976
 			}
 			quaternion orientation{
-				w 0.382683307
+				w -0.707106233
 				x 0
-				y 0.923879564
+				y -0.707107425
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.25{
+			groups {
+				group 2{
+					require_mask 401
+				}
+			}
+			vector position{
+				x 0.647994995
+				y -8.31910229
+				z 25.7960033
+			}
+			quaternion orientation{
+				w 0.923879504
+				x 0
+				y 0.382683456
 				z 0
 			}
 		}
@@ -317,21 +317,21 @@ stage Factory{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.25{
+		object_spawn_point object_spawn_point.4{
 			groups {
-				group 2{
+				group 1{
 					require_mask 401
 				}
 			}
 			vector position{
-				x 0.647994995
-				y -8.31910229
-				z 25.7960033
+				x -5.89300442
+				y -8.30000019
+				z -24.5010033
 			}
 			quaternion orientation{
-				w 0.923879504
+				w 0.382683307
 				x 0
-				y 0.382683456
+				y 0.923879564
 				z 0
 			}
 		}
@@ -461,6 +461,24 @@ stage Factory{
 				z 0
 			}
 		}
+		object_spawn_point object_spawn_point.36{
+			groups {
+				group 3{
+					require_mask 401
+				}
+			}
+			vector position{
+				x -16.6291943
+				y -13.1900063
+				z -9.97879601
+			}
+			quaternion orientation{
+				w 0.923879743
+				x 5.70242875e-009
+				y -0.38268286
+				z 1.37668303e-008
+			}
+		}
 		object_spawn_point object_spawn_point.0{
 			groups {
 				group 0{
@@ -495,96 +513,6 @@ stage Factory{
 				x 0
 				y 0.382683456
 				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.36{
-			groups {
-				group 3{
-					require_mask 401
-				}
-			}
-			vector position{
-				x -16.6291943
-				y -13.1900063
-				z -9.97879601
-			}
-			quaternion orientation{
-				w 0.923879743
-				x 5.70242875e-009
-				y -0.38268286
-				z 1.3766833e-008
-			}
-		}
-		object_spawn_point object_spawn_point.18{
-			groups {
-				group 2{
-					require_mask 401
-				}
-			}
-			vector position{
-				x -36.3001022
-				y -13.9311008
-				z -6.73800468
-			}
-			quaternion orientation{
-				w 0.382683307
-				x 0
-				y 0.923879564
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.51{
-			groups {
-				group 4{
-					require_mask 401
-				}
-			}
-			vector position{
-				x 33.7050247
-				y -4.42000675
-				z -17.8778
-			}
-			quaternion orientation{
-				w 0.38268432
-				x 0
-				y -0.923879266
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.40{
-			groups {
-				group 3{
-					require_mask 401
-				}
-			}
-			vector position{
-				x -6.32919407
-				y -13.1900063
-				z -11.080801
-			}
-			quaternion orientation{
-				w -0.923879862
-				x -5.70243452e-009
-				y 0.382682681
-				z -1.3766873e-008
-			}
-		}
-		object_spawn_point object_spawn_point.35{
-			groups {
-				group 3{
-					require_mask 401
-				}
-			}
-			vector position{
-				x -22.7292976
-				y -13.1900063
-				z -11.3787937
-			}
-			quaternion orientation{
-				w 0.923879862
-				x 5.70242964e-009
-				y -0.38268292
-				z 1.37668357e-008
 			}
 		}
 		object_spawn_point object_spawn_point.74{
@@ -656,6 +584,78 @@ stage Factory{
 				w -0.9238801
 				x 0
 				y 0.382682174
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.40{
+			groups {
+				group 3{
+					require_mask 401
+				}
+			}
+			vector position{
+				x -6.32919407
+				y -13.1900063
+				z -11.080801
+			}
+			quaternion orientation{
+				w -0.923879862
+				x -5.70243452e-009
+				y 0.382682681
+				z -1.3766873e-008
+			}
+		}
+		object_spawn_point object_spawn_point.35{
+			groups {
+				group 3{
+					require_mask 401
+				}
+			}
+			vector position{
+				x -22.7292976
+				y -13.1900063
+				z -11.3787937
+			}
+			quaternion orientation{
+				w 0.923879862
+				x 5.70242964e-009
+				y -0.38268292
+				z 1.37668339e-008
+			}
+		}
+		object_spawn_point object_spawn_point.18{
+			groups {
+				group 2{
+					require_mask 401
+				}
+			}
+			vector position{
+				x -36.3001022
+				y -13.9311008
+				z -6.73800468
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.51{
+			groups {
+				group 4{
+					require_mask 401
+				}
+			}
+			vector position{
+				x 33.7050247
+				y -4.42000675
+				z -17.8778
+			}
+			quaternion orientation{
+				w 0.38268432
+				x 0
+				y -0.923879266
 				z 0
 			}
 		}
@@ -731,24 +731,6 @@ stage Factory{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.45{
-			groups {
-				group 3{
-					require_mask 401
-				}
-			}
-			vector position{
-				x -6.02919436
-				y -13.1900063
-				z -19.5797958
-			}
-			quaternion orientation{
-				w 0.38268432
-				x 0
-				y -0.923879266
-				z 0
-			}
-		}
 		object_spawn_point object_spawn_point.8{
 			groups {
 				group 1{
@@ -764,6 +746,24 @@ stage Factory{
 				w -0.382683605
 				x 0
 				y 0.923879445
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.45{
+			groups {
+				group 3{
+					require_mask 401
+				}
+			}
+			vector position{
+				x -6.02919436
+				y -13.1900063
+				z -19.5797958
+			}
+			quaternion orientation{
+				w 0.38268432
+				x 0
+				y -0.923879266
 				z 0
 			}
 		}
@@ -1400,6 +1400,19 @@ stage Factory{
 				z 0
 			}
 		}
+		object_spawn_point object_spawn_point.96{
+			vector position{
+				x 14.1208954
+				y -8.31010246
+				z 20.0829964
+			}
+			quaternion orientation{
+				w -0.382682979
+				x 0
+				y -0.923879683
+				z 0
+			}
+		}
 		object_spawn_point object_spawn_point.20{
 			groups {
 				group 2{
@@ -1418,19 +1431,6 @@ stage Factory{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.96{
-			vector position{
-				x 14.1208954
-				y -8.31010246
-				z 20.0829964
-			}
-			quaternion orientation{
-				w -0.382682979
-				x 0
-				y -0.923879683
-				z 0
-			}
-		}
 		object_spawn_point object_spawn_point.69{
 			groups {
 				group 5{
@@ -1446,6 +1446,19 @@ stage Factory{
 				w -0.9238801
 				x 0
 				y 0.382682174
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.91{
+			vector position{
+				x -7.08010483
+				y -8.31010246
+				z -12.1170063
+			}
+			quaternion orientation{
+				w 0.382683307
+				x 0
+				y 0.923879564
 				z 0
 			}
 		}
@@ -1477,50 +1490,6 @@ stage Factory{
 				w -0.707107723
 				x 0
 				y 0.707105875
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.100{
-			vector position{
-				x -38.1811028
-				y -8.31010246
-				z 0.282995552
-			}
-			quaternion orientation{
-				w 0.923879862
-				x 0
-				y -0.38268292
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.29{
-			groups {
-				group 3{
-					require_mask 401
-				}
-			}
-			vector position{
-				x -32.7808113
-				y -13.2600002
-				z -12.7178059
-			}
-			quaternion orientation{
-				w 4.76837158e-007
-				x 4.2146862e-008
-				y -1
-				z 4.214683e-008
-			}
-		}
-		object_spawn_point object_spawn_point.91{
-			vector position{
-				x -7.08010483
-				y -8.31010246
-				z -12.1170063
-			}
-			quaternion orientation{
-				w 0.382683307
-				x 0
-				y 0.923879564
 				z 0
 			}
 		}
@@ -1571,6 +1540,37 @@ stage Factory{
 				x 0
 				y -0.923879266
 				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.100{
+			vector position{
+				x -38.1811028
+				y -8.31010246
+				z 0.282995552
+			}
+			quaternion orientation{
+				w 0.923879862
+				x 0
+				y -0.38268292
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.29{
+			groups {
+				group 3{
+					require_mask 401
+				}
+			}
+			vector position{
+				x -32.7808113
+				y -13.2600002
+				z -12.7178059
+			}
+			quaternion orientation{
+				w 4.76837158e-007
+				x 4.2146862e-008
+				y -1
+				z 4.214683e-008
 			}
 		}
 		object_spawn_point object_spawn_point.38{
@@ -1676,42 +1676,6 @@ stage Factory{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.61{
-			groups {
-				group 5{
-					require_mask 401
-				}
-			}
-			vector position{
-				x 34.9378242
-				y -4.41900921
-				z -15.8769054
-			}
-			quaternion orientation{
-				w 0.707106054
-				x 0
-				y 0.707107604
-				z 0
-			}
-		}
-		object_spawn_point object_spawn_point.28{
-			groups {
-				group 3{
-					require_mask 401
-				}
-			}
-			vector position{
-				x -32.1808052
-				y -13.6599979
-				z -18.1179028
-			}
-			quaternion orientation{
-				w -0.707107008
-				x 0
-				y 0.70710665
-				z 0
-			}
-		}
 		object_spawn_point object_spawn_point.83{
 			groups {
 				group 6{
@@ -1748,21 +1712,39 @@ stage Factory{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.65{
+		object_spawn_point object_spawn_point.61{
 			groups {
 				group 5{
 					require_mask 401
 				}
 			}
 			vector position{
-				x 17.0367241
+				x 34.9378242
 				y -4.41900921
-				z -12.3558025
+				z -15.8769054
 			}
 			quaternion orientation{
-				w -0.382684559
+				w 0.707106054
 				x 0
-				y 0.923879027
+				y 0.707107604
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.28{
+			groups {
+				group 3{
+					require_mask 401
+				}
+			}
+			vector position{
+				x -32.1808052
+				y -13.6599979
+				z -18.1179028
+			}
+			quaternion orientation{
+				w -0.707107008
+				x 0
+				y 0.70710665
 				z 0
 			}
 		}
@@ -1794,6 +1776,24 @@ stage Factory{
 				w 0.923879743
 				x 0
 				y -0.38268286
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.65{
+			groups {
+				group 5{
+					require_mask 401
+				}
+			}
+			vector position{
+				x 17.0367241
+				y -4.41900921
+				z -12.3558025
+			}
+			quaternion orientation{
+				w -0.382684559
+				x 0
+				y 0.923879027
 				z 0
 			}
 		}
@@ -1869,24 +1869,6 @@ stage Factory{
 				z 0
 			}
 		}
-		object_spawn_point object_spawn_point.90{
-			groups {
-				group 1{
-					require_mask 401
-				}
-			}
-			vector position{
-				x 14.6899967
-				y -9.10000324
-				z -12.4190035
-			}
-			quaternion orientation{
-				w -0.382683605
-				x 0
-				y 0.923879445
-				z 0
-			}
-		}
 		object_spawn_point object_spawn_point.26{
 			groups {
 				group 2{
@@ -1902,6 +1884,24 @@ stage Factory{
 				w 0.923879504
 				x 0
 				y 0.382683456
+				z 0
+			}
+		}
+		object_spawn_point object_spawn_point.90{
+			groups {
+				group 1{
+					require_mask 401
+				}
+			}
+			vector position{
+				x 14.6899967
+				y -9.10000324
+				z -12.4190035
+			}
+			quaternion orientation{
+				w -0.382683605
+				x 0
+				y 0.923879445
 				z 0
 			}
 		}
