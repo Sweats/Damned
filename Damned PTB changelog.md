@@ -205,6 +205,16 @@ BUGFIXES:
 
 - Fixed an issue where a medical cabinet with a key on it were not reachable by normal means
 
+
+
+
+:nut_and_bolt: **V1.03 HOTFIX B (6/25):**
+
+☆ Factory ☆
+
+- Adjusted multiple object spawnpoints on tables so they do not glitch
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
