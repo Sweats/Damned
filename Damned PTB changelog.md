@@ -189,6 +189,22 @@ BUGFIXES:
 - When using the boltcutters on the chain, it now displays "Item Bolt Cutter used to cut a chain" instead of "used to loose a board"
 
 
+
+
+:nut_and_bolt: **V1.03 HOTFIX E (6/24):**
+
+☆ Rose Crimson Hotel ☆
+
+- Fixed fatshame spot that has a chance to occur with two casks that were randomized spawns
+- Moved an oven timer as it appeared to be floating due to the table it was ontop of not spawning (due to randomization)
+- Moved an ouija board from a pile of boxes as it had a chance to appear floating if the boxes it was on did not spawn (due to randomization)
+
+
+
+☆ Serenity Asylum ☆
+
+- Fixed an issue where a medical cabinet with a key on it were not reachable by normal means
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
