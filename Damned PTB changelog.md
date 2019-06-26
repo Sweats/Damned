@@ -150,6 +150,71 @@ BUGFIXES:
 - Reapplied the lock property to a door in the bar.
 
 
+
+:nut_and_bolt: **V1.03 HOTFIX D (6/23):**
+
+
+☆ Hund Hills Community Center ☆
+
+- Removed a key spawn that had the potential to glitch out, and become stuck
+- Adjusted a key spawn so it no longer overlaps with another object spawn
+
+
+☆ Factory ☆
+
+- Fixed an issue where a box was clipping into a catwalk steel pillar
+- Fixed the position of all ladders that were previously underground to a degree.
+
+
+☆ Bodom Hotel ☆
+
+- Fixed floating handkerchief box in ladies restroom
+
+
+
+☆ Tyberg Hospital ☆
+
+- Fixed an ancient fatshame spot that Mary and Lurker could not go through - as such, the room has been slightly modified to accomodate this change.
+- Fixed an issue where a basket trap was unclickable due to being inside another trap
+
+
+☆ Black Lake Asylum ☆
+
+- Moved an ouija board off the doctor's lounge sofa because it was difficult to click
+
+
+☆ Black Lake Woods ☆
+
+- When disabling the barn chain lock the chains that would normally drop (with a very large hitbox) now disappear instead
+- When using the boltcutters on the chain, it now displays "Item Bolt Cutter used to cut a chain" instead of "used to loose a board"
+
+
+
+
+:nut_and_bolt: **V1.03 HOTFIX E (6/24):**
+
+☆ Rose Crimson Hotel ☆
+
+- Fixed fatshame spot that has a chance to occur with two casks that were randomized spawns
+- Moved an oven timer as it appeared to be floating due to the table it was ontop of not spawning (due to randomization)
+- Moved an ouija board from a pile of boxes as it had a chance to appear floating if the boxes it was on did not spawn (due to randomization)
+
+
+
+☆ Serenity Asylum ☆
+
+- Fixed an issue where a medical cabinet with a key on it were not reachable by normal means
+
+
+
+
+:nut_and_bolt: **V1.03 HOTFIX B (6/25):**
+
+☆ Factory ☆
+
+- Adjusted multiple object spawnpoints on tables so they do not glitch
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
