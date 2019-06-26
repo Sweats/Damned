@@ -215,6 +215,18 @@ BUGFIXES:
 - Adjusted multiple object spawnpoints on tables so they do not glitch
 
 
+
+
+:nut_and_bolt: **V1.03 HOTFIX B (6/26):**
+
+☆ Factory ☆
+
+- Fixed an issue where light cords were sticking through a floor from a room below
+
+
+☆ Hund Hill Community Center ☆
+
+- Fixed an issue where a box slightly clipped into the ground
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
