@@ -241,10 +241,15 @@ namespace terror {
 				ItemDataPtr itemData = itemDatabase->getItemData(itemMask);
 				message = std::string("Item ") + itemData->getName() + std::string(" used to unlock a ") + objectType;
 			}else {
-				int itemMask = object->getMask()%2000;				
+				int itemMask = object->getMask()%2000;
 				ItemDataPtr itemData = itemDatabase->getItemData(itemMask);
-				message = std::string("Item ") + itemData->getName() + std::string(" used to loose a board");
-				//this->stage->destroyObject(object);
+				if (itemMask == 155){
+					//item 155 is Bolt Cutter and is used for chains on BLW
+					message = std::string("Item ") + itemData->getName() + std::string(" used to cut a chain");
+					this->stage->destroyObject(object);
+				}else {
+					message = std::string("Item ") + itemData->getName() + std::string(" used to loose a board");
+				}
 			}
 			writeMessage(message);
 		}
