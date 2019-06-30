@@ -1,0 +1,79 @@
+stage Black_Lake_Hotel{
+	scene Black_Lake_Hotel
+	groups {
+		group 0{
+			objects {
+				object {
+					type key
+					mask 401
+				}
+			}
+		}
+	}
+	locked_objects {
+		locked_object {
+			object door_doubleDoor.8
+			unlocker_mask 200
+		}
+		locked_object {
+			object door_doubleDoor.6
+			unlocker_mask 200
+		}
+		locked_object {
+			object door_doubleDoor.5
+			unlocker_mask 200
+		}
+		locked_object {
+			object mh_door_a114.3
+			unlocker_mask 200
+		}
+		locked_object {
+			object mh_door_a114.2
+			unlocker_mask 200
+		}
+		locked_object {
+			object door_restroom.5
+			unlocker_mask 200
+		}
+		locked_object {
+			object mh_door_a114.0
+			unlocker_mask 200
+		}
+		locked_object {
+			object door_doubleDoor.0
+			unlocker_mask 200
+		}
+		locked_object {
+			object mh_door_a114.1
+			unlocker_mask 200
+		}
+		locked_object {
+			object door_doubleDoor_r.0
+			unlocker_mask 200
+		}
+		locked_object {
+			object door_doubleDoor_r.2
+			unlocker_mask 200
+		}
+	}
+	object_spawn_points {
+		object_spawn_point object_spawn_point.0{
+			groups {
+				group 0{
+					require_mask 0
+				}
+			}
+			vector position{
+				x -19.9599972
+				y -1.11999989
+				z -34.5599937
+			}
+			quaternion orientation{
+				w 1
+				x 0
+				y 0
+				z 0
+			}
+		}
+	}
+}

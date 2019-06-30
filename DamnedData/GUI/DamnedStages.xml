@@ -1,159 +1,170 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
 <MyGUI type="Resource" version="1.1">
-	<Resource type="ResourceSkin" name="warehouse" size="300 100" texture="DamnedStages.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 0 300 100"/>
-			<State name="normal" offset="600 0 300 100"/>
-			<State name="highlighted" offset="300 0 300 100"/>
-			<State name="pushed" offset="0 0 300 100"/>
-			<State name="disabled_checked" offset="0 0 300 100"/>
-			<State name="normal_checked" offset="0 0 300 100"/>
-			<State name="highlighted_checked" offset="300 0 300 100"/>
-			<State name="pushed_checked" offset="0 0 300 100"/>
-		</BasisSkin>
-	</Resource>
-	<Resource type="ResourceSkin" name="serenity" size="300 100" texture="DamnedStages.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 100 300 100"/>
-			<State name="normal" offset="600 100 300 100"/>
-			<State name="highlighted" offset="300 100 300 100"/>
-			<State name="pushed" offset="600 100 300 100"/>
-			<State name="disabled_checked" offset="0 100 300 100"/>
-			<State name="normal_checked" offset="0 100 300 100"/>
-			<State name="highlighted_checked" offset="300 100 300 100"/>
-			<State name="pushed_checked" offset="0 100 300 100"/>
-		</BasisSkin>
-	</Resource>
-	<Resource type="ResourceSkin" name="rose" size="300 100" texture="DamnedStages.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 200 300 100"/>
-			<State name="normal" offset="600 200 300 100"/>
-			<State name="highlighted" offset="300 200 300 100"/>
-			<State name="pushed" offset="600 200 300 100"/>
-			<State name="disabled_checked" offset="0 200 300 100"/>
-			<State name="normal_checked" offset="0 200 300 100"/>
-			<State name="highlighted_checked" offset="300 200 300 100"/>
-			<State name="pushed_checked" offset="0 200 300 100"/>
-		</BasisSkin>
-	</Resource>
-	<Resource type="ResourceSkin" name="restaurant" size="300 100" texture="DamnedStages.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 300 300 100"/>
-			<State name="normal" offset="600 300 300 100"/>
-			<State name="highlighted" offset="300 300 300 100"/>
-			<State name="pushed" offset="600 300 300 100"/>
-			<State name="disabled_checked" offset="0 300 300 100"/>
-			<State name="normal_checked" offset="0 300 300 100"/>
-			<State name="highlighted_checked" offset="300 300 300 100"/>
-			<State name="pushed_checked" offset="0 300 300 100"/>
-		</BasisSkin>
-	</Resource>
-	<Resource type="ResourceSkin" name="hills" size="300 100" texture="DamnedStages.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 400 300 100"/>
-			<State name="normal" offset="600 400 300 100"/>
-			<State name="highlighted" offset="300 400 300 100"/>
-			<State name="pushed" offset="600 400 300 100"/>
-			<State name="disabled_checked" offset="0 400 300 100"/>
-			<State name="normal_checked" offset="0 400 300 100"/>
-			<State name="highlighted_checked" offset="300 400 300 100"/>
-			<State name="pushed_checked" offset="0 400 300 100"/>
-		</BasisSkin>
-	</Resource>
-	<Resource type="ResourceSkin" name="bodom" size="300 100" texture="DamnedStages.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 500 300 100"/>
-			<State name="normal" offset="600 500 300 100"/>
-			<State name="highlighted" offset="300 500 300 100"/>
-			<State name="pushed" offset="600 500 300 100"/>
-			<State name="disabled_checked" offset="0 500 300 100"/>
-			<State name="normal_checked" offset="0 500 300 100"/>
-			<State name="highlighted_checked" offset="300 500 300 100"/>
-			<State name="pushed_checked" offset="0 500 300 100"/>
-		</BasisSkin>
-	</Resource>
-	<Resource type="ResourceSkin" name="lake" size="300 100" texture="DamnedStages.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 600 300 100"/>
-			<State name="normal" offset="600 600 300 100"/>
-			<State name="highlighted" offset="300 600 300 100"/>
-			<State name="pushed" offset="600 600 300 100"/>
-			<State name="disabled_checked" offset="0 600 300 100"/>
-			<State name="normal_checked" offset="0 600 300 100"/>
-			<State name="highlighted_checked" offset="300 600 300 100"/>
-			<State name="pushed_checked" offset="0 600 300 100"/>
-		</BasisSkin>
-	</Resource>
-	<Resource type="ResourceSkin" name="factory" size="300 100" texture="DamnedStages.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 700 300 100"/>
-			<State name="normal" offset="600 700 300 100"/>
-			<State name="highlighted" offset="300 700 300 100"/>
-			<State name="pushed" offset="600 700 300 100"/>
-			<State name="disabled_checked" offset="0 700 300 100"/>
-			<State name="normal_checked" offset="0 700 300 100"/>
-			<State name="highlighted_checked" offset="300 700 300 100"/>
-			<State name="pushed_checked" offset="0 700 300 100"/>
-		</BasisSkin>
-	</Resource>
-	<Resource type="ResourceSkin" name="bright" size="300 100" texture="DamnedStages.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 800 300 100"/>
-			<State name="normal" offset="600 800 300 100"/>
-			<State name="highlighted" offset="300 800 300 100"/>
-			<State name="pushed" offset="600 800 300 100"/>
-			<State name="disabled_checked" offset="0 800 300 100"/>
-			<State name="normal_checked" offset="0 800 300 100"/>
-			<State name="highlighted_checked" offset="300 800 300 100"/>
-			<State name="pushed_checked" offset="0 800 300 100"/>
-		</BasisSkin>
-	</Resource>
-	<Resource type="ResourceSkin" name="tygerberg" size="300 100" texture="DamnedStages.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 901 300 100"/>
-			<State name="normal" offset="600 901 300 100"/>
-			<State name="highlighted" offset="300 901 300 100"/>
-			<State name="pushed" offset="600 901 300 100"/>
-			<State name="disabled_checked" offset="0 901 300 100"/>
-			<State name="normal_checked" offset="0 901 300 100"/>
-			<State name="highlighted_checked" offset="300 901 300 100"/>
-			<State name="pushed_checked" offset="0 901 300 100"/>
-		</BasisSkin>
-	</Resource>
-	<Resource type="ResourceSkin" name="woods" size="300 101" texture="DamnedStages.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 101" align="Stretch">
-			<State name="disabled" offset="600 1000 300 101"/>
-			<State name="normal" offset="600 1000 300 101"/>
-			<State name="highlighted" offset="300 1000 300 101"/>
-			<State name="pushed" offset="600 1000 300 101"/>
-			<State name="disabled_checked" offset="0 1000 300 101"/>
-			<State name="normal_checked" offset="0 1000 300 101"/>
-			<State name="highlighted_checked" offset="300 1000 300 101"/>
-			<State name="pushed_checked" offset="0 1000 300 101"/>
-		</BasisSkin>
-	</Resource>
-	<Resource type="ResourceSkin" name="pogchamp" size="300 100" texture="DamnedStages.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 1100 300 100"/>
-			<State name="normal" offset="600 1100 300 100"/>
-			<State name="highlighted" offset="300 1100 300 100"/>
-			<State name="pushed" offset="600 1100 300 100"/>
-			<State name="disabled_checked" offset="0 1100 300 100"/>
-			<State name="normal_checked" offset="0 1100 300 100"/>
-			<State name="highlighted_checked" offset="300 1100 300 100"/>
-			<State name="pushed_checked" offset="0 1100 300 100"/>
-		</BasisSkin>
-	</Resource>
-	<Resource type="ResourceSkin" name="hundhillscommunitycenter" size="300 100" texture="DamnedStages_HHCC.png">
-		<BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
-			<State name="disabled" offset="600 0 300 100"/>
-			<State name="normal" offset="600 0 300 100"/>
-			<State name="highlighted" offset="300 0 300 100"/>
-			<State name="pushed" offset="0 0 300 100"/>
-			<State name="disabled_checked" offset="0 0 300 100"/>
-			<State name="normal_checked" offset="0 0 300 100"/>
-			<State name="highlighted_checked" offset="300 0 300 100"/>
-			<State name="pushed_checked" offset="0 0 300 100"/>
-		</BasisSkin>
-	</Resource>
+  <Resource type="ResourceSkin" name="blacklakeasylum" size="300 100" texture="DamnedStages_blacklakeasylum.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="blacklakehotel" size="300 100" texture="DamnedStages_blacklakehotel.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="blacklakewoods" size="300 100" texture="DamnedStages_blacklakewoods.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="bodomhotel" size="300 100" texture="DamnedStages_bodomhotel.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="brighthotel" size="300 100" texture="DamnedStages_brighthotel.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="factory" size="300 100" texture="DamnedStages_factory.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="hundhillsasylum" size="300 100" texture="DamnedStages_hundhillsasylum.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="hundhillscommunitycenter" size="300 100" texture="DamnedStages_hundhillscommunitycenter.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="pinesgrillrestaurant" size="300 100" texture="DamnedStages_pinesgrillrestaurant.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="pogchamphotel" size="300 100" texture="DamnedStages_pogchamphotel.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="rosecrimsonhotel" size="300 100" texture="DamnedStages_rosecrimsonhotel.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="serenityasylum" size="300 100" texture="DamnedStages_serenityasylum.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="tygerberghospital" size="300 100" texture="DamnedStages_tygerberghospital.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
+  <Resource type="ResourceSkin" name="warehouse" size="300 100" texture="DamnedStages_warehouse.png">
+    <BasisSkin type="SubSkin" offset="0 0 300 100" align="Stretch">
+      <State name="disabled" offset="600 0 300 100" />
+      <State name="normal" offset="600 0 300 100" />
+      <State name="highlighted" offset="300 0 300 100" />
+      <State name="pushed" offset="0 0 300 100" />
+      <State name="disabled_checked" offset="0 0 300 100" />
+      <State name="normal_checked" offset="0 0 300 100" />
+      <State name="highlighted_checked" offset="300 0 300 100" />
+      <State name="pushed_checked" offset="0 0 300 100" />
+    </BasisSkin>
+  </Resource>
 </MyGUI>

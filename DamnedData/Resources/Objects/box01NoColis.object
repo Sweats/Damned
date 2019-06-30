@@ -1,0 +1,8 @@
+object box01NoColis{
+	mesh box01.mesh
+ 	shape none
+	mass 0
+	mask 0
+	
+	animations 0
+}
