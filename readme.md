@@ -26,6 +26,10 @@
 
 - You can also grab the installer from the Damned directory if you have the game installed on Steam.
 
+### Dependencies
+
+- You can download it from [here](https://drive.proton.me/urls/JZXPG2CT1W#itum21kZEC7t)
+
 
 ## Setup Steps
 
@@ -65,8 +69,6 @@ If you do not want to put the project at the root of your C drive, you have two 
 
 ## Setting up the dependencies
 
-1. Download the zip from [here](https://drive.proton.me/urls/JZXPG2CT1W#itum21kZEC7t)
-
 2. Extract it to the root of your workspace. If you put it on the root of your C drive, it will look like this:
 
 ```
@@ -85,7 +87,6 @@ You are now ready to build the game.
 2. Set the build configuration to **Release** if it's not already.
 
 3. It should build successfully.
-
 
 
 ## You are now ready to make modifications to the game. Have fun!
