@@ -53,7 +53,7 @@ Navigate to where you extracted the source code. You can either run the `build_s
 
 ```
 
-./premake4.exe vs100
+./premake4.exe vs2010
 
 ```
 
