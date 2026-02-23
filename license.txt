@@ -1,0 +1,76 @@
+9HEADS GAMES NON-COMMERCIAL SOURCE LICENSE Damned (2014) and 9gears
+Engine
+
+Copyright (c) 9heads Games. All rights reserved.
+
+1.  Ownership
+
+All source code, engine technology (9gears), tools, and related
+materials of Damned (2014) remain the exclusive property of 9heads
+Games.
+
+This license does not transfer ownership of any intellectual property.
+
+2.  Grant of License
+
+9heads Games grants you a worldwide, non-exclusive, non-transferable,
+royalty-free license to access, study, modify, and distribute the source
+code strictly under the limitations defined below.
+
+This license is granted solely for educational, archival, preservation,
+and community modding purposes related to Damned (2014).
+
+3.  Permitted Uses
+
+You may:
+
+-   Access and study the source code.
+-   Modify the source code for personal or community use.
+-   Create bug fixes, improvements, or experimental builds of Damned
+    (2014).
+-   Create mods or community-driven enhancements for Damned (2014).
+-   Distribute modified or unmodified versions of the code, provided
+    that such distribution is free of charge and includes this license
+    in full.
+
+4.  Restrictions
+
+You may not:
+
+-   Use the 9gears engine to create a new game or unrelated project.
+-   Use the source code or any derivative work as the foundation of
+    another standalone game.
+-   Sell, sublicense, rent, or commercially distribute the source code.
+-   Sell or commercially distribute any modified version of the source
+    code.
+-   Monetize builds, forks, improvements, or modifications in any way.
+-   Use the code in any commercial product or service.
+-   Claim ownership of the original code or engine.
+-   Remove or alter copyright notices.
+
+The 9gears engine may only be used in connection with Damned (2014) and
+derivative works directly based on Damned (2014).
+
+5.  Derivative Works
+
+Any derivative work must:
+
+-   Clearly credit 9heads Games as the original author.
+-   Include this license in full.
+-   Be distributed strictly under non-commercial terms.
+-   Remain tied to Damned (2014) and not be repurposed into a new
+    standalone game.
+
+6.  No Warranty
+
+The source code is provided “as is”, without warranty of any kind,
+express or implied.
+
+9heads Games shall not be liable for any damages arising from the use of
+the source code.
+
+7.  Termination
+
+This license automatically terminates if you violate any of its terms.
+Upon termination, you must immediately cease all use and distribution of
+the source code.
