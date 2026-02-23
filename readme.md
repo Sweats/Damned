@@ -1,6 +1,12 @@
-# :warning: :warning:  Important. Read the software license that comes with the source code before following any of these steps. :warning: :warning: 
+## What is this?
+
+### This is the source code for the game [Damned 2014])(https://store.steampowered.com/app/251170/Damned/) that's on Steam.
 
 
+### :warning: :warning: 
+# Important. Read the software license that comes with the source code before following any of these steps. 
+
+### :warning: :warning: 
 
 # Damned 1 — Build Environment Setup Guide
 
@@ -57,16 +63,31 @@ If you do not want to put the project at the root of your C drive, you have two 
 
 2.  Modify the premake script to use whatever path you want or use a relative path. This script will be modified in the very near future.
 
----
+## Setting up the dependencies
+
+1. Download the zip file from the releases page
+
+2. Extract it to the root of your workspace. If you put it on the root of your C drive, it will look like this:
+
+```
+
+C:\terror_workspace\9gears_dependencies_2014
+
+```
+
+You are now ready to build the game.
+
 
 ## Building the Game
 
 1. Open Visual Studio and open a new project. The project you want to open is **`Engine.sln`**. 
 
-2. After it's done opening, hit build and make sure the build configuration is set to **Release**.
+2. Set the build configuration to **Release** if it's not already.
 
 3. It should build successfully.
 
----
+
 
 ## You are now ready to make modifications to the game. Have fun!
+
+
