@@ -1,6 +1,6 @@
 ## What is this?
 
-### This is the source code for the game [Damned 2014])(https://store.steampowered.com/app/251170/Damned/) that's on Steam.
+ ### This is the source code for the game [Damned 2014](https://store.steampowered.com/app/251170/Damned/) that's on Steam.
 
 
 ### :warning: :warning: 
@@ -65,7 +65,7 @@ If you do not want to put the project at the root of your C drive, you have two 
 
 ## Setting up the dependencies
 
-1. Download the zip file from the releases page
+1. Download the zip from [here](https://drive.proton.me/urls/JZXPG2CT1W#itum21kZEC7t)
 
 2. Extract it to the root of your workspace. If you put it on the root of your C drive, it will look like this:
 
